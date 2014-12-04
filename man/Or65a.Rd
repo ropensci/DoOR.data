@@ -1,0 +1,74 @@
+\name{Or65a}
+\Rdversion{1.1}
+\alias{Or65a}
+\docType{data}
+\title{
+Or65a
+}
+\description{
+  Response profile of Or65a
+}
+\usage{data(Or65a)}
+\format{
+  A data frame with 251 observations on the following 6 variables.
+  \describe{
+    \item{\code{Class}}{a factor with levels \code{} \code{acid} \code{alcohol} \code{aldehyde} \code{amine} \code{arom} \code{ester} \code{ketone} \code{N ring} \code{O ring} \code{other} \code{sulfid} \code{terpene}}
+    \item{\code{Name}}{a factor with odorant names}
+    \item{\code{CID}}{a character vector with compound ID }
+    \item{\code{CAS}}{a factor with odorant CAS numbers}
+    \item{\code{Hallem.2006.EN}}{a numeric vector; electrophysiological recording in empty neuron 
+	from Hallem et al. 2006 \link[=reference]{(Hallem and Carlson, 2006)} }
+    \item{\code{Hallem.2004.EN}}{a numeric vector; electrophysiological recording in empty neuron 
+	from Hallem et al. 2004 \link[=reference]{(Hallem et al., 2004)} }
+  }
+}
+\details{
+  Or65a
+  \describe{
+     \item{\code{Sequence location}:}{ 3L:6,313,711..6,315,198 [+] \link[=reference]{(Tweedie et al., 2009)} } 
+     \item{\code{Expression}:}{ in adult \link[=reference]{(Couto et al., 2005)}, \link[=reference]{(Vosshall et al., 2000)} }   
+     \item{\code{Sensilla}:}{ trichoid sensilla (antenna) \link[=reference]{(van der Goes van Naters and Carlson, 2007)}, \link[=reference]{(Couto et al., 2005)} } 
+     \item{\code{Neuron}:}{ at4 \link[=reference]{(van der Goes van Naters and Carlson, 2007)}, \link[=reference]{(Couto et al., 2005)} } 
+     \item{\code{Coexpression}:}{ Or65a, Or65b and Or65c coexpress in at4 \link[=reference]{(Couto et al., 2005)}. } 
+     \item{\code{Glomerulus}:}{ DL3 \link[=reference]{(Couto et al., 2005)} \cr Or65a-Gal4 was observed weak 
+	and variable secondary innervation in the vicinity of glomerulus D \link[=reference]{[24]}. }
+     \item{\code{Comment}:}{ 
+	\enumerate{
+	   \item The effects of CVA on initial courtship of virgin females 
+		can be blocked by expression of tetanus toxin in Or65a 
+		\link[=reference]{(Ejima et al., 2007)}, but not Or67d, suggesting that Or67d is an 
+		"appetitive" cVA receptor, Or65a is an "aversive" cVA 
+		receptor \link[=reference]{(Ejima et al., 2007)}.
+	   \item five odors were measured in study \link[=reference]{(van der Goes van Naters and Carlson, 2007)}, their response
+		values were 59 spikes/sec. to 11-cis-vaccenyl acetate, 
+		0 spikes/sec. to cis-vaccenyl alcohol, 16 spikes/sec. to oleyl acetate,
+		9 spikes/sec. to oleyl alcohol, 0 spikes/sec. cis-vaccenic acid 
+		and 28 spikes/sec. to trans-methyl vaccenate. 
+	   \item Or65a responded to male cuticular extracts (action potential 
+		50 <= n < 100 impulses/s), male genital material (action 
+		potential 100 <= n < 150 impulses/s), mated female genital 
+		material (action potential 100 <= n < 150 impulses/s) and 
+		11-cis-vaccenyl acetate (action potential 50 <= n < 100 
+		impulses/s) but not virgin female extracts and virgin-female 
+		genital material (action potential n < 50 impulses/s) 
+		\link[=reference]{(van der Goes van Naters and Carlson, 2007)}.
+	   \item coexpression of Or65b or Or65c with Or65a did not increase 
+		the response mediated by Or65a to any stimulus or change the 
+		level of spontaneous activity \link[=reference]{(van der Goes van Naters and Carlson, 2007)}.
+	 }
+     }
+  }
+}
+\references{
+   \itemize{
+     \item \link[=reference]{(Hallem and Carlson, 2006)} : Hallem E. A. & Carlson J. R., 2006, 
+	\emph{Coding of odors by a receptor repertoire}, Cell,125:143-160
+     \item \link[=reference]{(Hallem et al., 2004)} : Hallem E.A., Ho M. G. and Carlson J.R., 
+	2004, \emph{The Molecular Basis of Odor Coding in the Drosophila Antenna}, 
+	Cell, 117:965-979
+  }
+}
+\examples{
+data(Or65a)
+}
+\keyword{datasets}

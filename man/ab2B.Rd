@@ -1,0 +1,54 @@
+\name{ab2B}
+\Rdversion{1.1}
+\alias{ab2B}
+\docType{data}
+\title{
+ab2B
+}
+\description{
+Response profile of ab2B
+}
+\usage{data(ab2B)}
+\format{
+  A data frame with 251 observations on the following 8 variables.
+  \describe{
+    \item{\code{Class}}{a factor with levels \code{} \code{acid} \code{alcohol} \code{aldehyde} \code{amine} \code{arom} \code{ester} \code{ketone} \code{N ring} \code{O ring} \code{other} \code{sulfid} \code{terpene}}
+    \item{\code{Name}}{a factor with odorant names}
+    \item{\code{CID}}{a character vector with compound ID }
+    \item{\code{CAS}}{a factor with odorant CAS numbers}
+    \item{\code{Hallem.2004.WT}}{a numeric vector; electrophysiological recording in wild type 
+	from Hallem et al. 2004 \link[=reference]{(Hallem et al., 2004)}}
+    \item{\code{Stensmyr.2003.WT}}{a numeric vector; electrophysiological recording in wild type 
+	from Sternsmyr et al. 2003 \link[=reference]{(Stensmyr et al., 2003)}}
+    \item{\code{Schmuker.2007.TR}}{a numeric vector; electrophysiological recording data from 
+	Schmuker et al. 2007 \link[=reference]{(Schmuker et al., 2007)}}
+    \item{\code{Dobritsa.2003.WT}}{a numeric vector; electrophysiological recording in wild type 
+	from Dobritsa et al. 2003 \link[=reference]{(Dobritsa et al., 2003)}}
+  }
+}
+\details{
+  \describe{
+     \item{\code{coexpression}:}{ Or33b coexpress with Or85a in ab2B neuron and coconvergence to glomerulus DM5 \link[=reference]{(Fishilevich et al., 2005)}.  }
+  }
+}
+\references{
+  \itemize{
+     \item \link[=reference]{(Stensmyr et al., 2003)} : Stensmyr M. C., Giordano E., Balloi A., 
+	Angioy A. M., Hansson B. S., 2003, \emph{Novel natural ligands for 
+	Drosophila olfactory receptor neurons}, J. Exp. Biol. 206:715-724
+     \item \link[=reference]{ (Dobritsa et al., 2003)} : Dobritsa A. A., van der Goes van Naters 
+	W., Warr C.G., Steinbrecht R. A., Carlson J.R., 2003, \emph{Integrating 
+	the molecular and cellular basis of odor coding in the Drosophila 
+	antenna}, Neuron, 37:827-841
+     \item \link[=reference]{(Hallem et al., 2004)} : Hallem E.A., Ho M. G. and Carlson J.R., 
+	2004, \emph{The Molecular Basis of Odor Coding in the Drosophila Antenna}, 
+	Cell, 117:965-979
+     \item \link[=reference]{(Schmuker et al., 2007)} : Schmuker M., de Bruyne M., Haehnel M., 
+	Schneider G., 2007, \emph{Predicting olfactory receptor neuron responses 
+	from odorant structure},Chem Cent J., 1:11
+  }
+}
+\examples{
+data(ab2B)
+}
+\keyword{datasets}
