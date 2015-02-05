@@ -1,0 +1,251 @@
+"Class";"Name";"CID";"CAS";"Kreher.2005.EN";"Kreher.2008.EN"
+NA;"SFR";NA;"SFR";19;18
+"other";"water";"962";"7732-18-5";62;NA
+"amine";"ammonium hydroxide";"14923";"1336-21-6";NA;NA
+"amine";"putrescine";"1045";"110-60-1";NA;NA
+"amine";"cadaverine";"273";"462-94-2";NA;NA
+"amine";"ammonia";"222";"7664-41-7";NA;NA
+"amine";"ethanolamine";"700";"141-43-5";NA;NA
+"amine";"heptylamine";"8127";"111-68-2";NA;NA
+"amine";"isoamylamine";"7894";"107-85-7";NA;NA
+"amine";"dimethylamine";"674";"124-40-3";NA;NA
+"O ring";"gamma-butyrolactone";"7302";"96-48-0";NA;NA
+"O ring";"gamma-hexalactone";"12756";"695-06-7";NA;NA
+"O ring";"gamma-octalactone";"7704";"104-50-7";NA;NA
+"O ring";"gamma-decalactone";"12813";"706-14-9";NA;NA
+"O ring";"delta-decalactone";"12810";"705-86-2";NA;NA
+"acid";"methanoic acid";"284";"64-18-6";NA;NA
+"acid";"acetic acid";"176";"64-19-7";NA;NA
+"acid";"propanoic acid";"1032";"79-09-4";56;12
+"acid";"butyric acid";"264";"107-92-6";NA;NA
+"acid";"pentanoic acid";"7991";"109-52-4";NA;NA
+"acid";"hexanoic acid";"8892";"142-62-1";NA;NA
+"acid";"heptanoic acid";"8094";"111-14-8";NA;NA
+"acid";"octanoic acid";"379";"124-07-2";NA;NA
+"acid";"nonanoic acid";"8158";"112-05-0";NA;NA
+"acid";"linoleic acid";"5280450";"60-33-3";NA;NA
+"acid";"isobutyric acid";"6590";"79-31-2";NA;NA
+"acid";"isopentanoic acid";"10430";"503-74-2";NA;NA
+"acid";"pyruvic acid";"1060";"127-17-3";NA;NA
+"acid";"2-ethylhexanoic acid";"8697";"149-57-5";NA;NA
+"acid";"lactic acid";"612";"50-21-5";NA;NA
+"sulfid";"3-methylthio-1-propanol";"10448";"505-10-2";NA;NA
+"sulfid";"dimethyl sulfide";"1068";"75-18-3";NA;NA
+"sulfid";"dipropyldisulphide";"12377";"629-19-6";NA;NA
+"sulfid";"propanethiol";"7848";"107-03-9";NA;NA
+"terpene";"terpinolene";"11463";"586-62-9";NA;NA
+"terpene";"alpha-pinene";"82227";"80-56-8";NA;NA
+"terpene";"beta-pinene";"14896";"127-91-3";NA;NA
+"terpene";"3-carene";"443156";"13466-78-9";NA;NA
+"terpene";"limonene";"22311";"138-86-3";NA;NA
+"terpene";"alpha-humulene";"5281520";"6753-98-6";NA;NA
+"terpene";"beta-myrcene";"31253";"123-35-3";NA;NA
+"terpene";"(-)-trans-caryophyllene";"5281515";"87-44-5";NA;NA
+"terpene";"p-cymene";"7463";"99-87-6";NA;NA
+"terpene";"geranyl acetate";"1549026";"105-87-3";13;21
+"terpene";"alpha-terpineol";"443162";"10482-56-1";NA;NA
+"terpene";"geraniol";"637566";"106-24-1";NA;NA
+"terpene";"nerol";"643820";"106-25-2";NA;NA
+"terpene";"linalool";"6549";"78-70-6";NA;NA
+"terpene";"beta-citronellol";"8842";"106-22-9";NA;NA
+"terpene";"linalool oxide";"22310";"60047-17-8";NA;NA
+"terpene";"(R)-(-)-carvone";"439570";"6485-40-1";NA;NA
+"terpene";"(S)-(+)-carvone";"16724";"2244-16-8";NA;NA
+"terpene";"1,8-cineole";"2758";"470-82-6";NA;NA
+"terpene";"1,4-cineol";"10106";"470-67-7";NA;NA
+"terpene";"citral";"638011";"5392-40-5";NA;NA
+"terpene";"(S)-(-)-citronellal";"443157";"5949-05-3";NA;NA
+"terpene";"(1R)-(-)-fenchone";"14525";"7787-20-4";13;18
+"terpene";"(R)-(+)-limonene";"440917";"5989-27-5";NA;NA
+"terpene";"(-)-menthone";"26447";"14073-97-3";NA;NA
+"terpene";"(1R)-(-)-myrtenal";"61130";"564-94-3";NA;NA
+"terpene";"(+)-alpha-pinene";"82227";"7785-70-8";NA;NA
+"terpene";"(R)-(+)-pulegon";"442495";"89-82-7";NA;NA
+"terpene";"(-)-alpha-thujone";"261491";"546-80-5";NA;NA
+"terpene";"alpha-bisabolol";"10586";"23089-26-1";NA;NA
+"terpene";"E,E-farnesol";"445070";"106-28-5";NA;NA
+"terpene";"alpha-ionone";"5282108";"127-41-3";NA;NA
+"terpene";"beta-ionone";"638014";"79-77-6";NA;NA
+"terpene";"L-limonen";"439250";"5989-54-8";NA;NA
+"aldehyde";"acetaldehyde";"177";"75-07-0";NA;NA
+"aldehyde";"propanal";"527";"123-38-6";NA;NA
+"aldehyde";"butanal";"261";"123-72-8";NA;NA
+"aldehyde";"pentanal";"8063";"110-62-3";NA;NA
+"aldehyde";"hexanal";"6184";"66-25-1";NA;NA
+"aldehyde";"E2-hexenal";"5281168";"6728-26-3";20;26
+"O ring";"furfural";"7362";"98-01-1";NA;NA
+"aldehyde";"2-propenal";"7847";"107-02-8";NA;NA
+"aldehyde";"octanal";"454";"124-13-0";NA;NA
+"aldehyde";"decanal";"8175";"112-31-2";NA;NA
+"aldehyde";"heptanal";"8130";"111-71-7";NA;NA
+"aldehyde";"E2-octenal";"5283324";"2548-87-0";NA;NA
+"aldehyde";"nonanal";"31289";"124-19-6";NA;NA
+"aldehyde";"E2-heptenal";"5283316";"18829-55-5";NA;NA
+"ketone";"acetone";"180";"67-64-1";NA;NA
+"ketone";"2-butanone";"6569";"78-93-3";NA;NA
+"ketone";"2-pentanone";"7895";"107-87-9";NA;NA
+"ketone";"2-heptanone";"8051";"110-43-0";31;38
+"ketone";"6-methyl-5-hepten-2-one";"9862";"110-93-0";NA;NA
+"ketone";"2,3-butanedione";"650";"431-03-8";16;24
+"ketone";"3-hydroxy-2-butanone";"179";"513-86-0";NA;NA
+"ketone";"3-penten-2-one";"12248";"625-33-2";NA;NA
+"ketone";"2-hexanone";"11583";"591-78-6";NA;NA
+"ketone";"3-hexanone";"11509";"589-38-8";NA;NA
+"ketone";"cyclohexanone";"7967";"108-94-1";11;17
+"ketone";"2-octanone";"8093";"111-13-7";NA;NA
+"ketone";"2-methyl-3-heptanone";"25611";"13019-20-0";NA;NA
+"ketone";"nonanone";"13187";"821-55-6";NA;NA
+"ketone";"3-heptanone";"7802";"106-35-4";NA;NA
+"ketone";"4-octanone";"11516";"589-63-9";NA;NA
+"arom";"phenethyl alcohol";"6054";"60-12-8";NA;NA
+"arom";"benzyl alcohol";"244";"100-51-6";NA;NA
+"arom";"methyl salicylate";"4133";"119-36-8";24;29
+"arom";"methyl benzoate";"7150";"93-58-3";NA;NA
+"arom";"ethyl benzoate";"7165";"93-89-0";NA;NA
+"arom";"phenethyl acetate";"7654";"103-45-7";NA;NA
+"arom";"benzaldehyde";"240";"100-52-7";38;46
+"arom";"phenylacetaldehyde";"998";"122-78-1";NA;NA
+"arom";"acetophenone";"7410";"98-86-2";50;63
+"arom";"ethyl cinnamate";"637758";"103-36-6";NA;NA
+"arom";"2-methylphenol";"335";"95-48-7";271;279
+"arom";"4-ethylguaiacol";"62465";"2785-89-9";NA;NA
+"arom";"eugenol";"3314";"97-53-0";NA;NA
+"arom";"salicyl aldehyde";"6998";"90-02-8";NA;NA
+"arom";"2-hydroxy-anisole";"460";"90-05-1";NA;NA
+"arom";"4-propenyl anisole";"637563";"104-46-1";NA;NA
+"arom";"4-methoxybenzaldehyde";"31244";"123-11-5";NA;NA
+"arom";"4-isopropylbenzaldehyde";"326";"122-03-2";NA;NA
+"arom";"4-methoxybenzene";"7519";"100-66-3";235;240
+"arom";"4-allyl-1,2-dimethoxybenzene";"7127";"93-15-2";12;19
+"arom";"2,4,5-trimethoxy-1-propenylbenzene";"636822";"2883-98-9";NA;NA
+"arom";"benzyl cyanide";"8794";"140-29-4";NA;NA
+"arom";"iso-eugenol";"853433";"97-54-1";NA;NA
+"arom";"4-methylphenol";"2879";"106-44-5";89;96
+"arom";"4-ethylphenol";"31242";"123-07-9";NA;NA
+"arom";"2-propylphenol";"12570";"644-35-9";NA;NA
+"arom";"3-phenyl-2E-propenal";"637511";"14371-10-9";NA;NA
+"arom";"benzonitrile";"7505";"100-47-0";NA;NA
+"arom";"methyl jasmonate";"62388";"39924-52-2";NA;NA
+"arom";"benzyl acetate";"8785";"140-11-4";NA;NA
+"arom";"4-propylphenol";"12580";"645-56-7";NA;NA
+"arom";"3-methylphenol";"342";"108-39-4";NA;NA
+"arom";"2-ethylphenol";"6997";"90-00-6";NA;NA
+"arom";"benzoic acid";"243";"65-85-0";NA;NA
+"arom";"4hydroxy-3-methoxybenzaldehyde";"1183";"121-33-5";NA;NA
+"alcohol";"methanol";"887";"67-56-1";NA;NA
+"alcohol";"ethanol";"702";"64-17-5";NA;NA
+"alcohol";"1-propanol";"1031";"71-23-8";NA;NA
+"alcohol";"1-butanol";"263";"71-36-3";34;43
+"alcohol";"1-pentanol";"6276";"71-41-0";NA;NA
+"alcohol";"1-hexanol";"8103";"111-27-3";41;46
+"alcohol";"1-octanol";"957";"111-87-5";NA;NA
+"alcohol";"2-octanol";"20083";"123-96-6";NA;NA
+"alcohol";"2-pentanol";"22386";"6032-29-7";NA;NA
+"alcohol";"3-methyl-butanol";"31260";"123-51-3";NA;NA
+"alcohol";"3-methyl-2-buten-1-ol";"11173";"556-82-1";NA;NA
+"alcohol";"1-penten-3-ol";"12020";"616-25-1";NA;NA
+"alcohol";"1-octen-3-ol";"18827";"3391-86-4";23;29
+"alcohol";"E2-hexenol";"5318042";"928-95-0";NA;NA
+"alcohol";"Z2-hexenol";"5324489";"928-94-9";NA;NA
+"alcohol";"E3-hexenol";"5284503";"928-97-2";NA;NA
+"alcohol";"Z3-hexenol";"5281167";"928-96-1";NA;NA
+"alcohol";"glycerol";"753";"56-81-5";NA;NA
+"alcohol";"2,3-butanediol";"262";"513-85-9";NA;NA
+"alcohol";"cyclohexanol";"7966";"108-93-0";NA;NA
+"alcohol";"decanol";"8174";"112-30-1";NA;NA
+"alcohol";"4-methylcyclohexanol";"11524";"589-91-3";NA;NA
+"alcohol";"1-heptanol";"8129";"111-70-6";12;18
+"alcohol";"3-octanol";"11527";"589-98-0";9;15
+"alcohol";"1-nonanol";"8914";"143-08-8";21;28
+"alcohol";"4-octanol";"11515";"589-62-8";NA;NA
+"alcohol";"2-heptanol";"10976";"543-49-7";NA;NA
+"alcohol";"2-hexanol";"12297";"626-93-7";NA;NA
+"alcohol";"3-hexanol";"12178";"623-37-0";NA;NA
+"alcohol";"1-hexen-3-ol";"20928";"4798-44-1";NA;NA
+"alcohol";"isobutyl alcohol";"6560";"78-83-1";NA;NA
+"ester";"methyl acetate";"6584";"79-20-9";NA;NA
+"ester";"ethyl acetate";"8857";"141-78-6";17;21
+"ester";"propyl acetate";"7997";"109-60-4";14;20
+"ester";"butyl acetate";"31272";"123-86-4";NA;NA
+"ester";"pentyl acetate";"12348";"628-63-7";32;37
+"ester";"hexyl acetate";"8908";"142-92-7";NA;NA
+"ester";"isobutyl acetate";"8038";"110-19-0";NA;NA
+"ester";"isopentyl acetate";"31276";"123-92-2";0;11
+"ester";"E2-hexenyl acetate";"2733294";"2497-18-9";NA;NA
+"ester";"methyl butyrate";"12180";"623-42-7";NA;NA
+"ester";"ethyl butyrate";"7762";"105-54-4";12;19
+"ester";"hexyl butyrate";"17525";"2639-63-6";NA;NA
+"ester";"ethyl 3-hydroxybutyrate";"62572";"5405-41-4";NA;NA
+"ester";"ethyl propionate";"7749";"105-37-3";NA;NA
+"ester";"ethyl methanoate";"8025";"109-94-4";NA;NA
+"ester";"methyl hexanoate";"7824";"106-70-7";NA;NA
+"ester";"ethyl hexanoate";"31265";"123-66-0";NA;NA
+"ester";"hexyl hexanoate";"22873";"6378-65-0";NA;NA
+"ester";"methyl octanoate";"8091";"111-11-5";NA;NA
+"ester";"ethyl octanoate";"7799";"106-32-1";NA;NA
+"ester";"ethyl decanoate";"8048";"110-38-3";NA;NA
+"ester";"ethyl trans-2-butenoate";"429065";"623-70-1";NA;NA
+"ester";"ethyl lactate";"92831";"97-64-3";NA;NA
+"ester";"diethyl succinate";"31249";"123-25-1";NA;NA
+"ester";"octyl acetate";"8164";"112-14-1";28;34
+"ester";"decyl acetate";"8167";"112-17-4";NA;NA
+"ester";"methyl propionate";"11124";"554-12-1";NA;NA
+"ester";"propyl butanoate";"7770";"105-66-8";NA;NA
+"ester";"propyl pentanoate";"67328";"141-06-0";NA;NA
+"ester";"butyl hexanoate";"12294";"626-82-4";NA;NA
+"N ring";"indole";"798";"120-72-9";NA;NA
+"ester";"Z11-hexdecenyl acetate";"5364711";"34010-21-4";NA;NA
+"ester";"2-methyl butyl acetate";"12209";"624-41-9";NA;NA
+"ester";"propyl propionate";"7803";"106-36-5";NA;NA
+"ester";"sec-amyl acetate";"12278";"626-38-0";NA;NA
+"ester";"ethyl (R)-(-)-3-hydroxybutanoate";"440030";"24915-95-5";NA;NA
+"ester";"ethyl (S)-(+)-3-hydroxybutanoate";"6950306";"56816-01-4";NA;NA
+"ester";"ethyl 2-methylbutanoate";"24020";"7452-79-1";NA;NA
+"ester";"butyl butanoate";"7983";"109-21-7";NA;NA
+"ester";"methyl pentanoate";"12206";"624-24-8";NA;NA
+"ester";"ethyl pentanoate";"10882";"539-82-2";NA;NA
+"ester";"methyl 3-hydroxy hexanoate";"519845";"21188-58-9";NA;NA
+"ester";"ethyl 3-hydroxyhexanoate";"61293";"2305-25-1";NA;NA
+"ester";"propyl hexanoate";"12293";"626-77-7";NA;NA
+"ester";"methyl heptanoate";"7826";"106-73-0";NA;NA
+"ester";"ethyl heptanoate";"7797";"106-30-9";NA;NA
+"ester";"isoamyl tiglate";"5463682";"41519-18-0";NA;NA
+"ester";"isopropyl butyrate";"61184";"638-11-9";NA;NA
+"ester";"methyl tiglate";"5323652";"6622-76-0";NA;NA
+"ester";"ethyl 2-methyl-2E-butenoate";"5281163";"5837-78-5";NA;NA
+"ester";"isopropyl tiglate";"5367745";"1733-25-1";NA;NA
+"ester";"ethyl isovalerate";"7945";"108-64-5";NA;NA
+"ester";"heptyl acetate";"8159";"112-06-1";NA;NA
+"ester";"Z3-hexenyl acetate";"5363388";"3681-71-8";NA;NA
+"ester";"hexyl methanoate";"61177";"629-33-4";NA;NA
+"ester";"butyl heptanoate";"21596";"5454-28-4";NA;NA
+"ester";"nonyl acetate";"8918";"143-13-5";NA;NA
+"ester";"propyl heptanoate";"229377";"7778-87-2";NA;NA
+"ester";"butyl valerate";"61137";"591-68-4";NA;NA
+"ester";"butyl propanoate";"11529";"590-01-2";NA;NA
+"O ring";"acetyl furan";"14505";"1192-62-7";NA;NA
+"O ring";"gamma-pentyl-gamma-butyrolactone";"7710";"104-61-0";NA;NA
+"O ring";"beta-butyrolactone";"18303";"3068-88-0";NA;NA
+"O ring";"gamma-valerolactone";"7921";"108-29-2";NA;NA
+"O ring";"4-hydroxy-2,5-dimethyl-3(2H)-furanone";"19309";"3658-77-3";NA;NA
+"O ring";"gamma-pentyl-gamma-butyrolactone";"441574";"63357-97-1";NA;NA
+"O ring";"gamma-propyl-gamma-butyrolactone";"7742";"105-21-5";NA;NA
+"other";"oil";NA;"solvent";12;NA
+"other";"heptane";NA;"142-82-5";NA;NA
+"other";"octane";"356";"111-65-9";NA;NA
+"other";"nonane";"8141";"111-84-2";NA;NA
+"other";"carbon dioxide";"280";"124-38-9";13;9
+"N ring";"2-isobutyl-3-methoxypyrazine";"32594";"24683-00-9";NA;NA
+"N ring";"pyrrolidine";"31268";"123-75-1";NA;NA
+"other";"11-cis Vaccenyl Acetate";NA;"6186-98-7";NA;NA
+"alcohol";"oleyl alcohol";"5284499";"143-28-2";NA;NA
+"alcohol";"cis-vaccenyl alcohol";NA;"62972-93-4";NA;NA
+"ester";"oleyl acetate";"5363289";"693-80-1";NA;NA
+"acid";"cis-vaccenic acid";"5282761";"506-17-2";NA;NA
+"other";"trans-methyl vaccenate";"5364432";"6198-58-9";NA;NA
+"other";"hexane";"8058";"110-54-3";NA;NA
+"O ring";"thymol";"6989";"89-83-8";NA;NA
+"O ring";"benzophenone";"3102";"119-61-9";NA;NA
+"alcohol";"isopropyl alcohol";"3776";"67-63-0";NA;NA
+"other";"methional";"18635";"3268-49-3";NA;NA
+"O ring";"menthol";"16666";"89-78-1";NA;NA
