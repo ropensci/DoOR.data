@@ -1,4 +1,4 @@
-"Class";"Name";"InChIKey";"CID";"CAS";"InChI";"SMILES";"Code";"Formula";"MW";"BP";"MP";"HLC";"EG";"EC";"HBD";"HBA";"RotB";"TPSA";"Volume";"VP.25";"pKa.25";
+"Class";"Name";"InChIKey";"CID";"CAS";"InChI";"SMILES";"Code";"Formula";"MW";"BP";"MP";"HLC";"EG";"EC";"HBD";"HBA";"RotB";"TPSA";"Volume";"VP.25";"pKa.25"
 "1";"NA";"SFR";"SFR";"SFR";"SFR";"SFR";"SFR";"NA";"NA";"NA";"NA";"NA";"NA";"NA";"NA";"NA";"NA";"NA";"NA";"NA";"NA";"NA"
 "2";"other";"water";"XLYOFNOQVPJJNP-UHFFFAOYSA-N";"962";"7732-18-5";"InChI=1S/H2O/h1H2";"O";;"H2O";18.02;100;0;"NA";-241.8;-285.8;1;1;0;1;20.12;23.54;"NA"
 "3";"amine";"ammonium hydroxide";"VHUUQVKOLVNVRT-UHFFFAOYSA-N";"14923";"1336-21-6";"InChI=1S/H3N.H2O/h1H3;1H2";"[OH-].[NH4+]";;"H5NO";35.05;"NA";"NA";"NA";"NA";"NA";2;1;0;2;"NA";"NA";"NA"
