@@ -1,87 +1,91 @@
-Receptor;Coexpress;Coexpressing1;Coexpressing2;Coexpressing3;Ors;Sensillium.Type;Sensillum;ORN;Glomerulus;Code;x;y
-ab2B;Or85a+33b;Or85a;Or33b;NA;Or85a+33b;antennal basiconic;ab2;ab2B;DM5;217;53;169
-ab3B;Or85b+98b;Or85b;Or98b;NA;Or85b+98b;antennal basiconic;ab3;ab3B;VM5d;190;450;178
-ab4B;Or33a+56a;Or33a;Or56a;NA;Or33a+56a;antennal basiconic;ab4;ab4B;DA2;2;123;106
-ab5B;Or47a+33b;Or47a;Or33b;NA;Or47a+33b;antennal basiconic;ab5;ab5B;DM3;103;890;80
-Gr21a;Gr63a;Gr63a;;NA;Gr21a;antennal basiconic;ab1;ab1c;V;157;1352;397
-Or1a;;;;NA;;;;;;NA;NA;NA
-Or2a;;;;NA;Or2a;antennal trichoid;at3;at3;DA4m;6;186;78
-Or7a;;;;NA;Or7a;antennal basiconic;ab4;ab4A;DL5;187;943;100
-Or9a;;;;NA;Or9a;antennal basiconic;ab8;ab8B;VM3;167;434;295
-Or10a;Gr10a;Gr10a;;NA;Or10a+Gr10a;antennal basiconic;ab1;ab1D;DL1;159;1006;105
-Or13a;;;;NA;Or13a;antennal basiconic;ab6;ab6A;DC2;201;529;171
-Or19a;Or19b;Or19b;;NA;Or19a+b;antennal trichoid;at3;at3;DC1;106;532;125
-Or19b;Or19a;Or19a;;NA;Or19a+b;antennal trichoid;at3;at3;DC1;NA;NA;NA
-Or22a;Or22b;Or22b;;NA;Or22a+b;antennal basiconic;ab3;ab3A;DM2;127;825;129
-Or22b;Or22a;Or22a;;NA;Or22a+b;antennal basiconic;ab3;ab3A;DM2;NA;NA;NA
-Or22c;;;;NA;;;;;;NA;NA;NA
-Or23a;;;;NA;Or23a;antennal trichoid;at2;at2;DA3;1;167;45
-Or24a;;;;NA;;;;;;NA;NA;NA
-Or30a;;;;NA;;;;;;NA;NA;NA
-Or33a;Or56a;Or56a;;NA;Or33a+56a;antennal basiconic;ab4;ab4B;DA2;NA;NA;NA
-Or33b;Or85a (in ab2B) / Or47a (in ab5B);Or85a;Or47a;NA;Or85a+33b;antennal basiconic;ab2+ab5;ab2B+ab5B;DM5+DM3;NA;NA;NA
-Or33c;Or85e;Or85e;;NA;Or33c+85e;maxillary palp;pb2;pb2A;VC1;NA;NA;NA
-Or35a;;;;NA;Or35a;antennal coeloconic;ac3;ac3B;VC3;243;874;303
-Or42a;;;;NA;Or42a;maxillary palp;pb1;pb1A;VM7;220;844;214
-Or42b;;;;NA;Or42b;antennal basiconic;ab1;ab1A;DM1;20;1262;126
-Or43a;;;;NA;Or43a;antennal trichoid;at3;at3;DA4l;4;187;118
-Or43b;;;;NA;Or43b;antennal basiconic;ab8;ab8A;VM2;196;27;252
-Or45a;;;;NA;;;;;;NA;NA;NA
-Or45b;;;;NA;;;;;;NA;NA;NA
-Or46a;;;;NA;Or46a;maxillary palp;pb2;pb2B;VA7l;63;174;249
-Or47a;Or33b;Or33b;;NA;Or47a+33b;antennal basiconic;ab5;ab5B;DM3;NA;NA;NA
-Or47b;;;;NA;Or47b;antennal trichoid;at4;at4;VA1lm;224;254;213
-Or49a;Or85f;Or85f;;NA;Or49a+85f;antennal basiconic;ab10;ab10;DL4;NA;NA;NA
-Or49b;;;;NA;Or49b;antennal basiconic;ab6;ab6B;VA5;228;234;309
-Or56a;Or33a;Or33a;;NA;Or33a+56a;antennal basiconic;ab4;ab4B;DA2;NA;NA;NA
-Or59a;;;;NA;;;;;;NA;NA;NA
-Or59b;;;;NA;Or59b;antennal basiconic;ab2;ab2A;DM4;101;1240;184
-Or59c;;;;NA;Or59c;maxillary palp;pb3;pb3A;1(VM7);124;882;148
-Or63a;;;;NA;;;;;;NA;NA;NA
-Or65a;Or65b+c;Or65b;Or65c;NA;Or65a+b+c;antennal trichoid;at4;at4;DL3;23;611;23
-Or65b;Or65a+c;Or65a;Or65c;NA;Or65a+b+c;antennal trichoid;at4;at4;DL3;NA;NA;NA
-Or65c;Or65a+b;Or65a;Or65b;NA;Or65a+b+c;antennal trichoid;at4;at4;DL3;NA;NA;NA
-Or67a;;;;NA;Or67a;antennal basiconic;ab10;ab10;DM6;3;70;93
-Or67b;;;;NA;Or67b;antennal basiconic;ab9;ab9;VA3;9;152;320
-Or67c;;;;NA;Or67c;antennal basiconic;ab7;ab7;VC4;175;881;246
-Or67d;;;;NA;Or67d;antennal trichoid;at1;at1;DA1;209;671;79
-Or69a;;;;NA;Or69a;antennal basiconic;ab9;ab9;D;116;552;42
-Or71a;;;;NA;Or71a;maxillary palp;pb1;pb1B;VC2;114;548;279
-Or74a;;;;NA;;;;;;NA;NA;NA
-Or82a;;;;NA;Or82a;antennal basiconic;ab5;ab5A;VA6;80;156;184
-Or83a;;;;NA;;;;;;NA;NA;NA
-Or83b;;;;NA;;;;;;NA;NA;NA
-Or83c;;;;NA;Or83c;antennal trichoid;at2;at2;DC3;205;607;169
-Or85a;Or33b;Or33b;;NA;Or85a+33b;antennal basiconic;ab2;ab2B;DM5;NA;NA;NA
-Or85b;Or98b;Or98b;;NA;Or85b+98b;antennal basiconic;ab3;ab3B;VM5d;NA;NA;NA
-Or85c;;;;NA;;;;;;NA;NA;NA
-Or85d;;;;NA;Or85d;maxillary palp;pb3;pb3B;VA4;234;543;334
-Or85e;Or33c;Or33c;;NA;Or33c+85e;maxillary palp;pb2;pb2A;VC1;NA;NA;NA
-Or85f;Or49a;Or49a;;NA;Or49a+85f;antennal basiconic;ab10;ab10;DL4;113;597;58
-Or88a;;;;NA;Or88a;antennal trichoid;at4;at4;VA1d;5;265;125
-Or92a;;;;NA;Or92a;antennal basiconic;ab1;ab1B;VA2;249;67;300
-Or94a;;;;NA;;;;;;NA;NA;NA
-Or94b;;;;NA;;;;;;NA;NA;NA
-Or98a;;;;NA;Or98a;antennal basiconic;ab7;ab7A;VM5v;62;485;209
-Or98b;Or85b;Or85b;;NA;Or85b+98b;antennal basiconic;ab3;ab3B;VM5d;NA;NA;NA
-pb2A;Or33c+85e;Or33c;Or85e;NA;Or33c+85e;maxillary palp;pb2;pb2A;VC1;189;922;267
-Ir64a;;;;NA;;sacculus;sacIII;;DC4;100;1290;208
-Ir75abc;;;;NA;;;ac3;;DL2d;223;1048;153
-Ir75abc;;;;NA;;;ac3;;DL2v;222;1020;190
-Ir75a;;;;NA;;;ac2;;DP1l;27;1399;206
-Ir64a;;;;NA;;;sacIII;;DP1m;91;1343;160
-;;;;NA;;;;;VA7m;184;130;275
-Ir75d;;;;NA;;;ac1;;VL1;170;1400;342
-Ir75d;;;;NA;;;ac2;;VL1;170;1400;342
-Ir75d;;;;NA;;;ac4;;VL1;170;1400;342
-Ir84a;;;;NA;;;ac4;;VL2a;227;1063;264
-Ir31a;;;;NA;;;ac1;;VL2p;89;1458;277
-Ir92a;;;;NA;;;ac1;;VM1;163;1220;334
-Ir76a;;;;NA;;;ac4;;VM4;237;889;353
-;;;;NA;;;;;VM6;156;1258;371
-ac1a;;;;NA;;;;;;NA;NA;NA
-ac1b;;;;NA;;;;;;NA;NA;NA
-ac2a;;;;NA;;;;;;NA;NA;NA
-ac2b;;;;NA;;;;;;NA;NA;NA
-ac3a;;;;NA;;;;;;NA;NA;NA
-ac4;;;;NA;;;;;;NA;NA;NA
+"Receptor";"Sensillum";"ORN";"Glomerulus";"Co-receptor";"Coexpress";"Related1";"Related2";"Related3";"Related4";"Ors";"Sensillium.Type";"Comment";"Code";"x";"y";;;;;;;
+"ab2B";"ab2";"ab2B";"DM5";"Orco";"Or85a+33b";"Or85a";"Or33b";;;"Or85a+33b";"antennal basiconic";;217;53;169;;;;;;;
+"ab3B";"ab3";"ab3B";"VM5d";"Orco";"Or85b+98b";"Or85b";"Or98b";;;"Or85b+98b";"antennal basiconic";;190;450;178;;;;;;;
+"ab4B";"ab4";"ab4B";"DA2";"Orco";"Or33a+56a";"Or33a";"Or56a";;;"Or33a+56a";"antennal basiconic";;2;123;106;;;;;;;
+"ab5B";"ab5";"ab5B";"DM3";"Orco";"Or47a+33b";"Or47a";"Or33b";;;"Or47a+33b";"antennal basiconic";;103;890;80;;;;;;;
+"ac1";"ac1";"?";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac1A";"ac1";"ac1A";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac1B";"ac1";"ac1B";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac1BC";"ac1";"ac1B+C";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac2";"ac2";"?";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac2A";"ac2";"ac2A";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac2B";"ac2";"ac2B";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac2BC";"ac2";"ac2B+C";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac3";"ac3";"?";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac3A";"ac3";"ac3A";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac3B";"ac3";"ac3B";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"ac4";"ac4";"?";"?";;;;;;;;"antennal coeloconic";;"NA";"NA";"NA";;;;;;;
+"Gr21a+Gr63a";"ab1";"ab1C";"V";"?";"Gr21a+Gr63a";;;;;"Gr21a+Gr63a";"antennal basiconic";;157;1352;397;;;;;;;
+"Ir31a";"ac1";"?";"VL2p";"Ir8a";;;;;;"Ir31a";"antennal coeloconic";;89;1458;277;;;;;;;
+"Ir64a.DC4";"sacIII";"?";"DC4";"Ir8a";;;;;;"Ir64a";"sacculus";;100;1290;208;;;;;;;
+"Ir64a.DP1m";"sacIII";"?";"DP1m";"Ir8a";;;;;;"Ir64a";"sacculus";;91;1343;160;;;;;;;
+"Ir75a";"ac2";"?";"DP1l";"Ir8a";;;;;;"Ir75a+b+c";"antennal coeloconic";;27;1399;206;;;;;;;
+"Ir75abc";"ac3";"?";"DL2d";"Ir8a";;;;;;"Ir75a+b+c";"antennal coeloconic";;223;1048;153;;;;;;;
+"Ir75abc";"ac3";"?";"DL2v";"Ir8a";;;;;;"Ir75a+b+c";"antennal coeloconic";;222;1020;190;;;;;;;
+"Ir75d";"ac1, ac2, ac4";;"VL1";"Ir25a";;;;;;"Ir75d";"antennal coeloconic";;170;1400;342;;;;;;;
+"Ir76a";"ac4";"?";"VM4";"Ir25a, Ir76b";;;;;;"Ir76a";"antennal coeloconic";;237;889;353;;;;;;;
+"Ir84a";"ac4";"?";"VL2a";"Ir8a";;;;;;"Ir84a";"antennal coeloconic";;227;1063;264;;;;;;;
+"Ir92a";"ac1";"?";"VM1";"Ir25a, Ir76b";;;;;;"Ir92a";"antennal coeloconic";;163;1220;334;;;;;;;
+"Or10a";"ab1";"ab1D";"DL1";"Orco";"Gr10a";"Gr10a";;;;"Or10a+Gr10a";"antennal basiconic";;159;1006;105;;;;;;;
+"Or13a";"ab6";"ab6A";"DC2";"Orco";;;;;;"Or13a";"antennal basiconic";;201;529;171;;;;;;;
+"Or19a";"at3";"at3";"DC1";"Orco";"Or19b";"Or19b";;;;"Or19a+b";"antennal trichoid / intermediate";"aka ai2A (Dweck et al. 2013)";106;532;125;;;;;;;
+"Or19b";"at3";"at3";"DC1";"Orco";"Or19a";"Or19a";;;;"Or19a+b";"antennal trichoid";;"NA";"NA";"NA";;;;;;;
+"Or1a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or22a";"ab3";"ab3A";"DM2";"Orco";"Or22b";"Or22b";;;;"Or22a+b";"antennal basiconic";;127;825;129;;;;;;;"ee"
+"Or22b";"ab3";"ab3A";"DM2";"Orco";"Or22a";"Or22a";;;;"Or22a+b";"antennal basiconic";;"NA";"NA";"NA";;;;;;;
+"Or22c";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or23a";"at2";"at2B";"DA3";"Orco";;;;;;"Or23a";"antennal trichoid / intermediate";"aka ai2B (Ronderos et al. 2014)";1;167;45;;;;;;;
+"Or24a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or2a";"at3";"at3";"DA4m";"Orco";;;;;;"Or2a";"antennal trichoid";;6;186;78;;;;;;;
+"Or30a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or33a";"ab4";"ab4B";"DA2";"Orco";"Or56a";"Or56a";"ab4B";;;"Or33a+56a";"antennal basiconic";;"NA";"NA";"NA";;;;;;;
+"Or33b";"ab2+ab5";"ab2B+ab5B";"DM5+DM3";"Orco";"Or85a (in ab2B) / Or47a (in ab5B)";"Or85a";"Or47a";"ab2B";"ab5B";"Or85a+33b";"antennal basiconic";;"NA";"NA";"NA";;;;;;;
+"Or33c";"pb2";"pb2A";"VC1";"Orco";"Or85e";"Or85e";;;;"Or33c+85e";"maxillary palp";;"NA";"NA";"NA";;;;;;;
+"Or35a";"ac3";"ac3B";"VC3";"Orco";;;;;;"Or35a";"antennal coeloconic";;243;874;303;;;;;;;
+"Or42a";"pb1";"pb1A";"VM7";"Orco";;;;;;"Or42a";"maxillary palp";;220;844;214;;;;;;;
+"Or42b";"ab1";"ab1A";"DM1";"Orco";;;;;;"Or42b";"antennal basiconic";;20;1262;126;;;;;;;
+"Or43a";"at3";"at3";"DA4l";"Orco";;;;;;"Or43a";"antennal trichoid";;4;187;118;;;;;;;
+"Or43b";"ab8";"ab8A";"VM2";"Orco";;;;;;"Or43b";"antennal basiconic";;196;27;252;;;;;;;
+"Or45a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or45b";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or46a";"pb2";"pb2B";"VA7l";"Orco";;;;;;"Or46a";"maxillary palp";;63;174;249;;;;;;;
+"Or47a";"ab5";"ab5B";"DM3";"Orco";"Or33b";"Or33b";"ab5B";;;"Or47a+33b";"antennal basiconic";;"NA";"NA";"NA";;;;;;;
+"Or47b";"at4";"at4";"VA1lm";"Orco";;;;;;"Or47b";"antennal trichoid";;224;254;213;;;;;;;
+"Or49a";"ab10";"ab10";"DL4";"Orco";"Or85f";"Or85f";;;;"Or49a+85f";"antennal basiconic";;"NA";"NA";"NA";;;;;;;
+"Or49b";"ab6";"ab6B";"VA5";"Orco";;;;;;"Or49b";"antennal basiconic";;228;234;309;;;;;;;
+"Or56a";"ab4";"ab4B";"DA2";"Orco";"Or33a";"Or33a";"ab4B";;;"Or33a+56a";"antennal basiconic";"see ab4B for data";"NA";"NA";"NA";;;;;;;
+"Or59a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or59b";"ab2";"ab2A";"DM4";"Orco";;;;;;"Or59b";"antennal basiconic";;101;1240;184;;;;;;;
+"Or59c";"pb3";"pb3A";"1(VM7)";"Orco";;;;;;"Or59c";"maxillary palp";;124;882;148;;;;;;;
+"Or63a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or65a";"at4";"at4";"DL3";"Orco";"Or65b+c";"Or65b";"Or65c";;;"Or65a+b+c";"antennal trichoid";;23;611;23;;;;;;;
+"Or65b";"at4";"at4";"DL3";"Orco";"Or65a+c";"Or65a";"Or65c";;;"Or65a+b+c";"antennal trichoid";;"NA";"NA";"NA";;;;;;;
+"Or65c";"at4";"at4";"DL3";"Orco";"Or65a+b";"Or65a";"Or65b";;;"Or65a+b+c";"antennal trichoid";;"NA";"NA";"NA";;;;;;;
+"Or67a";"ab10";"ab10";"DM6";"Orco";;;;;;"Or67a";"antennal basiconic";;3;70;93;;;;;;;
+"Or67b";"ab9";"ab9";"VA3";"Orco";;;;;;"Or67b";"antennal basiconic";;9;152;320;;;;;;;
+"Or67c";"ab7";"ab7";"VC4";"Orco";;;;;;"Or67c";"antennal basiconic";;175;881;246;;;;;;;
+"Or67d";"at1";"at1";"DA1";"Orco";;;;;;"Or67d";"antennal trichoid";;209;671;79;;;;;;;
+"Or69a";"ab9";"ab9";"D";"Orco";;;;;;"Or69a";"antennal basiconic";;116;552;42;;;;;;;
+"Or71a";"pb1";"pb1B";"VC2";"Orco";;;;;;"Or71a";"maxillary palp";;114;548;279;;;;;;;
+"Or74a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or7a";"ab4";"ab4A";"DL5";"Orco";;;;;;"Or7a";"antennal basiconic";;187;943;100;;;;;;;
+"Or82a";"ab5";"ab5A";"VA6";"Orco";;;;;;"Or82a";"antennal basiconic";;80;156;184;;;;;;;
+"Or83a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or83b";;;;"Orco";;;;;;;;"Orco";"NA";"NA";"NA";;;;;;;
+"Or83c";"at2";"at2A";"DC3";"Orco";;;;;;"Or83c";"antennal trichoid / intermediate";"aka ai2A (Ronderos et al. 2014)";205;607;169;;;;;;;
+"Or85a";"ab2";"ab2B";"DM5";"Orco";"Or33b";"Or33b";"ab2B";;;"Or85a+33b";"antennal basiconic";;"NA";"NA";"NA";;;;;;;
+"Or85b";"ab3";"ab3B";"VM5d";"Orco";"Or98b";"Or98b";"ab3B";;;"Or85b+98b";"antennal basiconic";;"NA";"NA";"NA";;;;;;;
+"Or85c";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or85d";"pb3";"pb3B";"VA4";"Orco";;;;;;"Or85d";"maxillary palp";;234;543;334;;;;;;;
+"Or85e";"pb2";"pb2A";"VC1";"Orco";"Or33c";"Or33c";;;;"Or33c+85e";"maxillary palp";;"NA";"NA";"NA";;;;;;;
+"Or85f";"ab10";"ab10";"DL4";"Orco";"Or49a";"Or49a";;;;"Or49a+85f";"antennal basiconic";;113;597;58;;;;;;;
+"Or88a";"at4";"at4";"VA1d";"Orco";;;;;;"Or88a";"antennal trichoid";;5;265;125;;;;;;;
+"Or92a";"ab1";"ab1B";"VA2";"Orco";;;;;;"Or92a";"antennal basiconic";;249;67;300;;;;;;;
+"Or94a";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or94b";;;;"Orco";;;;;;;;;"NA";"NA";"NA";;;;;;;
+"Or98a";"ab7";"ab7A";"VM5v";"Orco";;;;;;"Or98a";"antennal basiconic";;62;485;209;;;;;;;
+"Or98b";"ab3";"ab3B";"VM5d";"Orco";"Or85b";"Or85b";"ab3B";;;"Or85b+98b";"antennal basiconic";;"NA";"NA";"NA";;;;;;;
+"Or9a";"ab8";"ab8B";"VM3";"Orco";;;;;;"Or9a";"antennal basiconic";;167;434;295;;;;;;;
+"pb2A";"pb2";"pb2A";"VC1";"Orco";"Or33c+85e";"Or33c";"Or85e";;;"Or33c+85e";"maxillary palp";;189;922;267;;;;;;;
+;;;"VA7m";;;;;;;;;;184;130;275;;;;;;;
+;;;"VM6";;;;;;;;;;156;1258;371;;;;;;;
