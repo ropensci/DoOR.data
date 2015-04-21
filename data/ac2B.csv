@@ -1,31 +1,31 @@
-"Class";"Name";"InChIKey";"CID";"CAS";"Goldman.2005.EN"
-"1";NA;"SFR";"SFR";"SFR";"SFR";NA
+"Class";"Name";"InChIKey";"CID";"CAS";"Yao.2005.WT"
+"1";NA;"SFR";"SFR";"SFR";"SFR";19
 "2";"other";"water";"XLYOFNOQVPJJNP-UHFFFAOYSA-N";"962";"7732-18-5";NA
 "3";"amine";"ammonium hydroxide";"VHUUQVKOLVNVRT-UHFFFAOYSA-N";"14923";"1336-21-6";NA
-"4";"amine";"putrescine";"KIDHWZJUCRJVML-UHFFFAOYSA-N";"1045";"110-60-1";NA
+"4";"amine";"putrescine";"KIDHWZJUCRJVML-UHFFFAOYSA-N";"1045";"110-60-1";10
 "5";"amine";"cadaverine";"VHRGRCVQAFMJIZ-UHFFFAOYSA-N";"273";"462-94-2";NA
-"6";"amine";"ammonia";"QGZKDVFQNNGYKY-UHFFFAOYSA-N";"222";"7664-41-7";NA
+"6";"amine";"ammonia";"QGZKDVFQNNGYKY-UHFFFAOYSA-N";"222";"7664-41-7";6
 "7";"amine";"ethanolamine";"HZAXFHJVJLSVMW-UHFFFAOYSA-N";"700";"141-43-5";NA
-"8";"amine";"heptylamine";"WJYIASZWHGOTOU-UHFFFAOYSA-N";"8127";"111-68-2";NA
-"9";"amine";"isoamylamine";"BMFVGAAISNGQNM-UHFFFAOYSA-N";"7894";"107-85-7";NA
-"10";"amine";"dimethylamine";"ROSDSFDQCJNGOL-UHFFFAOYSA-N";"674";"124-40-3";NA
+"8";"amine";"heptylamine";"WJYIASZWHGOTOU-UHFFFAOYSA-N";"8127";"111-68-2";-1
+"9";"amine";"isoamylamine";"BMFVGAAISNGQNM-UHFFFAOYSA-N";"7894";"107-85-7";1
+"10";"amine";"dimethylamine";"ROSDSFDQCJNGOL-UHFFFAOYSA-N";"674";"124-40-3";10
 "11";"O ring";"gamma-butyrolactone";"YEJRWHAVMIAJKC-UHFFFAOYSA-N";"7302";"96-48-0";NA
-"12";"O ring";"gamma-hexalactone";"JBFHTYHTHYHCDJ-UHFFFAOYSA-N";"12756";"695-06-7";NA
+"12";"O ring";"gamma-hexalactone";"JBFHTYHTHYHCDJ-UHFFFAOYSA-N";"12756";"695-06-7";8
 "13";"O ring";"gamma-octalactone";"IPBFYZQJXZJBFQ-UHFFFAOYSA-N";"7704";"104-50-7";NA
 "14";"O ring";"gamma-decalactone";"IFYYFLINQYPWGJ-UHFFFAOYSA-N";"12813";"706-14-9";NA
 "15";"O ring";"delta-decalactone";"GHBSPIPJMLAMEP-UHFFFAOYSA-N";"12810";"705-86-2";NA
 "16";"acid";"methanoic acid";"BDAGIHXWWSANSR-UHFFFAOYSA-N";"284";"64-18-6";NA
 "17";"acid";"acetic acid";"QTBSBXVTEAMEQO-UHFFFAOYSA-N";"176";"64-19-7";NA
-"18";"acid";"propanoic acid";"XBDQKXXYIPTUBI-UHFFFAOYSA-N";"1032";"79-09-4";NA
-"19";"acid";"butyric acid";"FERIUCNNQQJTOY-UHFFFAOYSA-N";"264";"107-92-6";NA
+"18";"acid";"propanoic acid";"XBDQKXXYIPTUBI-UHFFFAOYSA-N";"1032";"79-09-4";32
+"19";"acid";"butyric acid";"FERIUCNNQQJTOY-UHFFFAOYSA-N";"264";"107-92-6";32
 "20";"acid";"pentanoic acid";"NQPDZGIKBAWPEJ-UHFFFAOYSA-N";"7991";"109-52-4";NA
-"21";"acid";"hexanoic acid";"FUZZWVXGSFPDMH-UHFFFAOYSA-N";"8892";"142-62-1";NA
+"21";"acid";"hexanoic acid";"FUZZWVXGSFPDMH-UHFFFAOYSA-N";"8892";"142-62-1";13
 "22";"acid";"heptanoic acid";"MNWFXJYAOYHMED-UHFFFAOYSA-N";"8094";"111-14-8";NA
 "23";"acid";"octanoic acid";"WWZKQHOCKIZLMA-UHFFFAOYSA-N";"379";"124-07-2";NA
 "24";"acid";"nonanoic acid";"FBUKVWPVBMHYJY-UHFFFAOYSA-N";"8158";"112-05-0";NA
 "25";"acid";"linoleic acid";"OYHQOLUKZRVURQ-HZJYTTRNSA-N";"5280450";"60-33-3";NA
 "26";"acid";"isobutyric acid";"KQNPFQTWMSNSAP-UHFFFAOYSA-N";"6590";"79-31-2";NA
-"27";"acid";"isopentanoic acid";"GWYFCOCPABKNJV-UHFFFAOYSA-N";"10430";"503-74-2";NA
+"27";"acid";"isopentanoic acid";"GWYFCOCPABKNJV-UHFFFAOYSA-N";"10430";"503-74-2";24
 "28";"acid";"pyruvic acid";"LCTONWCANYUPML-UHFFFAOYSA-N";"1060";"127-17-3";NA
 "29";"acid";"2-ethylhexanoic acid";"OBETXYAYXDNJHR-UHFFFAOYSA-N";"8697";"149-57-5";NA
 "30";"acid";"lactic acid";"JVTAAEKCZFNVCJ-UHFFFAOYSA-N";"612";"50-21-5";NA
@@ -55,7 +55,7 @@
 "54";"terpene";"1,4-cineol";"RFFOTVCVTJUTAD-UHFFFAOYSA-N";"10106";"470-67-7";NA
 "55";"terpene";"citral";"WTEVQBCEXWBHNA-JXMROGBWSA-N";"638011";"5392-40-5";NA
 "56";"terpene";"(S)-(-)-citronellal";"NEHNMFOYXAPHSD-JTQLQIEISA-N";"443157";"5949-05-3";NA
-"57";"terpene";"(1R)-(-)-fenchone";"LHXDLQBQYFFVNW-OIBJUYFYSA-N";"14525";"7787-20-4";276
+"57";"terpene";"(1R)-(-)-fenchone";"LHXDLQBQYFFVNW-OIBJUYFYSA-N";"14525";"7787-20-4";NA
 "58";"terpene";"(R)-(+)-limonene";"XMGQYMWWDOXHJM-JTQLQIEISA-N";"440917";"5989-27-5";NA
 "59";"terpene";"(-)-menthone";"NFLGAXVYCFJBMK-BDAKNGLRSA-N";"26447";"14073-97-3";NA
 "60";"terpene";"(1R)-(-)-myrtenal";"KMRMUZKLFIEVAO-UHFFFAOYSA-N";"61130";"564-94-3";NA
@@ -68,43 +68,43 @@
 "67";"terpene";"beta-ionone";"PSQYTAPXSHCGMF-BQYQJAHWSA-N";"638014";"79-77-6";NA
 "68";"terpene";"L-limonen";"XMGQYMWWDOXHJM-SNVBAGLBSA-N";"439250";"5989-54-8";NA
 "69";"aldehyde";"acetaldehyde";"IKHGUXGNUITLKF-UHFFFAOYSA-N";"177";"75-07-0";NA
-"70";"aldehyde";"propanal";"NBBJYMSMWIIQGU-UHFFFAOYSA-N";"527";"123-38-6";NA
-"71";"aldehyde";"butanal";"ZTQSAGDEMFDKMZ-UHFFFAOYSA-N";"261";"123-72-8";NA
-"72";"aldehyde";"pentanal";"HGBOYTHUEUWSSQ-UHFFFAOYSA-N";"8063";"110-62-3";NA
-"73";"aldehyde";"hexanal";"JARKCYVAAOWBJS-UHFFFAOYSA-N";"6184";"66-25-1";NA
-"74";"aldehyde";"E2-hexenal";"MBDOYVRWFFCFHM-SNAWJCMRSA-N";"5281168";"6728-26-3";52
+"70";"aldehyde";"propanal";"NBBJYMSMWIIQGU-UHFFFAOYSA-N";"527";"123-38-6";36
+"71";"aldehyde";"butanal";"ZTQSAGDEMFDKMZ-UHFFFAOYSA-N";"261";"123-72-8";31
+"72";"aldehyde";"pentanal";"HGBOYTHUEUWSSQ-UHFFFAOYSA-N";"8063";"110-62-3";29
+"73";"aldehyde";"hexanal";"JARKCYVAAOWBJS-UHFFFAOYSA-N";"6184";"66-25-1";14
+"74";"aldehyde";"E2-hexenal";"MBDOYVRWFFCFHM-SNAWJCMRSA-N";"5281168";"6728-26-3";64
 "75";"O ring";"furfural";"HYBBIBNJHNGZAN-UHFFFAOYSA-N";"7362";"98-01-1";NA
 "76";"aldehyde";"2-propenal";"HGINCPLSRVDWNT-UHFFFAOYSA-N";"7847";"107-02-8";NA
-"77";"aldehyde";"octanal";"NUJGJRNETVAIRJ-UHFFFAOYSA-N";"454";"124-13-0";NA
-"78";"aldehyde";"decanal";"KSMVZQYAVGTKIV-UHFFFAOYSA-N";"8175";"112-31-2";NA
-"79";"aldehyde";"heptanal";"FXHGMKSSBGDXIY-UHFFFAOYSA-N";"8130";"111-71-7";NA
+"77";"aldehyde";"octanal";"NUJGJRNETVAIRJ-UHFFFAOYSA-N";"454";"124-13-0";12
+"78";"aldehyde";"decanal";"KSMVZQYAVGTKIV-UHFFFAOYSA-N";"8175";"112-31-2";24
+"79";"aldehyde";"heptanal";"FXHGMKSSBGDXIY-UHFFFAOYSA-N";"8130";"111-71-7";24
 "80";"aldehyde";"E2-octenal";"LVBXEMGDVWVTGY-VOTSOKGWSA-N";"5283324";"2548-87-0";NA
-"81";"aldehyde";"nonanal";"GYHFUZHODSMOHU-UHFFFAOYSA-N";"31289";"124-19-6";NA
-"82";"aldehyde";"E2-heptenal";"NDFKTBCGKNOHPJ-AATRIKPKSA-N";"5283316";"18829-55-5";NA
+"81";"aldehyde";"nonanal";"GYHFUZHODSMOHU-UHFFFAOYSA-N";"31289";"124-19-6";14
+"82";"aldehyde";"E2-heptenal";"NDFKTBCGKNOHPJ-AATRIKPKSA-N";"5283316";"18829-55-5";24
 "83";"ketone";"acetone";"CSCPPACGZOOCGX-UHFFFAOYSA-N";"180";"67-64-1";NA
-"84";"ketone";"2-butanone";"ZWEHNKRNPOVVGH-UHFFFAOYSA-N";"6569";"78-93-3";NA
-"85";"ketone";"2-pentanone";"XNLICIUVMPYHGG-UHFFFAOYSA-N";"7895";"107-87-9";NA
-"86";"ketone";"2-heptanone";"CATSNJVOTSVZJV-UHFFFAOYSA-N";"8051";"110-43-0";40
+"84";"ketone";"2-butanone";"ZWEHNKRNPOVVGH-UHFFFAOYSA-N";"6569";"78-93-3";10
+"85";"ketone";"2-pentanone";"XNLICIUVMPYHGG-UHFFFAOYSA-N";"7895";"107-87-9";10
+"86";"ketone";"2-heptanone";"CATSNJVOTSVZJV-UHFFFAOYSA-N";"8051";"110-43-0";11
 "87";"ketone";"6-methyl-5-hepten-2-one";"UHEPJGULSIKKTP-UHFFFAOYSA-N";"9862";"110-93-0";NA
 "88";"ketone";"2,3-butanedione";"QSJXEFYPDANLFS-UHFFFAOYSA-N";"650";"431-03-8";NA
 "89";"ketone";"3-hydroxy-2-butanone";"ROWKJAVDOGWPAT-UHFFFAOYSA-N";"179";"513-86-0";NA
 "90";"ketone";"3-penten-2-one";"LABTWGUMFABVFG-ARJAWSKDSA-N";"12248";"625-33-2";NA
-"91";"ketone";"2-hexanone";"QQZOPKMRPOGIEB-UHFFFAOYSA-N";"11583";"591-78-6";NA
+"91";"ketone";"2-hexanone";"QQZOPKMRPOGIEB-UHFFFAOYSA-N";"11583";"591-78-6";25
 "92";"ketone";"3-hexanone";"PFCHFHIRKBAQGU-UHFFFAOYSA-N";"11509";"589-38-8";NA
-"93";"ketone";"cyclohexanone";"JHIVVAPYMSGYDF-UHFFFAOYSA-N";"7967";"108-94-1";210
-"94";"ketone";"2-octanone";"ZPVFWPFBNIEHGJ-UHFFFAOYSA-N";"8093";"111-13-7";NA
+"93";"ketone";"cyclohexanone";"JHIVVAPYMSGYDF-UHFFFAOYSA-N";"7967";"108-94-1";6
+"94";"ketone";"2-octanone";"ZPVFWPFBNIEHGJ-UHFFFAOYSA-N";"8093";"111-13-7";24
 "95";"ketone";"2-methyl-3-heptanone";"XYYMFUCZDNNGFS-UHFFFAOYSA-N";"25611";"13019-20-0";NA
-"96";"ketone";"nonanone";"VKCYHJWLYTUGCC-UHFFFAOYSA-N";"13187";"821-55-6";NA
+"96";"ketone";"nonanone";"VKCYHJWLYTUGCC-UHFFFAOYSA-N";"13187";"821-55-6";25
 "97";"ketone";"3-heptanone";"NGAZZOYFWWSOGK-UHFFFAOYSA-N";"7802";"106-35-4";NA
 "98";"ketone";"4-octanone";"YWXLSHOWXZUMSR-UHFFFAOYSA-N";"11516";"589-63-9";NA
 "99";"arom";"phenethyl alcohol";"WRMNZCZEMHIOCP-UHFFFAOYSA-N";"6054";"60-12-8";NA
-"100";"arom";"benzyl alcohol";"WVDDGKGOMKODPV-UHFFFAOYSA-N";"244";"100-51-6";NA
+"100";"arom";"benzyl alcohol";"WVDDGKGOMKODPV-UHFFFAOYSA-N";"244";"100-51-6";8
 "101";"arom";"methyl salicylate";"OSWPMRLSEDHDFF-UHFFFAOYSA-N";"4133";"119-36-8";NA
 "102";"arom";"methyl benzoate";"QPJVMBTYPHYUOC-UHFFFAOYSA-N";"7150";"93-58-3";NA
 "103";"arom";"ethyl benzoate";"MTZQAGJQAFMTAQ-UHFFFAOYSA-N";"7165";"93-89-0";NA
 "104";"arom";"phenethyl acetate";"MDHYEMXUFSJLGV-UHFFFAOYSA-N";"7654";"103-45-7";NA
-"105";"arom";"benzaldehyde";"HUMNYLRZRPPJDN-UHFFFAOYSA-N";"240";"100-52-7";73
-"106";"arom";"phenylacetaldehyde";"DTUQWGWMVIHBKE-UHFFFAOYSA-N";"998";"122-78-1";NA
+"105";"arom";"benzaldehyde";"HUMNYLRZRPPJDN-UHFFFAOYSA-N";"240";"100-52-7";13
+"106";"arom";"phenylacetaldehyde";"DTUQWGWMVIHBKE-UHFFFAOYSA-N";"998";"122-78-1";10
 "107";"arom";"acetophenone";"KWOLFJPFCHCOCG-UHFFFAOYSA-N";"7410";"98-86-2";NA
 "108";"arom";"ethyl cinnamate";"KBEBGUQPQBELIU-CMDGGOBGSA-N";"637758";"103-36-6";NA
 "109";"arom";"2-methylphenol";"QWVGKYWNOKOFNN-UHFFFAOYSA-N";"335";"95-48-7";NA
@@ -118,16 +118,16 @@
 "117";"arom";"4-methoxybenzene";"RDOXTESZEPMUJZ-UHFFFAOYSA-N";"7519";"100-66-3";NA
 "118";"arom";"4-allyl-1,2-dimethoxybenzene";"ZYEMGPIYFIJGTP-UHFFFAOYSA-N";"7127";"93-15-2";NA
 "119";"arom";"2,4,5-trimethoxy-1-propenylbenzene";"RKFAZBXYICVSKP-WAYWQWQTSA-N";"636822";"2883-98-9";NA
-"120";"arom";"benzyl cyanide";"SUSQOBVLVYHIEX-UHFFFAOYSA-N";"8794";"140-29-4";NA
+"120";"arom";"benzyl cyanide";"SUSQOBVLVYHIEX-UHFFFAOYSA-N";"8794";"140-29-4";13
 "121";"arom";"iso-eugenol";"BJIOGJUNALELMI-ONEGZZNKSA-N";"853433";"97-54-1";NA
-"122";"arom";"4-methylphenol";"IWDCLRJOBJJRNH-UHFFFAOYSA-N";"2879";"106-44-5";61
+"122";"arom";"4-methylphenol";"IWDCLRJOBJJRNH-UHFFFAOYSA-N";"2879";"106-44-5";NA
 "123";"arom";"4-ethylphenol";"HXDOZKJGKXYMEW-UHFFFAOYSA-N";"31242";"123-07-9";NA
 "124";"arom";"2-propylphenol";"LCHYEKKJCUJAKN-UHFFFAOYSA-N";"12570";"644-35-9";NA
 "125";"arom";"3-phenyl-2E-propenal";"KJPRLNWUNMBNBZ-QPJJXVBHSA-N";"637511";"14371-10-9";NA
 "126";"arom";"benzonitrile";"JFDZBHWFFUWGJE-UHFFFAOYSA-N";"7505";"100-47-0";NA
 "127";"arom";"methyl jasmonate";"GEWDNTWNSAZUDX-SNAWJCMRSA-N";"62388";"39924-52-2";NA
-"128";"arom";"benzyl acetate";"QUKGYYKBILRGFE-UHFFFAOYSA-N";"8785";"140-11-4";NA
-"129";"arom";"4-propylphenol";"KLSLBUSXWBJMEC-UHFFFAOYSA-N";"12580";"645-56-7";16
+"128";"arom";"benzyl acetate";"QUKGYYKBILRGFE-UHFFFAOYSA-N";"8785";"140-11-4";25
+"129";"arom";"4-propylphenol";"KLSLBUSXWBJMEC-UHFFFAOYSA-N";"12580";"645-56-7";NA
 "130";"arom";"3-methylphenol";"RLSSMJSEOOYNOY-UHFFFAOYSA-N";"342";"108-39-4";NA
 "131";"arom";"2-ethylphenol";"IXQGCWUGDFDQMF-UHFFFAOYSA-N";"6997";"90-00-6";NA
 "132";"arom";"benzoic acid";"WPYMKLBDIGXBTP-UHFFFAOYSA-N";"243";"65-85-0";NA
@@ -135,42 +135,42 @@
 "134";"alcohol";"methanol";"OKKJLVBELUTLKV-UHFFFAOYSA-N";"887";"67-56-1";NA
 "135";"alcohol";"ethanol";"LFQSCWFLJHTTHZ-UHFFFAOYSA-N";"702";"64-17-5";NA
 "136";"alcohol";"1-propanol";"BDERNNFJNOPAEC-UHFFFAOYSA-N";"1031";"71-23-8";NA
-"137";"alcohol";"1-butanol";"LRHPLDYGYMQRHN-UHFFFAOYSA-N";"263";"71-36-3";NA
-"138";"alcohol";"1-pentanol";"AMQJEAYHLZJPGS-UHFFFAOYSA-N";"6276";"71-41-0";NA
-"139";"alcohol";"1-hexanol";"ZSIAUFGUXNUGDI-UHFFFAOYSA-N";"8103";"111-27-3";NA
-"140";"alcohol";"1-octanol";"KBPLFHHGFOOTCA-UHFFFAOYSA-N";"957";"111-87-5";NA
+"137";"alcohol";"1-butanol";"LRHPLDYGYMQRHN-UHFFFAOYSA-N";"263";"71-36-3";-5
+"138";"alcohol";"1-pentanol";"AMQJEAYHLZJPGS-UHFFFAOYSA-N";"6276";"71-41-0";-2
+"139";"alcohol";"1-hexanol";"ZSIAUFGUXNUGDI-UHFFFAOYSA-N";"8103";"111-27-3";3
+"140";"alcohol";"1-octanol";"KBPLFHHGFOOTCA-UHFFFAOYSA-N";"957";"111-87-5";23
 "141";"alcohol";"2-octanol";"SJWFXCIHNDVPSH-UHFFFAOYSA-N";"20083";"123-96-6";NA
 "142";"alcohol";"2-pentanol";"JYVLIDXNZAXMDK-UHFFFAOYSA-N";"22386";"6032-29-7";NA
-"143";"alcohol";"3-methyl-butanol";"PHTQWCKDNZKARW-UHFFFAOYSA-N";"31260";"123-51-3";NA
+"143";"alcohol";"3-methyl-butanol";"PHTQWCKDNZKARW-UHFFFAOYSA-N";"31260";"123-51-3";1
 "144";"alcohol";"3-methyl-2-buten-1-ol";"ASUAYTHWZCLXAN-UHFFFAOYSA-N";"11173";"556-82-1";NA
 "145";"alcohol";"1-penten-3-ol";"VHVMXWZXFBOANQ-UHFFFAOYSA-N";"12020";"616-25-1";NA
-"146";"alcohol";"1-octen-3-ol";"VSMOENVRRABVKN-UHFFFAOYSA-N";"18827";"3391-86-4";NA
+"146";"alcohol";"1-octen-3-ol";"VSMOENVRRABVKN-UHFFFAOYSA-N";"18827";"3391-86-4";13
 "147";"alcohol";"E2-hexenol";"ZCHHRLHTBGRGOT-SNAWJCMRSA-N";"5318042";"928-95-0";NA
 "148";"alcohol";"Z2-hexenol";"ZCHHRLHTBGRGOT-PLNGDYQASA-N";"5324489";"928-94-9";NA
 "149";"alcohol";"E3-hexenol";"UFLHIIWVXFIJGU-ONEGZZNKSA-N";"5284503";"928-97-2";NA
-"150";"alcohol";"Z3-hexenol";"UFLHIIWVXFIJGU-ARJAWSKDSA-N";"5281167";"928-96-1";NA
+"150";"alcohol";"Z3-hexenol";"UFLHIIWVXFIJGU-ARJAWSKDSA-N";"5281167";"928-96-1";10
 "151";"alcohol";"glycerol";"PEDCQBHIVMGVHV-UHFFFAOYSA-N";"753";"56-81-5";NA
 "152";"alcohol";"2,3-butanediol";"OWBTYPJTUOEWEK-UHFFFAOYSA-N";"262";"513-85-9";NA
-"153";"alcohol";"cyclohexanol";"HPXRVTGHNJAIIH-UHFFFAOYSA-N";"7966";"108-93-0";NA
-"154";"alcohol";"decanol";"MWKFXSUHUHTGQN-UHFFFAOYSA-N";"8174";"112-30-1";NA
+"153";"alcohol";"cyclohexanol";"HPXRVTGHNJAIIH-UHFFFAOYSA-N";"7966";"108-93-0";5
+"154";"alcohol";"decanol";"MWKFXSUHUHTGQN-UHFFFAOYSA-N";"8174";"112-30-1";28
 "155";"alcohol";"4-methylcyclohexanol";"MQWCXKGKQLNYQG-UHFFFAOYSA-N";"11524";"589-91-3";NA
 "156";"alcohol";"1-heptanol";"BBMCTIGTTCKYKF-UHFFFAOYSA-N";"8129";"111-70-6";NA
-"157";"alcohol";"3-octanol";"NMRPBPVERJPACX-UHFFFAOYSA-N";"11527";"589-98-0";41
-"158";"alcohol";"1-nonanol";"ZWRUINPWMLAQRD-UHFFFAOYSA-N";"8914";"143-08-8";NA
+"157";"alcohol";"3-octanol";"NMRPBPVERJPACX-UHFFFAOYSA-N";"11527";"589-98-0";NA
+"158";"alcohol";"1-nonanol";"ZWRUINPWMLAQRD-UHFFFAOYSA-N";"8914";"143-08-8";24
 "159";"alcohol";"4-octanol";"WOFPPJOZXUTRAU-UHFFFAOYSA-N";"11515";"589-62-8";NA
 "160";"alcohol";"2-heptanol";"CETWDUZRCINIHU-UHFFFAOYSA-N";"10976";"543-49-7";NA
 "161";"alcohol";"2-hexanol";"QNVRIHYSUZMSGM-UHFFFAOYSA-N";"12297";"626-93-7";NA
 "162";"alcohol";"3-hexanol";"ZOCHHNOQQHDWHG-UHFFFAOYSA-N";"12178";"623-37-0";NA
 "163";"alcohol";"1-hexen-3-ol";"BVOSSZSHBZQJOI-UHFFFAOYSA-N";"20928";"4798-44-1";NA
-"164";"alcohol";"isobutyl alcohol";"ZXEKIIBDNHEJCQ-UHFFFAOYSA-N";"6560";"78-83-1";NA
+"164";"alcohol";"isobutyl alcohol";"ZXEKIIBDNHEJCQ-UHFFFAOYSA-N";"6560";"78-83-1";5
 "165";"ester";"methyl acetate";"KXKVLQRXCPHEJC-UHFFFAOYSA-N";"6584";"79-20-9";NA
-"166";"ester";"ethyl acetate";"XEKOWRVHYACXOJ-UHFFFAOYSA-N";"8857";"141-78-6";156
+"166";"ester";"ethyl acetate";"XEKOWRVHYACXOJ-UHFFFAOYSA-N";"8857";"141-78-6";NA
 "167";"ester";"propyl acetate";"YKYONYBAUNKHLG-UHFFFAOYSA-N";"7997";"109-60-4";NA
-"168";"ester";"butyl acetate";"DKPFZGUDAPQIHT-UHFFFAOYSA-N";"31272";"123-86-4";NA
-"169";"ester";"pentyl acetate";"PGMYKACGEOXYJE-UHFFFAOYSA-N";"12348";"628-63-7";NA
-"170";"ester";"hexyl acetate";"AOGQPLXWSUTHQB-UHFFFAOYSA-N";"8908";"142-92-7";NA
+"168";"ester";"butyl acetate";"DKPFZGUDAPQIHT-UHFFFAOYSA-N";"31272";"123-86-4";10
+"169";"ester";"pentyl acetate";"PGMYKACGEOXYJE-UHFFFAOYSA-N";"12348";"628-63-7";38
+"170";"ester";"hexyl acetate";"AOGQPLXWSUTHQB-UHFFFAOYSA-N";"8908";"142-92-7";13
 "171";"ester";"isobutyl acetate";"GJRQTCIYDGXPES-UHFFFAOYSA-N";"8038";"110-19-0";NA
-"172";"ester";"isopentyl acetate";"MLFHJEHSLIIPHL-UHFFFAOYSA-N";"31276";"123-92-2";73
+"172";"ester";"isopentyl acetate";"MLFHJEHSLIIPHL-UHFFFAOYSA-N";"31276";"123-92-2";NA
 "173";"ester";"E2-hexenyl acetate";"HRHOWZHRCRZVCU-WAYWQWQTSA-N";"2733294";"2497-18-9";NA
 "174";"ester";"methyl butyrate";"UUIQMZJEGPQKFD-UHFFFAOYSA-N";"12180";"623-42-7";NA
 "175";"ester";"ethyl butyrate";"OBNCKNCVKJNDBV-UHFFFAOYSA-N";"7762";"105-54-4";NA
@@ -229,7 +229,7 @@
 "228";"O ring";"4-hydroxy-2,5-dimethyl-3(2H)-furanone";"INAXVXBDKKUCGI-UHFFFAOYSA-N";"19309";"3658-77-3";NA
 "229";"O ring";"gamma-pentyl-gamma-butyrolactone";"OALYTRUKMRCXNH-QMMMGPOBSA-N";"441574";"63357-97-1";NA
 "230";"O ring";"gamma-propyl-gamma-butyrolactone";"VLSVVMPLPMNWBH-UHFFFAOYSA-N";"7742";"105-21-5";NA
-"231";"other";"oil";"solvent";"solvent";"solvent";11
+"231";"other";"oil";"solvent";"solvent";"solvent";24
 "232";"other";"heptane";"IMNFDUFMRHMDMM-UHFFFAOYSA-N";"8900";"142-82-5";NA
 "233";"other";"octane";"TVMXDCGIABBOFY-UHFFFAOYSA-N";"356";"111-65-9";NA
 "234";"other";"nonane";"BKIMMITUMNQMOS-UHFFFAOYSA-N";"8141";"111-84-2";NA
