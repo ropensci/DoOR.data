@@ -1,3 +1,10 @@
+#' information of data version
+#' 
+#' information of data version
+#' 
+#' 
+#' @keywords data
+#' @export version.data
 version.data <-
 function()
 {
