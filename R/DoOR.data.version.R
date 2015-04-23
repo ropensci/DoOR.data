@@ -5,9 +5,7 @@
 #' 
 #' @keywords data
 #' @export version.data
-version.data <-
-function()
-{
-	message("Data Version 1.0")
-	message("Date: Nov 04 2009")
+DoOR.data.version <- function() {
+	message("Data Version 1.9")
+	message("Date: Apr 21 2015")
 }
