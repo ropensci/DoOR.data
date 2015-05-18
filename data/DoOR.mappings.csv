@@ -1,4 +1,4 @@
-"receptor";"sensillum";"ORN";"glomerulus";"co.receptor";"coexpressing";"related1";"related2";"related3";"related4";"related5";"related6";"Ors";"sensillum.type";"adult";"larva";"dataset.existing";"comment";"code";"x";"y";
+"receptor";"sensillum";"ORN";"glomerulus";"co.receptor";"coexpressing";"related1";"related2";"related3";"related4";"related5";"related6";"Ors";"sensillum.type";"adult";"larva";"dataset.existing";"comment";"code";"x";"y"
 "1";"Or42b";"ab1";"ab1A";"DM1";"Orco";;;;;;;;"Or42b";"antennal basiconic";TRUE;TRUE;TRUE;;20;1262;126
 "2";"Or92a";"ab1";"ab1B";"VA2";"Orco";;;;;;;;"Or92a";"antennal basiconic";TRUE;"NA";TRUE;;249;67;300
 "3";"Gr21a.Gr63a";"ab1";"ab1C";"V";;"Gr21a+Gr63a";;;;;;;"Gr21a+Gr63a";"antennal basiconic";TRUE;TRUE;TRUE;;157;1352;397
