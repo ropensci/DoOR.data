@@ -695,7 +695,7 @@ NULL
 #' numeric vector} \item{list("VM6")}{a numeric vector} \item{list("VM7")}{a
 #' numeric vector} }
 #' @references \itemize{ \item \ http://flybrain.neurobio.arizona.edu \item
-#' \Laissue, P. P.; Reiter, C.; Hiesinger, P. R.; Halter, S.; Fischbach, K. F.
+#' \\Laissue, P. P.; Reiter, C.; Hiesinger, P. R.; Halter, S.; Fischbach, K. F.
 #' & Stocker, R. F., 1999, \emph{Three-dimensional reconstruction of the
 #' antennal lobe in Drosophila melanogaster.}, J Comp Neurol,, 405:543-552 }
 #' @keywords datasets
