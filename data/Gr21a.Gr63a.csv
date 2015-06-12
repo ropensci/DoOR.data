@@ -1,7 +1,7 @@
-"Class";"Name";"InChIKey";"CID";"CAS";"Kwon.2007.EN";"Kwon.2007.WT";"Turner.2009.SC";"Bruyne.2001.WT";"Marshall.2010.WT2"
-"1";NA;"SFR";"SFR";"SFR";"SFR";2.3;0;0;15;0
+"Class";"Name";"InChIKey";"CID";"CAS";"Kwon.2007.EN";"Kwon.2007.WT";"Turner.2009.SC";"Bruyne.2001.WT";"Marshall.2010.WT"
+"1";NA;"SFR";"SFR";"SFR";"SFR";2.3;0;0;15;NA
 "2";"other";"water";"XLYOFNOQVPJJNP-UHFFFAOYSA-N";"962";"7732-18-5";NA;NA;NA;NA;NA
-"3";"amine";"ammonium hydroxide";"VHUUQVKOLVNVRT-UHFFFAOYSA-N";"14923";"1336-21-6";NA;NA;NA;NA;3
+"3";"amine";"ammonium hydroxide";"VHUUQVKOLVNVRT-UHFFFAOYSA-N";"14923";"1336-21-6";NA;NA;NA;NA;NA
 "4";"amine";"putrescine";"KIDHWZJUCRJVML-UHFFFAOYSA-N";"1045";"110-60-1";NA;NA;NA;NA;NA
 "5";"amine";"cadaverine";"VHRGRCVQAFMJIZ-UHFFFAOYSA-N";"273";"462-94-2";NA;NA;NA;NA;NA
 "6";"amine";"ammonia";"QGZKDVFQNNGYKY-UHFFFAOYSA-N";"222";"7664-41-7";6.3;2;-4;NA;NA
@@ -103,7 +103,7 @@
 "102";"arom";"methyl benzoate";"QPJVMBTYPHYUOC-UHFFFAOYSA-N";"7150";"93-58-3";NA;NA;NA;NA;NA
 "103";"arom";"ethyl benzoate";"MTZQAGJQAFMTAQ-UHFFFAOYSA-N";"7165";"93-89-0";NA;NA;NA;NA;NA
 "104";"arom";"phenethyl acetate";"MDHYEMXUFSJLGV-UHFFFAOYSA-N";"7654";"103-45-7";NA;NA;NA;NA;NA
-"105";"arom";"benzaldehyde";"HUMNYLRZRPPJDN-UHFFFAOYSA-N";"240";"100-52-7";NA;NA;6;NA;2
+"105";"arom";"benzaldehyde";"HUMNYLRZRPPJDN-UHFFFAOYSA-N";"240";"100-52-7";NA;NA;6;NA;NA
 "106";"arom";"phenylacetaldehyde";"DTUQWGWMVIHBKE-UHFFFAOYSA-N";"998";"122-78-1";NA;NA;NA;NA;NA
 "107";"arom";"acetophenone";"KWOLFJPFCHCOCG-UHFFFAOYSA-N";"7410";"98-86-2";NA;NA;6;NA;NA
 "108";"arom";"ethyl cinnamate";"KBEBGUQPQBELIU-CMDGGOBGSA-N";"637758";"103-36-6";NA;NA;NA;NA;NA
