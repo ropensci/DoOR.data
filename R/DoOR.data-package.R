@@ -631,7 +631,7 @@ NULL
 #' information \cr \code{\link{data.format}}: \tab the format of response data
 #' \cr \code{\link{glo.dist}}: \tab a matrix of distance coefficients between
 #' glomeruli \cr \code{\link{odor}}: \tab database of Odors \cr
-#' \code{\link{OGN}}: \tab mapping of Receptors \cr \code{\link{ORs}}: \tab
+#' \code{\link{DoOR.mappings}}: \tab mapping of Receptors \cr \code{\link{ORs}}: \tab
 #' receptor names and expressions \cr \code{\link{reference}}: \tab reference
 #' for response data \cr \code{\link{response.matrix}}: \tab an global
 #' unnormalized responses matrix \cr \code{\link{response.range}}: \tab
@@ -1169,7 +1169,7 @@ NULL
 #' 
 #' The data frame is used for showing functional antennal lobe.
 #' 
-#' @name OGN
+#' @name DoOR.mappings
 #' @docType data
 #' @format A data frame with 84 observations on the following 12 variables.
 #' \describe{ \item{list("Receptor")}{a factor with receptor or neuron names}
@@ -1185,7 +1185,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #' 
-#' data(OGN)
+#' data(DoOR.mappings)
 #' 
 NULL
 
