@@ -1,98 +1,98 @@
-"receptor";"sensillum";"ORN";"glomerulus";"co.receptor";"coexpressing";"related1";"related2";"related3";"related4";"related5";"related6";"Ors";"sensillum.type";"adult";"larva";"dataset.existing";"comment";"code";"x";"y"
-"1";"Or42b";"ab1";"ab1A";"DM1";"Orco";"";"";"";"";"";"";"";"Or42b";"antennal basiconic";TRUE;TRUE;TRUE;"";20;1262;126
-"2";"Or92a";"ab1";"ab1B";"VA2";"Orco";"";"";"";"";"";"";"";"Or92a";"antennal basiconic";TRUE;NA;TRUE;"";249;67;300
-"3";"Gr21a.Gr63a";"ab1";"ab1C";"V";"";"Gr21a+Gr63a";"";"";"";"";"";"";"Gr21a+Gr63a";"antennal basiconic";TRUE;TRUE;TRUE;"";157;1352;397
-"4";"Or10a";"ab1";"ab1D";"DL1";"Orco";"Gr10a";"Gr10a";"";"";"";"";"";"Or10a+Gr10a";"antennal basiconic";TRUE;NA;TRUE;"";159;1006;105
-"5";"Or59b";"ab2";"ab2A";"DM4";"Orco";"";"";"";"";"";"";"";"Or59b";"antennal basiconic";TRUE;NA;TRUE;"";101;1240;184
-"6";"ab2B";"ab2";"ab2B";"DM5";"Orco";"Or85a+33b";"Or85a";"Or33b";"";"";"";"";"Or85a+33b";"antennal basiconic";NA;NA;TRUE;"";217;53;169
-"7";"Or85a";"ab2";"ab2B";"DM5";"Orco";"Or33b";"Or33b";"ab2B";"";"";"";"";"Or85a+33b";"antennal basiconic";TRUE;NA;TRUE;"";NA;NA;NA
-"8";"Or33b";"ab2+ab5";"ab2B+ab5B";"DM5+DM3";"Orco";"Or85a (in ab2B) / Or47a (in ab5B)";"Or85a";"Or47a";"ab2B";"ab5B";"";"";"Or85a+33b";"antennal basiconic";TRUE;TRUE;TRUE;"";NA;NA;NA
-"9";"Or22a";"ab3";"ab3A";"DM2";"Orco";"Or22b";"Or22b";"";"";"";"";"";"Or22a+b";"antennal basiconic";TRUE;NA;TRUE;"";127;825;129
-"10";"Or22b";"ab3";"ab3A";"DM2";"Orco";"Or22a";"Or22a";"";"";"";"";"";"Or22a+b";"antennal basiconic";TRUE;NA;TRUE;"";NA;NA;NA
-"11";"ab3B";"ab3";"ab3B";"VM5d";"Orco";"Or85b+98b";"Or85b";"Or98b";"";"";"";"";"Or85b+98b";"antennal basiconic";NA;NA;TRUE;"";190;450;178
-"12";"Or85b";"ab3";"ab3B";"VM5d";"Orco";"Or98b";"Or98b";"ab3B";"";"";"";"";"Or85b+98b";"antennal basiconic";TRUE;NA;TRUE;"";NA;NA;NA
-"13";"Or98b";"ab3";"ab3B";"VM5d";"Orco";"Or85b";"Or85b";"ab3B";"";"";"";"";"Or85b+98b";"antennal basiconic";TRUE;NA;FALSE;"see Or85b for data";NA;NA;NA
-"14";"Or7a";"ab4";"ab4A";"DL5";"Orco";"";"";"";"";"";"";"";"Or7a";"antennal basiconic";TRUE;TRUE;TRUE;"";187;943;100
-"15";"ab4B";"ab4";"ab4B";"DA2";"Orco";"Or33a+56a";"Or33a";"Or56a";"";"";"";"";"Or33a+56a";"antennal basiconic";NA;NA;TRUE;"";2;123;106
-"16";"Or33a";"ab4";"ab4B";"DA2";"Orco";"Or56a";"Or56a";"ab4B";"";"";"";"";"Or33a+56a";"antennal basiconic";TRUE;TRUE;TRUE;"";NA;NA;NA
-"17";"Or56a";"ab4";"ab4B";"DA2";"Orco";"Or33a";"Or33a";"ab4B";"";"";"";"";"Or33a+56a";"antennal basiconic";TRUE;NA;FALSE;"see ab4B for data";NA;NA;NA
-"18";"Or82a";"ab5";"ab5A";"VA6";"Orco";"";"";"";"";"";"";"";"Or82a";"antennal basiconic";TRUE;TRUE;TRUE;"";80;156;184
-"19";"ab5B";"ab5";"ab5B";"DM3";"Orco";"Or47a+33b";"Or47a";"Or33b";"";"";"";"";"Or47a+33b";"antennal basiconic";NA;NA;TRUE;"";103;890;80
-"20";"Or47a";"ab5";"ab5B";"DM3";"Orco";"Or33b";"Or33b";"ab5B";"";"";"";"";"Or47a+33b";"antennal basiconic";TRUE;TRUE;TRUE;"";NA;NA;NA
-"21";"Or13a";"ab6";"ab6A";"DC2";"Orco";"";"";"";"";"";"";"";"Or13a";"antennal basiconic";TRUE;NA;TRUE;"";201;529;171
-"22";"Or49b";"ab6";"ab6B";"VA5";"Orco";"";"";"";"";"";"";"";"Or49b";"antennal basiconic";TRUE;NA;TRUE;"";228;234;309
-"23";"Or67c";"ab7";"ab7";"VC4";"Orco";"";"";"";"";"";"";"";"Or67c";"antennal basiconic";TRUE;NA;TRUE;"";175;881;246
-"24";"Or98a";"ab7";"ab7A";"VM5v";"Orco";"";"";"";"";"";"";"";"Or98a";"antennal basiconic";TRUE;NA;TRUE;"";62;485;209
-"25";"Or43b";"ab8";"ab8A";"VM2";"Orco";"";"";"";"";"";"";"";"Or43b";"antennal basiconic";TRUE;NA;TRUE;"";196;27;252
-"26";"Or9a";"ab8";"ab8B";"VM3";"Orco";"";"";"";"";"";"";"";"Or9a";"antennal basiconic";TRUE;TRUE;TRUE;"";167;434;295
-"27";"Or67b";"ab9";"ab9";"VA3";"Orco";"";"";"";"";"";"";"";"Or67b";"antennal basiconic";TRUE;TRUE;TRUE;"";9;152;320
-"28";"Or69a";"ab9";"ab9";"D";"Orco";"";"";"";"";"";"";"";"Or69a";"antennal basiconic";TRUE;NA;TRUE;"";116;552;42
-"29";"Or67a";"ab10";"ab10A";"DM6";"Orco";"";"";"";"";"";"";"";"Or67a";"antennal basiconic";TRUE;NA;TRUE;"";3;70;93
-"30";"Or49a";"ab10";"ab10B";"DL4";"Orco";"Or85f";"Or85f";"";"";"";"";"";"Or49a+85f";"antennal basiconic";TRUE;TRUE;TRUE;"";NA;NA;NA
-"31";"Or85f";"ab10";"ab10B";"DL4";"Orco";"Or49a";"Or49a";"";"";"";"";"";"Or49a+85f";"antennal basiconic";TRUE;NA;TRUE;"";113;597;58
-"32";"Ir31a";"ac1";"ac1?";"VL2p";"Ir8a";"";"ac1";"";"";"";"";"";"Ir31a";"antennal coeloconic";TRUE;NA;TRUE;"";89;1458;277
-"33";"Ir92a";"ac1";"ac1?";"VM1";"Ir25a, Ir76b";"";"ac1";"";"";"";"";"";"Ir92a";"antennal coeloconic";TRUE;NA;TRUE;"";163;1220;334
-"34";"ac1A";"ac1";"ac1A";"?";"";"";"ac1";"";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"";NA;NA;NA
-"35";"ac1";"ac1";"ac1A+B+C";"VL1+VM1+VL2p";"";"";"ac1A";"ac1B";"ac1BC";"Ir31a";"Ir75d";"Ir92a";"";"antennal coeloconic";NA;NA;TRUE;"summed responses, individual ORNs could not be separated (Silbering et al. 2011)";NA;NA;NA
-"36";"ac1B";"ac1";"ac1B";"?";"";"";"ac1BC";"ac1";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"";NA;NA;NA
-"37";"ac1BC";"ac1";"ac1B+C";"?";"";"";"ac1B";"ac1";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"summed responses from ac1B and C ORNs, only A neuron could be separated (Marshall et al. 2010)";NA;NA;NA
-"38";"Ir75d";"ac1, ac2, ac4";"?";"VL1";"Ir25a";"";"ac1";"ac2";"ac4";"";"";"";"Ir75d";"antennal coeloconic";TRUE;NA;TRUE;"Ir75a is expressed in one ORN of each of the ac1, ac2 and the ac4 sensilla";170;1400;342
-"39";"Ir41a";"ac2";"ac2?";"VC5";"Ir76b";"";"ac2";"";"";"";"";"";"";"antennal coeloconic";TRUE;NA;TRUE;"";NA;NA;NA
-"40";"Ir75a";"ac2";"ac2?";"DP1l";"Ir8a";"";"Ir75b";"Ir75c";"ac2";"ac3A";"";"";"Ir75a";"antennal coeloconic";TRUE;NA;TRUE;"Ir75a is the sole receptor expressed in some ac2 neurons projecting to glomerulus DP1l;
-Ir75a is also expressed in ac3A neurons projecting to glomerulus DL2d+v, here along with Ir75b and Ir75c (see data set ac3A for responses)";27;1399;206
-"41";"ac2A";"ac2";"ac2A";"?";"";"";"ac2";"";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"";NA;NA;NA
-"42";"ac2";"ac2";"ac2A+B+C";"VL1+DP1l+VC5";"";"";"ac2A";"ac2B";"ac2BC";"Ir41a";"Ir75a";"Ir75d";"";"antennal coeloconic";NA;NA;TRUE;"summed responses, individual ORNs could not be separated (Silbering et al. 2011)";NA;NA;NA
-"43";"ac2B";"ac2";"ac2B";"?";"";"";"ac2";"ac2BC";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"";NA;NA;NA
-"44";"ac2BC";"ac2";"ac2B+C";"?";"";"";"ac2";"ac2B";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"summed responses from ac2B and C ORNs, only A neuron could be separated (Marshall et al. 2010)";NA;NA;NA
-"45";"ac3A";"ac3";"ac3A";"DL2d/v";"Ir8a";"Ir75a+b+c";"Ir75a";"Ir75b";"Ir75c";"";"";"";"Ir75a+b+c";"antennal coeloconic";NA;NA;TRUE;"mapping to DL2d&v, separation unclear";223;1048;153
-"46";"ac3A";"ac3";"ac3A";"DL2d/v";"Ir8a";"Ir75a+b+c";"Ir75a";"Ir75b";"Ir75c";"";"";"";"Ir75a+b+c";"antennal coeloconic";NA;NA;TRUE;"mapping to DL2d&v, separation unclear";222;1020;190
-"47";"Ir75b";"ac3";"ac3A";"DL2d/v";"Ir8a";"";"Ir75a";"Ir75c";"ac3A";"";"";"";"Ir75a+b+c";"antennal coeloconic";TRUE;NA;FALSE;"";NA;NA;NA
-"48";"Ir75c";"ac3";"ac3A";"DL2d/v";"Ir8a";"";"Ir75a";"Ir75b";"";"";"";"";"Ir75a+b+c";"antennal coeloconic";TRUE;NA;FALSE;"";NA;NA;NA
-"49";"ac3_noOr35a";"ac3";"ac3A+B";"DL2d/v+VC3";"";"";"";"";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"summed responses from the ac3 sensillum, Or35a was knocked down (Silbering et al. 2011)";NA;NA;NA
-"50";"ac3B";"ac3";"ac3B";"VC3";"Orco, Ir76b";"Or35a";"Or35a";"";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"";243;874;303
-"51";"Or35a";"ac3";"ac3B";"VC3";"Orco, Ir76b";"";"ac3B";"";"";"";"";"";"Or35a";"antennal coeloconic";TRUE;TRUE;TRUE;"";NA;NA;NA
-"52";"ac4";"ac4";"?";"?";"";"";"";"";"";"";"";"";"";"antennal coeloconic";NA;NA;TRUE;"summed responses, individual ORNs could not be separated (Silbering et al. 2011)";NA;NA;NA
-"53";"Ir76a";"ac4";"?";"VM4";"Ir25a, Ir76b";"";"";"";"";"";"";"";"Ir76a";"antennal coeloconic";TRUE;NA;TRUE;"";237;889;353
-"54";"Ir84a";"ac4";"?";"VL2a";"Ir8a";"";"";"";"";"";"";"";"Ir84a";"antennal coeloconic";TRUE;NA;TRUE;"";227;1063;264
-"55";"Or67d";"at1";"at1";"DA1";"Orco";"";"";"";"";"";"";"";"Or67d";"antennal trichoid";TRUE;NA;TRUE;"";209;671;79
-"56";"Or83c";"at2";"at2A";"DC3";"Orco";"";"";"";"";"";"";"";"Or83c";"antennal trichoid / intermediate";TRUE;NA;TRUE;"named ai2A in Ronderos et al. 2014";205;607;169
-"57";"Or23a";"at2";"at2B";"DA3";"Orco";"";"";"";"";"";"";"";"Or23a";"antennal trichoid / intermediate";TRUE;NA;TRUE;"named ai2B in Ronderos et al. 2014";1;167;45
-"58";"Or2a";"at3";"at3";"DA4m";"Orco";"";"";"";"";"";"";"";"Or2a";"antennal trichoid / intermediate";TRUE;TRUE;TRUE;"named ai2 in Dweck et al. 2013";6;186;78
-"59";"Or19a";"at3";"at3";"DC1";"Orco";"Or19b";"Or19b";"";"";"";"";"";"Or19a+b";"antennal trichoid / intermediate";TRUE;NA;TRUE;"named ai2A in Dweck et al. 2013";106;532;125
-"60";"Or19b";"at3";"at3";"DC1";"Orco";"Or19a";"Or19a";"";"";"";"";"";"Or19a+b";"antennal trichoid / intermediate";TRUE;NA;FALSE;"named ai2A in Dweck et al. 2013; see Or19a for data";NA;NA;NA
-"61";"Or43a";"at3";"at3";"DA4l";"Orco";"";"";"";"";"";"";"";"Or43a";"antennal trichoid / intermediate";TRUE;NA;TRUE;"named ai2 in Dweck et al. 2013";4;187;118
-"62";"Or47b";"at4";"at4";"VA1lm";"Orco";"";"";"";"";"";"";"";"Or47b";"antennal trichoid";TRUE;NA;TRUE;"";224;254;213
-"63";"Or65a";"at4";"at4";"DL3";"Orco";"Or65b+c";"Or65b";"Or65c";"";"";"";"";"Or65a+b+c";"antennal trichoid";TRUE;NA;TRUE;"";23;611;23
-"64";"Or65b";"at4";"at4";"DL3";"Orco";"Or65a+c";"Or65a";"Or65c";"";"";"";"";"Or65a+b+c";"antennal trichoid";TRUE;NA;FALSE;"see aOr65a for data";NA;NA;NA
-"65";"Or65c";"at4";"at4";"DL3";"Orco";"Or65a+b";"Or65a";"Or65b";"";"";"";"";"Or65a+b+c";"antennal trichoid";TRUE;NA;FALSE;"see aOr65a for data";NA;NA;NA
-"66";"Or88a";"at4";"at4";"VA1d";"Orco";"";"";"";"";"";"";"";"Or88a";"antennal trichoid";TRUE;NA;TRUE;"";5;265;125
-"67";"Or42a";"pb1";"pb1A";"VM7d";"Orco";"";"";"";"";"";"";"";"Or42a";"maxillary palp";TRUE;TRUE;TRUE;"";220;844;214
-"68";"Or71a";"pb1";"pb1B";"VC2";"Orco";"";"";"";"";"";"";"";"Or71a";"maxillary palp";TRUE;NA;TRUE;"";114;548;279
-"69";"Or33c";"pb2";"pb2A";"VC1";"Orco";"Or85e";"Or85e";"";"";"";"";"";"Or33c+85e";"maxillary palp";TRUE;NA;TRUE;"";NA;NA;NA
-"70";"Or85e";"pb2";"pb2A";"VC1";"Orco";"Or33c";"Or33c";"";"";"";"";"";"Or33c+85e";"maxillary palp";TRUE;NA;TRUE;"";NA;NA;NA
-"71";"pb2A";"pb2";"pb2A";"VC1";"Orco";"Or33c+85e";"Or33c";"Or85e";"";"";"";"";"Or33c+85e";"maxillary palp";NA;NA;TRUE;"";189;922;267
-"72";"Or46a";"pb2";"pb2B";"VA7l";"Orco";"";"";"";"";"";"";"";"Or46a";"maxillary palp";TRUE;NA;TRUE;"";63;174;249
-"73";"Or59c";"pb3";"pb3A";"VM7v";"Orco";"";"";"";"";"";"";"";"Or59c";"maxillary palp";TRUE;NA;TRUE;"";124;882;148
-"74";"Or85d";"pb3";"pb3B";"VA4";"Orco";"";"";"";"";"";"";"";"Or85d";"maxillary palp";TRUE;NA;TRUE;"";234;543;334
-"75";"Ir40a.VP1";"sacI";"?";"VP1";"Ir25a";"";"";"";"";"";"";"";"";"sacculus";TRUE;NA;FALSE;"formerly VM6 (Grabe et al. 2014";156;1258;371
-"76";"Ir40a.VP4";"sacI";"?";"VP4";"Ir25a";"";"";"";"";"";"";"";"";"sacculus";TRUE;NA;FALSE;"";NA;NA;NA
-"77";"Ir64a.DC4";"sacIII";"?";"DC4";"Ir8a";"";"";"";"";"";"";"";"Ir64a";"sacculus";TRUE;NA;TRUE;"";100;1290;208
-"78";"Ir64a.DP1m";"sacIII";"?";"DP1m";"Ir8a";"";"";"";"";"";"";"";"Ir64a";"sacculus";TRUE;NA;TRUE;"";91;1343;160
-"79";"Ir8a";"";"";"";"-";"";"";"";"";"";"";"";"";"antennal coeloconic";TRUE;NA;FALSE;"the Ir8a co-receptor";NA;NA;NA
-"80";"Ir25a";"";"";"";"-";"";"";"";"";"";"";"";"";"antennal coeloconic";TRUE;NA;FALSE;"the Ir25a co-receptor";NA;NA;NA
-"81";"Ir76b";"";"";"";"-";"";"";"";"";"";"";"";"";"antennal coeloconic";TRUE;NA;FALSE;"the Ir76b co-receptor (?)";NA;NA;NA
-"82";"Or1a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"83";"Or22c";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"84";"Or24a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"85";"Or30a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"86";"Or45a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"87";"Or45b";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"88";"Or59a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"89";"Or63a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;FALSE;"";NA;NA;NA
-"90";"Or74a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"91";"Or83a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"92";"Or83b";"";"";"";"-";"";"";"";"";"";"";"";"";"";TRUE;TRUE;FALSE;"the Orco co-receptor expressed together with all Ors";NA;NA;NA
-"93";"Or85c";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"94";"Or94a";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"95";"Or94b";"";"";"";"Orco";"";"";"";"";"";"";"";"";"";FALSE;TRUE;TRUE;"";NA;NA;NA
-"96";"";"";"";"VA7m";"";"";"";"";"";"";"";"";"";"";NA;NA;FALSE;"";184;130;275
+receptor;sensillum;ORN;glomerulus;co.receptor;coexpressing;related1;related2;related3;related4;related5;related6;Ors;sensillum.type;adult;larva;dataset.existing;comment;code
+ab2B;ab2;ab2B;DM5;Orco;Or85a+33b;Or85a;Or33b;;;;;Or85a+33b;antennal basiconic;NA;NA;TRUE;;DM5
+ab3B;ab3;ab3B;VM5d;Orco;Or85b+98b;Or85b;Or98b;;;;;Or85b+98b;antennal basiconic;NA;NA;TRUE;;VM5d
+ab4B;ab4;ab4B;DA2;Orco;Or33a+56a;Or33a;Or56a;;;;;Or33a+56a;antennal basiconic;NA;NA;TRUE;;DA2
+ab5B;ab5;ab5B;DM3;Orco;Or47a+33b;Or47a;Or33b;;;;;Or47a+33b;antennal basiconic;NA;NA;TRUE;;DM3
+ac1;ac1;ac1A+B+C;VL1+VM1+VL2p;;;ac1A;ac1B;ac1BC;Ir31a;Ir75d;Ir92a;;antennal coeloconic;NA;NA;TRUE;summed responses, individual ORNs could not be separated (Silbering et al. 2011);NA
+ac1A;ac1;ac1A;?;;;ac1;;;;;;;antennal coeloconic;NA;NA;TRUE;;NA
+ac1B;ac1;ac1B;?;;;ac1BC;ac1;;;;;;antennal coeloconic;NA;NA;TRUE;;NA
+ac1BC;ac1;ac1B+C;?;;;ac1B;ac1;;;;;;antennal coeloconic;NA;NA;TRUE;summed responses from ac1B and C ORNs, only A neuron could be separated (Marshall et al. 2010);NA
+ac2;ac2;ac2A+B+C;VL1+DP1l+VC5;;;ac2A;ac2B;ac2BC;Ir41a;Ir75a;Ir75d;;antennal coeloconic;NA;NA;TRUE;summed responses, individual ORNs could not be separated (Silbering et al. 2011);NA
+ac2A;ac2;ac2A;?;;;ac2;;;;;;;antennal coeloconic;NA;NA;TRUE;;NA
+ac2B;ac2;ac2B;?;;;ac2;ac2BC;;;;;;antennal coeloconic;NA;NA;TRUE;;NA
+ac2BC;ac2;ac2B+C;?;;;ac2;ac2B;;;;;;antennal coeloconic;NA;NA;TRUE;summed responses from ac2B and C ORNs, only A neuron could be separated (Marshall et al. 2010);NA
+ac3_noOr35a;ac3;ac3A+B;DL2d/v+VC3;;;;;;;;;;antennal coeloconic;NA;NA;TRUE;summed responses from the ac3 sensillum, Or35a was knocked down (Silbering et al. 2011);NA
+ac3A;ac3;ac3A;DL2d/v;Ir8a;Ir75a+b+c;Ir75a;Ir75b;Ir75c;;;;Ir75a+b+c;antennal coeloconic;NA;NA;TRUE;mapping to DL2d&v, separation unclear;DL2d
+ac3A;ac3;ac3A;DL2d/v;Ir8a;Ir75a+b+c;Ir75a;Ir75b;Ir75c;;;;Ir75a+b+c;antennal coeloconic;NA;NA;TRUE;mapping to DL2d&v, separation unclear;DL2v
+ac3B;ac3;ac3B;VC3;Orco, Ir76b;Or35a;Or35a;;;;;;;antennal coeloconic;NA;NA;TRUE;;VC3
+ac4;ac4;?;?;;;;;;;;;;antennal coeloconic;NA;NA;TRUE;summed responses, individual ORNs could not be separated (Silbering et al. 2011);NA
+Gr21a.Gr63a;ab1;ab1C;V;;Gr21a+Gr63a;;;;;;;Gr21a+Gr63a;antennal basiconic;TRUE;TRUE;TRUE;;V
+Ir25a;;;;-;;;;;;;;;antennal coeloconic;TRUE;NA;FALSE;the Ir25a co-receptor;NA
+Ir31a;ac1;ac1?;VL2p;Ir8a;;ac1;;;;;;Ir31a;antennal coeloconic;TRUE;NA;TRUE;;VL2p
+Ir40a.VP1;sacI;?;VP1;Ir25a;;;;;;;;;sacculus;TRUE;NA;FALSE;formerly VM6 (Grabe et al. 2014;VP1
+Ir40a.VP4;sacI;?;VP4;Ir25a;;;;;;;;;sacculus;TRUE;NA;FALSE;;VP4
+Ir41a;ac2;ac2?;VC5;Ir76b;;ac2;;;;;;;antennal coeloconic;TRUE;NA;TRUE;;VC5
+Ir64a.DC4;sacIII;?;DC4;Ir8a;;;;;;;;Ir64a;sacculus;TRUE;NA;TRUE;;DC4
+Ir64a.DP1m;sacIII;?;DP1m;Ir8a;;;;;;;;Ir64a;sacculus;TRUE;NA;TRUE;;DP1m
+Ir75a;ac2;ac2?;DP1l;Ir8a;;Ir75b;Ir75c;ac2;ac3A;;;Ir75a;antennal coeloconic;TRUE;NA;TRUE;"Ir75a is the sole receptor expressed in some ac2 neurons projecting to glomerulus DP1l;
+Ir75a is also expressed in ac3A neurons projecting to glomerulus DL2d+v, here along with Ir75b and Ir75c (see data set ac3A for responses)";DP1l
+Ir75b;ac3;ac3A;DL2d/v;Ir8a;;Ir75a;Ir75c;ac3A;;;;Ir75a+b+c;antennal coeloconic;TRUE;NA;FALSE;;NA
+Ir75c;ac3;ac3A;DL2d/v;Ir8a;;Ir75a;Ir75b;;;;;Ir75a+b+c;antennal coeloconic;TRUE;NA;FALSE;;NA
+Ir75d;ac1, ac2, ac4;?;VL1;Ir25a;;ac1;ac2;ac4;;;;Ir75d;antennal coeloconic;TRUE;NA;TRUE;Ir75a is expressed in one ORN of each of the ac1, ac2 and the ac4 sensilla;VL1
+Ir76a;ac4;?;VM4;Ir25a, Ir76b;;;;;;;;Ir76a;antennal coeloconic;TRUE;NA;TRUE;;VM4
+Ir76b;;;;-;;;;;;;;;antennal coeloconic;TRUE;NA;FALSE;the Ir76b co-receptor (?);NA
+Ir84a;ac4;?;VL2a;Ir8a;;;;;;;;Ir84a;antennal coeloconic;TRUE;NA;TRUE;;VL2a
+Ir8a;;;;-;;;;;;;;;antennal coeloconic;TRUE;NA;FALSE;the Ir8a co-receptor;NA
+Ir92a;ac1;ac1?;VM1;Ir25a, Ir76b;;ac1;;;;;;Ir92a;antennal coeloconic;TRUE;NA;TRUE;;VM1
+NA;NA;NA;VA7m;NA;;;;;;;;;;NA;NA;FALSE;;VA7m
+Or10a;ab1;ab1D;DL1;Orco;Gr10a;Gr10a;;;;;;Or10a+Gr10a;antennal basiconic;TRUE;NA;TRUE;;DL1
+Or13a;ab6;ab6A;DC2;Orco;;;;;;;;Or13a;antennal basiconic;TRUE;NA;TRUE;;DC2
+Or19a;at3;at3;DC1;Orco;Or19b;Or19b;;;;;;Or19a+b;antennal trichoid / intermediate;TRUE;NA;TRUE;named ai2A in Dweck et al. 2013;DC1
+Or19b;at3;at3;DC1;Orco;Or19a;Or19a;;;;;;Or19a+b;antennal trichoid / intermediate;TRUE;NA;FALSE;"named ai2A in Dweck et al. 2013; see Or19a for data";NA
+Or1a;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or22a;ab3;ab3A;DM2;Orco;Or22b;Or22b;;;;;;Or22a+b;antennal basiconic;TRUE;NA;TRUE;;DM2
+Or22b;ab3;ab3A;DM2;Orco;Or22a;Or22a;;;;;;Or22a+b;antennal basiconic;TRUE;NA;TRUE;;NA
+Or22c;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or23a;at2;at2B;DA3;Orco;;;;;;;;Or23a;antennal trichoid / intermediate;TRUE;NA;TRUE;named ai2B in Ronderos et al. 2014;DA3
+Or24a;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or2a;at3;at3;DA4m;Orco;;;;;;;;Or2a;antennal trichoid / intermediate;TRUE;TRUE;TRUE;named ai2 in Dweck et al. 2013;DA4m
+Or30a;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or33a;ab4;ab4B;DA2;Orco;Or56a;Or56a;ab4B;;;;;Or33a+56a;antennal basiconic;TRUE;TRUE;TRUE;;NA
+Or33b;ab2+ab5;ab2B+ab5B;DM5+DM3;Orco;Or85a (in ab2B) / Or47a (in ab5B);Or85a;Or47a;ab2B;ab5B;;;Or85a+33b;antennal basiconic;TRUE;TRUE;TRUE;;NA
+Or33c;pb2;pb2A;VC1;Orco;Or85e;Or85e;;;;;;Or33c+85e;maxillary palp;TRUE;NA;TRUE;;NA
+Or35a;ac3;ac3B;VC3;Orco, Ir76b;;ac3B;;;;;;Or35a;antennal coeloconic;TRUE;TRUE;TRUE;;NA
+Or42a;pb1;pb1A;VM7d;Orco;;;;;;;;Or42a;maxillary palp;TRUE;TRUE;TRUE;;VM7d
+Or42b;ab1;ab1A;DM1;Orco;;;;;;;;Or42b;antennal basiconic;TRUE;TRUE;TRUE;;DM1
+Or43a;at3;at3;DA4l;Orco;;;;;;;;Or43a;antennal trichoid / intermediate;TRUE;NA;TRUE;named ai2 in Dweck et al. 2013;DA4l
+Or43b;ab8;ab8A;VM2;Orco;;;;;;;;Or43b;antennal basiconic;TRUE;NA;TRUE;;VM2
+Or45a;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or45b;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or46a;pb2;pb2B;VA7l;Orco;;;;;;;;Or46a;maxillary palp;TRUE;NA;TRUE;;VA7l
+Or47a;ab5;ab5B;DM3;Orco;Or33b;Or33b;ab5B;;;;;Or47a+33b;antennal basiconic;TRUE;TRUE;TRUE;;NA
+Or47b;at4;at4;VA1v;Orco;;;;;;;;Or47b;antennal trichoid;TRUE;NA;TRUE;;VA1v
+Or49a;ab10;ab10B;DL4;Orco;Or85f;Or85f;;;;;;Or49a+85f;antennal basiconic;TRUE;TRUE;TRUE;;NA
+Or49b;ab6;ab6B;VA5;Orco;;;;;;;;Or49b;antennal basiconic;TRUE;NA;TRUE;;VA5
+Or56a;ab4;ab4B;DA2;Orco;Or33a;Or33a;ab4B;;;;;Or33a+56a;antennal basiconic;TRUE;NA;FALSE;see ab4B for data;NA
+Or59a;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or59b;ab2;ab2A;DM4;Orco;;;;;;;;Or59b;antennal basiconic;TRUE;NA;TRUE;;DM4
+Or59c;pb3;pb3A;VM7v;Orco;;;;;;;;Or59c;maxillary palp;TRUE;NA;TRUE;;VM7v
+Or63a;;;;Orco;;;;;;;;;;FALSE;TRUE;FALSE;;NA
+Or65a;at4;at4;DL3;Orco;Or65b+c;Or65b;Or65c;;;;;Or65a+b+c;antennal trichoid;TRUE;NA;TRUE;;DL3
+Or65b;at4;at4;DL3;Orco;Or65a+c;Or65a;Or65c;;;;;Or65a+b+c;antennal trichoid;TRUE;NA;FALSE;see aOr65a for data;NA
+Or65c;at4;at4;DL3;Orco;Or65a+b;Or65a;Or65b;;;;;Or65a+b+c;antennal trichoid;TRUE;NA;FALSE;see aOr65a for data;NA
+Or67a;ab10;ab10A;DM6;Orco;;;;;;;;Or67a;antennal basiconic;TRUE;NA;TRUE;;DM6
+Or67b;ab9;ab9;VA3;Orco;;;;;;;;Or67b;antennal basiconic;TRUE;TRUE;TRUE;;VA3
+Or67c;ab7;ab7;VC4;Orco;;;;;;;;Or67c;antennal basiconic;TRUE;NA;TRUE;;VC4
+Or67d;at1;at1;DA1;Orco;;;;;;;;Or67d;antennal trichoid;TRUE;NA;TRUE;;DA1
+Or69a;ab9;ab9;D;Orco;;;;;;;;Or69a;antennal basiconic;TRUE;NA;TRUE;;D
+Or71a;pb1;pb1B;VC2;Orco;;;;;;;;Or71a;maxillary palp;TRUE;NA;TRUE;;VC2
+Or74a;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or7a;ab4;ab4A;DL5;Orco;;;;;;;;Or7a;antennal basiconic;TRUE;TRUE;TRUE;;DL5
+Or82a;ab5;ab5A;VA6;Orco;;;;;;;;Or82a;antennal basiconic;TRUE;TRUE;TRUE;;VA6
+Or83a;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or83b;;;;-;;;;;;;;;;TRUE;TRUE;FALSE;the Orco co-receptor expressed together with all Ors;NA
+Or83c;at2;at2A;DC3;Orco;;;;;;;;Or83c;antennal trichoid / intermediate;TRUE;NA;TRUE;named ai2A in Ronderos et al. 2014;DC3
+Or85a;ab2;ab2B;DM5;Orco;Or33b;Or33b;ab2B;;;;;Or85a+33b;antennal basiconic;TRUE;NA;TRUE;;NA
+Or85b;ab3;ab3B;VM5d;Orco;Or98b;Or98b;ab3B;;;;;Or85b+98b;antennal basiconic;TRUE;NA;TRUE;;NA
+Or85c;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or85d;pb3;pb3B;VA4;Orco;;;;;;;;Or85d;maxillary palp;TRUE;NA;TRUE;;VA4
+Or85e;pb2;pb2A;VC1;Orco;Or33c;Or33c;;;;;;Or33c+85e;maxillary palp;TRUE;NA;TRUE;;NA
+Or85f;ab10;ab10B;DL4;Orco;Or49a;Or49a;;;;;;Or49a+85f;antennal basiconic;TRUE;NA;TRUE;;DL4
+Or88a;at4;at4;VA1d;Orco;;;;;;;;Or88a;antennal trichoid;TRUE;NA;TRUE;;VA1d
+Or92a;ab1;ab1B;VA2;Orco;;;;;;;;Or92a;antennal basiconic;TRUE;NA;TRUE;;VA2
+Or94a;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or94b;;;;Orco;;;;;;;;;;FALSE;TRUE;TRUE;;NA
+Or98a;ab7;ab7A;VM5v;Orco;;;;;;;;Or98a;antennal basiconic;TRUE;NA;TRUE;;VM5v
+Or98b;ab3;ab3B;VM5d;Orco;Or85b;Or85b;ab3B;;;;;Or85b+98b;antennal basiconic;TRUE;NA;FALSE;see Or85b for data;NA
+Or9a;ab8;ab8B;VM3;Orco;;;;;;;;Or9a;antennal basiconic;TRUE;TRUE;TRUE;;VM3
+pb2A;pb2;pb2A;VC1;Orco;Or33c+85e;Or33c;Or85e;;;;;Or33c+85e;maxillary palp;NA;NA;TRUE;;VC1
