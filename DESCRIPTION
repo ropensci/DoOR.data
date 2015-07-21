@@ -9,3 +9,4 @@ URL: http://neuro.uni-konstanz.de/DoOR/default.html
 Maintainer: Daniel Muench <daniel.muench@uni-konstanz.de>; Shouwen Ma <shouwen.ma@gmail.com>
 Description: This is a data package providing odorant responses data and supported data for DoOR.
 License: CC BY-SA 4.0
+LazyData: false
