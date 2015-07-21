@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' loadRD()
+#' loadData()
 loadData <- function(){
   all.data <- data(package = "DoOR.data")
   data(list = all.data$results[,3])
