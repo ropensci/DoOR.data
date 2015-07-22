@@ -13,7 +13,7 @@ attaches all DoOR data
 load all DoOR.data
 }
 \examples{
-loadRD()
+loadData()
 }
 \author{
 Daniel Münch <\email{daniel.muench@uni-konstanz.de}>

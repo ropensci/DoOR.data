@@ -7,6 +7,6 @@ Author: C. Giovanni Galizia, Daniel Muench, Martin Strauch, Anja Nissler and Sho
 Address: Universitaet Konstanz, Fachbereich Biologie, D-78457 Konstanz, Germany
 URL: http://neuro.uni-konstanz.de/DoOR/default.html
 Maintainer: Daniel Muench <daniel.muench@uni-konstanz.de>; Shouwen Ma <shouwen.ma@gmail.com>
-Description: This is a data package providing odorant responses data and supported data for DoOR.
+Description: This is a data package providing odorant response data for DoOR.functions.
 License: CC BY-SA 4.0
 LazyData: false
