@@ -1,22 +1,22 @@
 "OR";"excluded"
-"ac1A";"Yao.2005.WT, Marshall.2010.WT"
+"ac1A";""
 "ac1B";NA
-"ac2A";NA
+"ac2A";""
 "ac2B";NA
-"ac3A";NA
-"ac3B";NA
-"ac4";NA
+"ac3A";""
+"ac3B";""
+"ac4";""
 "Or1a";NA
 "Or2a";"Montague.2011.EN"
 "Or7a";"Montague.2011.EN"
-"Or9a";NA
-"Or10a";"Stensmyr.2003.WT"
+"Or9a";""
+"Or10a";""
 "Or13a";"Montague.2011.EN"
-"Or19a";"Hallem.2006.EN, Hallem.2004.EN"
+"Or19a";""
 "Or22a";NA
 "Or22b";NA
 "Or22c";"Kreher.2008.EN, Montague.2011.EN"
-"Or23a";NA
+"Or23a";""
 "Or24a";"Kreher.2008.EN, Montague.2011.EN"
 "Or30a";"Montague.2011.EN"
 "Or33a";NA
@@ -25,41 +25,41 @@
 "Or35a";"Montague.2011.EN"
 "Or42a";"Montague.2011.EN"
 "Or42b";"Montague.2011.EN"
-"Or43a";NA
-"Or43b";NA
+"Or43a";""
+"Or43b";""
 "Or45a";"Montague.2011.EN"
 "Or45b";"Montague.2011.EN"
 "Or46a";"Goldman.2005.WT, Marshall.2010.WT"
 "Or47a";"Montague.2011.EN"
 "Or47b";"Dweck.2015b.WT"
 "Or49a";"Montague.2011.EN"
-"Or49b";NA
+"Or49b";""
 "Or59a";"Montague.2011.EN"
 "Or59b";"Stensmyr.2003.WT"
-"Or59c";NA
+"Or59c";""
 "Or65a";"Dweck.2015b.WT, van.der.Goes.van.Naters.2007.EN"
-"Or67a";NA
+"Or67a";""
 "Or67b";"Montague.2011.EN"
-"Or67c";NA
+"Or67c";""
 "Or67d";"Dweck.2015b.WT, van.der.Goes.van.Naters.2007.EN"
-"Or71a";NA
+"Or71a";""
 "Or74a";"Montague.2011.EN"
 "Or82a";"Montague.2011.EN"
-"Or85a";NA
+"Or85a";""
 "Or85b";"Stensmyr.2003.WT"
 "Or85c";"Montague.2011.EN"
-"Or85d";NA
+"Or85d";""
 "Or85e";NA
-"Or85f";NA
+"Or85f";""
 "Or88a";"Dweck.2015b.WT"
-"Or92a";NA
+"Or92a";""
 "Or94a";"Montague.2011.EN, Dweck.2015.EN"
 "Or94b";"Montague.2011.EN, Dweck.2015.EN"
-"Or98a";NA
+"Or98a";""
 "Gr21a.Gr63a";"Marshall.2010.WT"
-"ab2B";"Stensmyr.2003.WT"
+"ab2B";""
 "ab4B";"Bruyne.2001.RR, Marshall.2010.WT"
-"ab5B";NA
+"ab5B";""
 "pb2A";"Goldman.2005.WT, Marshall.2010.WT"
 "Or69a";NA
 "ac1";NA
@@ -67,10 +67,10 @@
 "ac3_noOr35a";NA
 "Ir31a";NA
 "Ir41a";NA
-"Ir75a";NA
+"Ir75a";""
 "Ir75d";NA
 "Ir76a";NA
-"Ir84a";NA
+"Ir84a";""
 "Ir92a";NA
 "Ir64a.DC4";NA
 "Ir64a.DP1m";NA
