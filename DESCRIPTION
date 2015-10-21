@@ -11,10 +11,10 @@ Authors@R: c(
     person("Anja", "Nissler", role = "aut"))
 URL: http://neuro.uni-konstanz.de/DoOR
 BugReports: https://github.com/Dahaniel/DoOR.data/issues
-Description: This is a data package providing odorant response data for DoOR.functions.
+Description: This is a data package providing odorant response data for DoOR.functions.  See http://dx.doi.org/10.1093/chemse/bjq042 for the original publication and http://dx.doi.org/10.1101/027920 regarding version 2.0.
 License: CC BY-SA 4.0
 Encoding: UTF-8
-LazyData: false
 Imports:
   utils
 Depends: R (>= 2.10)
+Suggests: DoOR.functions
