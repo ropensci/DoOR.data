@@ -2,6 +2,6 @@
   packageStartupMessage(paste0("\nWelcome to ", utils::packageDescription(pkgname)$Package,
                                "\nVersion: ",   utils::packageDescription(pkgname)$Version,
                                "\nReleased: ",  utils::packageDescription(pkgname)$Date,
-                               "\n\nPlease use loadData() to load all data now.\n"
+                               "\n\nPlease use loadData() to load all data into your workspace now.\n"
   ))
 }
