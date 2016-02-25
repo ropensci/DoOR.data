@@ -1,8 +1,7 @@
 # Change Log
 
-## [Unreleased](https://github.com/Dahaniel/DoOR.data/tree/HEAD)
-
-[Full Changelog](https://github.com/Dahaniel/DoOR.data/compare/v1.0.2...HEAD)
+## [2.0.0](https://github.com/Dahaniel/DoOR.data/tree/2.0.0) (2016-02-25)
+[Full Changelog](https://github.com/Dahaniel/DoOR.data/compare/v1.0.2...2.0.0)
 
 **Fixed bugs:**
 
