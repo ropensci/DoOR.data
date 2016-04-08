@@ -20,7 +20,7 @@ Encoding: UTF-8
 Imports:
     utils
 Depends:
-    R (>= 3.2.0)
-Suggests:
-    DoOR.functions
+    R (>= 3.2.0),
+    DoOR.functions (>= 2.0.0)
+Remotes: Dahaniel/DoOR.functions@v2.0.0
 RoxygenNote: 5.0.1
