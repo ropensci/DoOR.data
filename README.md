@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.46554.svg)](http://dx.doi.org/10.5281/zenodo.46554)
+[![Travis-CI Build Status](https://travis-ci.org/Dahaniel/DoOR.data.svg?branch=master)](https://travis-ci.org/Dahaniel/DoOR.data)
 DoOR.data
 =========
 
