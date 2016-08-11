@@ -3,8 +3,8 @@
 #' load all DoOR.data
 #' 
 #' 
-#' @return attaches all DoOR data
-#' @author Daniel Münch <\email{daniel.muench@@uni-konstanz.de}>
+#' @return attaches all DoOR data to the main workspace
+#' @author Daniel Münch <\email{daniel.muench@uni-konstanz.de}>
 #' @examples
 #' 
 #' loadData()

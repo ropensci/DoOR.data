@@ -7,7 +7,7 @@
 loadData()
 }
 \value{
-attaches all DoOR data
+attaches all DoOR data to the main workspace
 }
 \description{
 load all DoOR.data
