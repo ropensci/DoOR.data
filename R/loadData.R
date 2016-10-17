@@ -1,16 +1,17 @@
-#' loadData
+#' load_door_data
 #' 
 #' load all DoOR.data
 #' 
 #' 
 #' @return attaches all DoOR data to the main workspace
+#' @aliases loadData load_door_data
 #' @author Daniel Münch <\email{daniel.muench@uni-konstanz.de}>
 #' @examples
 #' 
-#' loadData()
+#' load_door_data()
 #' 
-#' @export loadData
-loadData <- function(){
+#' @export load_door_data
+load_door_data <- function(){
   
   answer <- ""
   while(answer != "n" & answer != "y") { 
