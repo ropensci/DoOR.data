@@ -282,11 +282,11 @@ NULL
 
 
 
-#' dataset.info
+#' door_dataset_info
 #' 
 #' information on the studies that contributed to DoOR
 #' 
-#' @name dataset.info
+#' @name door_dataset_info
 #' @docType data
 #' @format A data frame with 42 observations on 15 variables.
 #' @keywords datasets
