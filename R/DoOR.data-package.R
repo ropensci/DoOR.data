@@ -267,11 +267,11 @@ NULL
 
 
 
-#' data.format
+#' door_data_format
 #' 
 #' DoOR response data template
 #' 
-#' @name data.format
+#' @name door_data_format
 #' @docType data
 #' @format A data frame with 693 observations on 5 variables.
 #' @keywords datasets
