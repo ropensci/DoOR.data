@@ -1325,7 +1325,7 @@ NULL
 #' 
 #' precomputed DoOR response matrix with no global normalization applied
 #' 
-#' @name response.matrix_non.normalized
+#' @name door_response_matrix_non_normalized
 #' @docType data
 #' @format A data frame with 693 observations on 78 variables.
 #' @keywords datasets
