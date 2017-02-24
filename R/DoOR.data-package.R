@@ -327,11 +327,11 @@ NULL
 
 
 
-#' glo.dist
+#' door_glo_dist
 #' 
 #' glomerular distances
 #' 
-#' @name glo.dist
+#' @name door_glo_dist
 #' @docType data
 #' @format A data frame with 49 observations on 49 variables.
 #' @keywords datasets
