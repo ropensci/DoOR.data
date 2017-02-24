@@ -1366,11 +1366,11 @@ NULL
 
 
 
-#' weight.globNorm
+#' door_global_normalization_weights
 #' 
 #' matrix of studies vs responding units, used for calculating the weight for global normalization 
 #' 
-#' @name weight.globNorm
+#' @name door_global_normalization_weights
 #' @docType data
 #' @format A data frame with 78 observations on 42 variables.
 #' @keywords datasets
