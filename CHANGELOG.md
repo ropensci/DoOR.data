@@ -5,7 +5,7 @@
 
 **Fixed bugs:**
 
-- rename ab3B \> Or85b in DoOR.mappings [\#7](https://github.com/Dahaniel/DoOR.data/issues/7)
+- rename ab3B \> Or85b in door_mappings [\#7](https://github.com/Dahaniel/DoOR.data/issues/7)
 
 **Closed issues:**
 

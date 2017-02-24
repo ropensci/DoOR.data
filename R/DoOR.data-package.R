@@ -297,11 +297,11 @@ NULL
 
 
 
-#' DoOR.mappings
+#' door_mappings
 #' 
 #' the mappings of DoOR responding units to the correesponding morphological structures
 #' 
-#' @name DoOR.mappings
+#' @name door_mappings
 #' @docType data
 #' @format A data frame with 96 observations on 20 variables.
 #' @keywords datasets
