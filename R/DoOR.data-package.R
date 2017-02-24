@@ -237,11 +237,11 @@ NULL
 
 
 
-#' AL.map
+#' door_AL_map
 #' 
 #' The AL map after Grabe et al.
 #' 
-#' @name AL.map
+#' @name door_AL_map
 #' @docType data
 #' @format The format is: List of 5 $ glomeruli :'data.frame': 19834 obs. of 3
 #' variables: ..$ glomerulus: Factor w/ 51 levels "D","DA1","DA2",..: 4 4 4 4 4
