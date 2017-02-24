@@ -312,11 +312,11 @@ NULL
 
 
 
-#' excluded.data
+#' door_excluded_data
 #' 
 #' datasets that were excluded during the merging process
 #' 
-#' @name excluded.data
+#' @name door_excluded_data
 #' @docType data
 #' @format A data frame with 78 observations on 2 variables.
 #' @keywords datasets
