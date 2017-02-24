@@ -1351,11 +1351,11 @@ NULL
 
 
 
-#' response.range
+#' door_response_range
 #' 
 #' the response range of the studies included in DoOR
 #' 
-#' @name response.range
+#' @name door_response_range
 #' @docType data
 #' @format A data frame with 42 observations on 4 variables.
 #' @keywords datasets
