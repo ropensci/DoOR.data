@@ -7,9 +7,13 @@
 #' @aliases loadData load_door_data
 #' @author Daniel Münch <\email{daniel.muench@uni-konstanz.de}>
 #' @examples
-#' 
+#' # load all data to current workspace
+#' \dontrun{
 #' load_door_data()
+#' }
 #' 
+#' # it is also possible to load individual data sets using data().
+#' data(Or22a)
 #' @export load_door_data
 load_door_data <- function(){
   
