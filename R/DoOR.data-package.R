@@ -1,1380 +1,2347 @@
-
-
 #' ab2B
-#' 
-#' DoOR response data
-#' 
+#'
+#' DoOR response data for responding unit ab2B. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
 #' @name ab2B
 #' @docType data
-#' @format A data frame with 693 observations on 12 variables.
-#' @keywords datasets
-
-NULL
-
-
-
-
-
-#' ab4B
-#' 
-#' DoOR response data
-#' 
-#' @name ab4B
-#' @docType data
-#' @format A data frame with 693 observations on 10 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ab5B
-#' 
-#' DoOR response data
-#' 
-#' @name ab5B
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac1A
-#' 
-#' DoOR response data
-#' 
-#' @name ac1A
-#' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac1BC
-#' 
-#' DoOR response data
-#' 
-#' pooled measurements of ac1B and ac1C OSNs
-#' 
-#' @name ac1BC
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac1B
-#' 
-#' DoOR response data
-#' 
-#' @name ac1B
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac1
-#' 
-#' DoOR response data
-#' 
-#' pooled measurements of the ac1 sensillum
-#' 
-#' @name ac1
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac2A
-#' 
-#' DoOR response data
-#' 
-#' @name ac2A
-#' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac2BC
-#' 
-#' DoOR response data
-#' 
-#' pooled measurements of ac2B and ac2C OSNs
-#' 
-#' @name ac2BC
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac2B
-#' 
-#' DoOR response data
-#' 
-#' @name ac2B
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac2
-#' 
-#' DoOR response data
-#' 
-#' pooled measurements of the ac2 sensilum
-#' 
-#' @name ac2
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac3A
-#' 
-#' DoOR response data
-#' 
-#' @name ac3A
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac3B
-#' 
-#' DoOR response data
-#' 
-#' @name ac3B
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac3_noOr35a
-#' 
-#' DoOR response data
-#' 
-#' mpooled measurements of the ac3 sensillum with Or35a silenced
-#' 
-#' @name ac3_noOr35a
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ac4
-#' 
-#' DoOR response data
-#' 
-#' pooled measurements of the ac4 sensillum
-#' 
-#' @name ac4
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' door_AL_map
-#' 
-#' The AL map after Grabe et al.
-#' 
-#' @name door_AL_map
-#' @docType data
-#' @format The format is: List of 5 $ glomeruli :'data.frame': 19834 obs. of 3
-#' variables: ..$ glomerulus: Factor w/ 51 levels "D","DA1","DA2",..: 4 4 4 4 4
-#' 4 4 4 4 4 ...  ..$ x : num [1:19834] 33.1 33.1 33.1 33.1 33.1 ...  ..$ y :
-#' num [1:19834] 24.2 24.2 24.3 24.4 24.4 ...  $ unmapped_not.olf:'data.frame':
-#' 1274 obs. of 3 variables: ..$ glomerulus: Factor w/ 3 levels
-#' "VA7m","VP2","VP3": 3 3 3 3 3 3 3 3 3 3 ...  ..$ x : num [1:1274] 280 279
-#' 279 279 279 ...  ..$ y : num [1:1274] 33.8 33.8 33.9 33.9 34 ...  $
-#' background :'data.frame': 9428 obs. of 3 variables: ..$ group: Factor w/ 4
-#' levels "slice1","slice2",..: 4 4 4 4 4 4 4 4 4 4 ...  ..$ x : num [1:9428]
-#' 39 38.9 38.8 38.7 38.6 ...  ..$ y : num [1:9428] 62.2 62.2 62.2 62.1 62.1
-#' ...  $ bg.cutout :'data.frame': 2361 obs. of 3 variables: ..$ group: Factor
-#' w/ 5 levels "c1","c2","c3",..: 5 5 5 5 5 5 5 5 5 5 ...  ..$ x : num [1:2361]
-#' 99.1 99.3 99.5 99.6 99.8 ...  ..$ y : num [1:2361] 15.6 15.6 15.6 15.6 15.7
-#' ...  $ labels :'data.frame': 54 obs. of 3 variables: ..$ glomerulus: Factor
-#' w/ 54 levels "D","DA1","DA2",..: 34 27 12 5 32 3 52 51 54 53 ...  ..$ x :
-#' num [1:54] 157 105 110 31 25 ...  ..$ y : num [1:54] 51.9 55 15 35 41 ...
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' door_data_format
-#' 
-#' DoOR response data template
-#' 
-#' @name door_data_format
-#' @docType data
-#' @format A data frame with 693 observations on 5 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' door_dataset_info
-#' 
-#' information on the studies that contributed to DoOR
-#' 
-#' @name door_dataset_info
-#' @docType data
-#' @format A data frame with 42 observations on 15 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' door_mappings
-#' 
-#' the mappings of DoOR responding units to the correesponding morphological structures
-#' 
-#' @name door_mappings
-#' @docType data
-#' @format A data frame with 96 observations on 20 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' door_excluded_data
-#' 
-#' datasets that were excluded during the merging process
-#' 
-#' @name door_excluded_data
-#' @docType data
-#' @format A data frame with 78 observations on 2 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' door_glo_dist
-#' 
-#' glomerular distances
-#' 
-#' @name door_glo_dist
-#' @docType data
-#' @format A data frame with 49 observations on 49 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Gr21a.Gr63a
-#' 
-#' DoOR response data
-#' 
-#' data measured from the CO2 responsive sensillum
-#' 
-#' @name Gr21a.Gr63a
-#' @docType data
-#' @format A data frame with 693 observations on 10 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir31a
-#' 
-#' DoOR response data
-#' 
-#' @name Ir31a
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir41a
-#' 
-#' DoOR response data
-#' 
-#' @name Ir41a
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir64a.DC4
-#' 
-#' DoOR response data
-#' 
-#' measurements from the Ir64a expressing OSNs that project to DC4
-#' 
-#' @name Ir64a.DC4
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir64a.DP1m
-#' 
-#' DoOR response data
-#' 
-#' measurements from the Ir64a expressing OSNs that project to DP1m
-#' 
-#' @name Ir64a.DP1m
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir75a
-#' 
-#' DoOR response data
-#' 
-#' @name Ir75a
-#' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir75d
-#' 
-#' DoOR response data
-#' 
-#' @name Ir75d
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir76a
-#' 
-#' DoOR response data
-#' 
-#' @name Ir76a
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir84a
-#' 
-#' DoOR response data
-#' 
-#' @name Ir84a
-#' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Ir92a
-#' 
-#' DoOR response data
-#' 
-#' @name Ir92a
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' odor
-#' 
-#' data.frame containing information on the odors in DoOR
-#' 
-#' @name odor
-#' @docType data
-#' @format A data frame with 693 observations on 22 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#'Or10a
-#' 
-#' DoOR response data
-#' 
-#' @name Or10a
-#' @docType data
-#' @format A data frame with 693 observations on 15 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or13a
-#' 
-#' DoOR response data
-#' 
-#' @name Or13a
-#' @docType data
-#' @format A data frame with 693 observations on 12 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or19a
-#' 
-#' DoOR response data
-#' 
-#' @name Or19a
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or1a
-#' 
-#' DoOR response data
-#' 
-#' @name Or1a
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or22a
-#' 
-#' DoOR response data
-#' 
-#' @name Or22a
-#' @docType data
-#' @format A data frame with 693 observations on 19 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or22b
-#' 
-#' DoOR response data
-#' 
-#' @name Or22b
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
+#' @keywords dataset DoOR responding_unit ab2B
+#' @format 
+#''data.frame':	693 obs. of  12 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Stensmyr.2003.WT: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Schmuker.2007.TR: int  1 NA NA 0 NA 0 6 NA NA NA ...
+#' $ Dobritsa.2003.WT: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT  : num  1 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2010.WT  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 5.71 2.71 5.67 NA ...
+#' $ Hallem.2004.WT  : num  NA NA NA NA NA NA NA NA NA NA ...
 #'
 NULL
 
 
-#' Or22c
-#' 
-#' DoOR response data
-#' 
-#' @name Or22c
+
+#' ab4B
+#'
+#' DoOR response data for responding unit ab4B. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ab4B
 #' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ab4B
+#' @format 
+#''data.frame':	693 obs. of  10 variables:
+#' $ Class             : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name              : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey          : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID               : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS               : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Bruyne.2001.RR    : int  NA NA NA NA NA 0 0 NA NA NA ...
+#' $ Stensmyr.2012.WT  : num  0 NA NA 0.4 -2.8 0 NA NA NA NA ...
+#' $ Bruyne.2001.WT    : num  3 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT  : num  0 -1.71 -1.79 -0.8 NA ...
+#' $ Muench.2016.AntGC3: num  0 NA NA NA NA NA NA NA NA NA ...
+#'
 NULL
 
 
 
-
-
-#' Or23a
-#' 
-#' DoOR response data
-#' 
-#' @name Or23a
+#' ab5B
+#'
+#' DoOR response data for responding unit ab5B. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ab5B
 #' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ab5B
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Schmuker.2007.TR: int  2 NA NA 15 NA 7 10 NA NA NA ...
+#' $ Bruyne.2001.WT  : num  2 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 21.429 0.714 22 NA ...
+#' $ Hallem.2004.WT  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
 NULL
 
 
 
-
-
-#' Or24a
-#' 
-#' DoOR response data
-#' 
-#' @name Or24a
+#' ac1
+#'
+#' DoOR response data for responding unit ac1. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac1
 #' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac1
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.WT: num  0 19.7 141.8 16 65.5 ...
+#'
 NULL
 
 
 
-
-
-#' Or2a
-#' 
-#' DoOR response data
-#' 
-#' @name Or2a
+#' ac1A
+#'
+#' DoOR response data for responding unit ac1A. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac1A
 #' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac1A
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Yao.2005.WT     : int  18 NA NA 2 NA 178 NA 53 51 10 ...
+#' $ Marshall.2010.WT: num  0 1.5 131.5 12.5 NA ...
+#'
 NULL
 
 
 
-
-
-#' Or30a
-#' 
-#' DoOR response data
-#' 
-#' @name Or30a
+#' ac1B
+#'
+#' DoOR response data for responding unit ac1B. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac1B
 #' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac1B
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class      : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name       : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey   : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID        : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS        : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Yao.2005.WT: int  30 NA NA 40 NA 38 NA 36 14 37 ...
+#'
 NULL
 
 
 
-
-
-#' Or33a
-#' 
-#' DoOR response data
-#' 
-#' @name Or33a
+#' ac1BC
+#'
+#' DoOR response data for responding unit ac1BC. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac1BC
 #' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac1BC
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Marshall.2010.WT: num  0 1.75 0.875 1.75 NA NA NA NA NA NA ...
+#'
 NULL
 
 
 
-
-
-#' Or33b
-#' 
-#' DoOR response data
-#' 
-#' @name Or33b
+#' ac2
+#'
+#' DoOR response data for responding unit ac2. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac2
 #' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac2
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.WT: num  0 23.3 1 181.8 126.2 ...
+#'
 NULL
 
 
 
-
-
-#' Or33c
-#' 
-#' DoOR response data
-#' 
-#' @name Or33c
+#' ac2A
+#'
+#' DoOR response data for responding unit ac2A. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac2A
 #' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac2A
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Yao.2005.WT     : int  19 NA NA 294 NA 10 NA -4 -4 12 ...
+#' $ Marshall.2010.WT: num  0 11 -0.167 208 NA NA NA NA NA NA ...
+#'
 NULL
 
 
 
-
-
-#' Or35a
-#' 
-#' DoOR response data
-#' 
-#' @name Or35a
+#' ac2B
+#'
+#' DoOR response data for responding unit ac2B. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac2B
 #' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac2B
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class      : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name       : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey   : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID        : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS        : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Yao.2005.WT: int  19 NA NA 10 NA 6 NA -1 1 10 ...
+#'
 NULL
 
 
 
-
-
-#' Or42a
-#' 
-#' DoOR response data
-#' 
-#' @name Or42a
+#' ac2BC
+#'
+#' DoOR response data for responding unit ac2BC. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac2BC
 #' @docType data
-#' @format A data frame with 693 observations on 11 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac2BC
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Marshall.2010.WT: num  0 1.33 2.33 6 NA ...
+#'
 NULL
 
 
 
-
-
-#' Or42b
-#' 
-#' DoOR response data
-#' 
-#' @name Or42b
+#' ac3A
+#'
+#' DoOR response data for responding unit ac3A. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac3A
 #' @docType data
-#' @format A data frame with 693 observations on 14 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac3A
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class               : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name                : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey            : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID                 : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS                 : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Yao.2005.WT         : int  16 NA NA -3 NA 4 NA -6 -3 10 ...
+#' $ Silbering.2011.AL_8a: num  0 8.042 0.411 6.55 4.773 ...
+#' $ Marshall.2010.WT    : num  0 8 -4.17 -1 NA ...
+#'
 NULL
 
 
 
-
-
-#' Or43a
-#' 
-#' DoOR response data
-#' 
-#' @name Or43a
+#' ac3B
+#'
+#' DoOR response data for responding unit ac3B. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac3B
 #' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac3B
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Yao.2005.WT      : int  26 NA NA 116 NA 53 NA 125 101 54 ...
+#' $ Silbering.2011.AL: num  0 1.07 12.13 19.56 2.16 ...
+#' $ Marshall.2010.WT : num  0 0 -1.5 -1.67 NA ...
+#' $ Hallem.2004.WT   : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
 NULL
 
 
 
-
-
-#' Or43b
-#' 
-#' DoOR response data
-#' 
-#' @name Or43b
+#' ac3_noOr35a
+#'
+#' DoOR response data for responding unit ac3_noOr35a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac3_noOr35a
 #' @docType data
-#' @format A data frame with 693 observations on 10 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac3_noOr35a
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.WT: num  0 14.4 27.2 7 0.5 ...
+#'
 NULL
 
 
 
-
-
-#' Or45a
-#' 
-#' DoOR response data
-#' 
-#' @name Or45a
+#' ac4
+#'
+#' DoOR response data for responding unit ac4. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name ac4
 #' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit ac4
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Yao.2005.WT      : int  42 NA NA 38 NA 55 NA 35 15 49 ...
+#' $ Silbering.2011.WT: num  0 6.06 33.47 9 -2 ...
+#' $ Marshall.2010.WT : num  0 1.67 7.5 -1 NA ...
+#'
 NULL
 
 
 
-
-
-#' Or45b
-#' 
-#' DoOR response data
-#' 
-#' @name Or45b
+#' door_AL_map
+#'
+#' A list containing the antennal lobe map from Grabe et al. 2015 (DOI: 10.1002/cne.23697) used
+#' to create AL plots with the dplot_al_map function
+#'
+#' @name door_AL_map
 #' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
+#' @keywords door_AL_map
+#' @format 
+#'List of 5
+#' $ glomeruli       :'data.frame':	19834 obs. of  3 variables:
+#'  ..$ glomerulus: Factor w/ 51 levels "D","DA1","DA2",..: 4 4 4 4 4 4 4 4 4 4 ...
+#'  ..$ x         : num [1:19834] 33.1 33.1 33.1 33.1 33.1 ...
+#'  ..$ y         : num [1:19834] 24.2 24.2 24.3 24.4 24.4 ...
+#' $ unmapped_not.olf:'data.frame':	1274 obs. of  3 variables:
+#'  ..$ glomerulus: Factor w/ 3 levels "VA7m","VP2","VP3": 3 3 3 3 3 3 3 3 3 3 ...
+#'  ..$ x         : num [1:1274] 280 279 279 279 279 ...
+#'  ..$ y         : num [1:1274] 33.8 33.8 33.9 33.9 34 ...
+#' $ background      :'data.frame':	9428 obs. of  3 variables:
+#'  ..$ group: Factor w/ 4 levels "slice1","slice2",..: 4 4 4 4 4 4 4 4 4 4 ...
+#'  ..$ x    : num [1:9428] 39 38.9 38.8 38.7 38.6 ...
+#'  ..$ y    : num [1:9428] 62.2 62.2 62.2 62.1 62.1 ...
+#' $ bg.cutout       :'data.frame':	2361 obs. of  3 variables:
+#'  ..$ group: Factor w/ 5 levels "c1","c2","c3",..: 5 5 5 5 5 5 5 5 5 5 ...
+#'  ..$ x    : num [1:2361] 99.1 99.3 99.5 99.6 99.8 ...
+#'  ..$ y    : num [1:2361] 15.6 15.6 15.6 15.6 15.7 ...
+#' $ labels          :'data.frame':	54 obs. of  3 variables:
+#'  ..$ glomerulus: Factor w/ 54 levels "D","DA1","DA2",..: 34 27 12 5 32 3 52 51 54 53 ...
+#'  ..$ x         : num [1:54] 157 105 110 31 25 ...
+#'  ..$ y         : num [1:54] 51.9 55 15 35 41 ...
+#'
 NULL
 
 
 
-
-
-#' Or46a
-#' 
-#' DoOR response data
-#' 
-#' @name Or46a
+#' door_data_format
+#'
+#'A dataframe containing the default headers for a DooR data set.
+#'
+#' @name door_data_format
 #' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit door_data_format
+#' @format 
+#''data.frame':	693 obs. of  5 variables:
+#' $ Class   : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name    : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey: Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID     : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS     : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#'
 NULL
 
 
 
-
-
-#' Or47a
-#' 
-#' DoOR response data
-#' 
-#' @name Or47a
+#' door_dataset_info
+#'
+#' Detailed information on the sources of the data sets in used in DoOR.
+#'
+#' @name door_dataset_info
 #' @docType data
-#' @format A data frame with 693 observations on 11 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit door_dataset_info
+#' @format 
+#''data.frame':	42 obs. of  15 variables:
+#' $ dataset                      : Factor w/ 42 levels "Bruyne.1999.WT",..: 1 2 3 4 5 6 7 9 10 8 ...
+#' $ study                        : Factor w/ 29 levels "de Bruyne et.al. 1999",..: 1 2 2 3 4 4 5 6 6 7 ...
+#' $ other.dataset.in.this.study  : Factor w/ 22 levels "","Bruyne.2001.RR",..: 1 3 2 1 5 4 1 1 1 1 ...
+#' $ other.dataset.in.this.study.2: Factor w/ 5 levels "","Pelz.2005.Antnmr",..: 1 1 1 1 1 1 1 1 1 1 ...
+#' $ SFR.reported                 : Factor w/ 3 levels "no","no SFR",..: 3 1 3 1 1 1 1 1 1 1 ...
+#' $ SFR.substracted              : Factor w/ 4 levels "no","no SFR",..: 4 1 4 4 1 1 4 4 4 4 ...
+#' $ technique                    : Factor w/ 2 levels "calcium imaging",..: 2 2 2 2 2 2 2 2 2 2 ...
+#' $ data.type                    : Factor w/ 4 levels "EC50","mean deltaF/F",..: 4 4 4 4 4 4 4 4 4 4 ...
+#' $ control                      : Factor w/ 7 levels "","air","identical filter papers with 10 ml of the solvent.",..: 5 5 5 5 5 1 1 1 1 1 ...
+#' $ solvents                     : Factor w/ 10 levels "","Acetoin and 1-propanethiol were diluted in water, all others odors in paraffin oil",..: 8 8 8 8 8 1 7 1 1 1 ...
+#' $ solvents.subtracted          : Factor w/ 3 levels "","no","yes": 2 1 2 2 1 1 3 3 3 3 ...
+#' $ concentration                : Factor w/ 5 levels "","10^-2","10^-2 -  (vol/vol)",..: 2 2 2 3 3 3 3 3 3 1 ...
+#' $ comment                      : Factor w/ 6 levels "","Data from de Bruyne et.al.,2001.",..: 6 6 6 1 1 1 4 1 1 1 ...
+#' $ link                         : Factor w/ 28 levels "","http://chemse.oxfordjournals.org/content/35/7/551",..: 22 13 13 6 14 14 9 28 28 27 ...
+#' $ DOI                          : Factor w/ 26 levels "","10.1002/minf.201300037",..: 1 14 14 4 15 15 9 10 10 18 ...
+#'
 NULL
 
 
 
-
-
-#' Or47b
-#' 
-#' DoOR response data
-#' 
-#' @name Or47b
-#' @docType data
-#' @format A data frame with 693 observations on 11 variables.
-#' @keywords datasets
-#' 
+#'door_excluded_data
+#'
+#'These data sets have been excluded in the current response matrices. Reasons might for example be
+#'low overlap with the remaining sets or bad fits.
+#'
+#'@name door_excluded_data
+#'@docType data
+#'@keywords dataset DoOR responding_unit door_excluded_data
+#'@format 'data.frame':	78 obs. of  2 variables: $ OR      : Factor w/ 78 levels "ab2B","ab4B",..: 5
+#'6 9 10 12 13 15 29 35 63 ... $ excluded: Factor w/ 10 levels "","Bruyne.2001.RR,
+#'Marshall.2010.WT",..: 1 NA 1 NA 1 1 1 NA 8 8 ...
+#'
 NULL
-
-
-
-
-
-#' Or49a
-#' 
-#' DoOR response data
-#' 
-#' @name Or49a
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or49b
-#' 
-#' DoOR response data
-#' 
-#' @name Or49b
-#' @docType data
-#' @format A data frame with 693 observations on 11 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or59a
-#' 
-#' DoOR response data
-#' 
-#' @name Or59a
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or59b
-#' 
-#' DoOR response data
-#' 
-#' @name Or59b
-#' @docType data
-#' @format A data frame with 693 observations on 15 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or59c
-#' 
-#' DoOR response data
-#' 
-#' @name Or59c
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or65a
-#' 
-#' DoOR response data
-#' 
-#' @name Or65a
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or67a
-#' 
-#' DoOR response data
-#' 
-#' @name Or67a
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or67b
-#' 
-#' DoOR response data
-#' 
-#' @name Or67b
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or67c
-#' 
-#' DoOR response data
-#' 
-#' @name Or67c
-#' @docType data
-#' @format A data frame with 693 observations on 10 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or67d
-#' 
-#' DoOR response data
-#' 
-#' @name Or67d
-#' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or69a
-#' 
-#' DoOR response data
-#' 
-#' @name Or69a
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or71a
-#' 
-#' DoOR response data
-#' 
-#' @name Or71a
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or74a
-#' 
-#' DoOR response data
-#' 
-#' @name Or74a
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or7a
-#' 
-#' DoOR response data
-#' 
-#' @name Or7a
-#' @docType data
-#' @format A data frame with 693 observations on 16 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or82a
-#' 
-#' DoOR response data
-#' 
-#' @name Or82a
-#' @docType data
-#' @format A data frame with 693 observations on 14 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or83c
-#' 
-#' DoOR response data
-#' 
-#' @name Or83c
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or85a
-#' 
-#' DoOR response data
-#' 
-#' @name Or85a
-#' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or85b
-#' 
-#' DoOR response data
-#' 
-#' @name Or85b
-#' @docType data
-#' @format A data frame with 693 observations on 13 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or85c
-#' 
-#' DoOR response data
-#' 
-#' @name Or85c
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or85d
-#' 
-#' DoOR response data
-#' 
-#' @name Or85d
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or85e
-#' 
-#' DoOR response data
-#' 
-#' @name Or85e
-#' @docType data
-#' @format A data frame with 693 observations on 6 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or85f
-#' 
-#' DoOR response data
-#' 
-#' @name Or85f
-#' @docType data
-#' @format A data frame with 693 observations on 7 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or88a
-#' 
-#' DoOR response data
-#' 
-#' @name Or88a
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or92a
-#' 
-#' DoOR response data
-#' 
-#' @name Or92a
-#' @docType data
-#' @format A data frame with 693 observations on 11 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or94a
-#' 
-#' DoOR response data
-#' 
-#' @name Or94a
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or94b
-#' 
-#' DoOR response data
-#' 
-#' @name Or94b
-#' @docType data
-#' @format A data frame with 693 observations on 9 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-#' Or98a
-#' 
-#' DoOR response data
-#' 
-#' @name Or98a
-#' @docType data
-#' @format A data frame with 693 observations on 11 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' Or9a
-#' 
-#' DoOR response data
-#' 
-#' @name Or9a
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' ORs
-#' 
-#' list of responding units in DoOR
-#' 
-#' including information on whether a unitresponding unit is expressed in adult (0), lava (1) or both (2)
-#' 
-#' @name ORs
-#' @docType data
-#' @format A data frame with 78 observations on 2 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' pb2A
-#' 
-#' DoOR response data
-#' 
-#' @name pb2A
-#' @docType data
-#' @format A data frame with 693 observations on 8 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' non normalized DoOR response matrix
-#' 
-#' precomputed DoOR response matrix with no global normalization applied
-#' 
-#' @name door_response_matrix_non_normalized
-#' @docType data
-#' @format A data frame with 693 observations on 78 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' DoOR response matrix
-#' 
-#' globally normalized, precomputed DoOR response matrix
-#' 
-#' @name door_response_matrix
-#' @docType data
-#' @format A data frame with 693 observations on 78 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
-
-
-
-#' door_response_range
-#' 
-#' the response range of the studies included in DoOR
-#' 
-#' @name door_response_range
-#' @docType data
-#' @format A data frame with 42 observations on 4 variables.
-#' @keywords datasets
-#' 
-NULL
-
-
 
 
 
 #' door_global_normalization_weights
-#' 
-#' matrix of studies vs responding units, used for calculating the weight for global normalization 
-#' 
+#'
+#' The weights used for the global normalization across responding units.
+#'
 #' @name door_global_normalization_weights
 #' @docType data
-#' @format A data frame with 78 observations on 42 variables.
-#' @keywords datasets
-#' 
+#' @keywords dataset DoOR responding_unit door_global_normalization_weights
+#' @format 
+#''data.frame':	78 obs. of  42 variables:
+#' $ Bruyne.2001.RR                 : int  NA NA NA NA NA NA NA NA NA 1 ...
+#' $ Bruyne.2001.WT                 : int  NA NA NA NA NA NA NA NA NA 1 ...
+#' $ Bruyne.2010.WT                 : int  NA NA NA NA NA NA NA NA NA 1 ...
+#' $ Dobritsa.2003.EN               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Dobritsa.2003.WT               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2013.WT                  : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2015b.WT                 : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2015.EN                  : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2015.WT                  : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Gabler.2013.AL                 : int  NA NA NA NA NA NA NA NA NA 1 ...
+#' $ Galizia.2009.nmr               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Goldman.2005.EN                : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Goldman.2005.WT                : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2006.EN                 : int  NA NA NA NA NA NA NA NA 1 1 ...
+#' $ Kreher.2005.EN                 : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN                 : int  NA NA NA NA NA NA NA 1 1 1 ...
+#' $ Kwon.2007.EN                   : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Kwon.2007.WT                   : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT               : int  1 NA 1 NA 1 1 1 NA NA 1 ...
+#' $ Montague.2011.EN               : int  NA NA NA NA NA NA NA NA 1 1 ...
+#' $ Nissler.2007.EC50              : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Nissler.2007.nmr               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Pelz.2005.ALnmr                : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Pelz.2005.Antnmr               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Pelz.2005.Or47bnmr             : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Pelz.2006.ALEC50               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Pelz.2006.AntEC50              : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Ronderos.2014.WT               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Schmuker.2007.TR               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Silbering.2011.AL              : int  NA NA NA NA NA 1 NA NA NA NA ...
+#' $ Silbering.2011.AL_8a           : int  NA NA NA NA 1 NA NA NA NA NA ...
+#' $ Silbering.2011.WT              : int  NA NA NA NA NA NA 1 NA NA NA ...
+#' $ Stensmyr.2003.WT               : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Stensmyr.2012.WT               : int  NA NA NA NA NA NA NA NA NA 1 ...
+#' $ Turner.2009.SC                 : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ van.der.Goes.van.Naters.2007.EN: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Yao.2005.WT                    : int  1 1 1 1 1 1 1 NA NA NA ...
+#' $ Hallem.2004.EN                 : int  NA NA NA NA NA NA NA NA 1 1 ...
+#' $ Hallem.2004.WT                 : int  NA NA NA NA NA 1 NA NA NA 1 ...
+#' $ Muench.2016.AntGC1             : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Muench.2016.AntGC3             : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.1999.WT                 : int  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' door_glo_dist
+#'
+#' Spatial distances between glomeruli as reported in Laissue PP, Reiter C, Hiesinger PR, Halter S,
+#' Fischbach KF, Stocker RF. 1999. Three-dimensional reconstruction of the antennal lobe in
+#' Drosophila melanogaster. J Comp Neurol. 405:543–552.
+#'
+#' @name door_glo_dist
+#' @docType data
+#' @keywords dataset DoOR responding_unit door_glo_dist
+#' @format 
+#''data.frame':	49 obs. of  49 variables:
+#' $ D                : num  0 19.33 11.1 9.98 12.86 ...
+#' $ DA1              : num  19.3 0 24.4 13.7 13.5 ...
+#' $ DA2              : num  11.1 24.4 0 15.3 12 ...
+#' $ DA3              : num  9.98 13.7 15.28 0 10.01 ...
+#' $ DA4l             : num  12.9 13.5 12 10 0 ...
+#' $ DA4m             : num  8.29 18.18 6.94 8.59 6.86 ...
+#' $ DC1              : num  10.9 20.3 12.8 17.5 13.4 ...
+#' $ DC2              : num  22.3 18.2 20.2 22.5 13.4 ...
+#' $ DC3              : num  20.7 30.7 21.5 29 24.9 ...
+#' $ DL1              : num  17.5 12.7 26.2 17.9 19.6 ...
+#' $ DL2              : num  29.1 18 34.2 29 25.8 ...
+#' $ DL3              : num  13.66 12.25 22.1 7.71 15.9 ...
+#' $ DL4              : num  9.64 11.7 18.89 9.13 13.47 ...
+#' $ DL5              : num  11.1 21 20.4 18.1 20 ...
+#' $ DM1              : num  25.2 39.8 27 35.1 33.7 ...
+#' $ DM2              : num  25.2 40.9 21.4 34.2 30.9 ...
+#' $ DM3              : num  14.3 32 16.7 24.2 24.5 ...
+#' $ DM4              : num  32.7 46.1 30.9 42 38.2 ...
+#' $ DM5              : num  25.4 38.8 17.7 32.4 27.1 ...
+#' $ DM6              : num  14.9 33.1 11.1 22.9 22.3 ...
+#' $ DP1l             : num  30.3 23.9 34.8 32.6 28.7 ...
+#' $ DP1m             : num  23.1 28.5 27.9 30.1 27.7 ...
+#' $ extra.glomerulus1: num  16.8 28 11.8 23.6 17.7 ...
+#' $ extra.glomerulus2: num  61.5 59.2 58.7 65.4 56.9 ...
+#' $ V                : num  64.2 59.7 61.6 67.1 58.4 ...
+#' $ VA1d             : num  25.1 15.3 23.2 21.4 13 ...
+#' $ VA1lm            : num  35.8 24.7 35 34.4 26.4 ...
+#' $ VA1v             : num  31.2 16.6 32.6 28.2 22.1 ...
+#' $ VA2              : num  38.8 44.8 32 44.1 35.6 ...
+#' $ VA3              : num  42 39.8 36.2 43.7 33.9 ...
+#' $ VA4              : num  49.4 46.6 44.8 51.8 42.4 ...
+#' $ VA5              : num  42.9 34.7 39.4 42.3 33.1 ...
+#' $ VA6              : num  19 23.3 13.6 22.1 13.2 ...
+#' $ VA7l             : num  33.6 29.3 28.9 34 24.2 ...
+#' $ VA7m             : num  30.5 30.5 24.5 32.4 22.7 ...
+#' $ VC1              : num  42.2 41.1 39.5 46.1 37.7 ...
+#' $ VC2              : num  38.8 36.6 35.1 41.6 32.5 ...
+#' $ VC3              : num  49.6 52.8 47.2 55.8 48.4 ...
+#' $ VC4              : num  44.6 48 41.5 50.6 42.8 ...
+#' $ VL1              : num  53.3 45.8 51.2 54.4 45.9 ...
+#' $ VL2a             : num  42 29.7 43.6 41.3 35 ...
+#' $ VL2p             : num  51.1 39.7 52.6 51.1 44.8 ...
+#' $ VM1              : num  56.5 60 53.5 62.8 55.2 ...
+#' $ VM2              : num  36.5 46.9 30.5 43.8 37.2 ...
+#' $ VM3              : num  45.2 51.8 40.1 51.8 44.1 ...
+#' $ VM4              : num  56.4 57.4 51.9 61.1 52.2 ...
+#' $ VM5d             : num  26 35 20.1 32.4 25.2 ...
+#' $ VM6              : num  62.7 62.9 59.4 67.6 59.3 ...
+#' $ VM7              : num  35 43.8 33.1 43 37.4 ...
+#'
+NULL
+
+
+
+#' door_mappings
+#'
+#' The mappings of responding units in DoOR to morphological structures like seonsory neurons,
+#' sensillae, etc.
+#'
+#' @name door_mappings
+#' @docType data
+#' @keywords dataset DoOR responding_unit door_mappings
+#' @format 
+#''data.frame':	96 obs. of  20 variables:
+#' $ receptor        : Factor w/ 95 levels "?","ab2B","ab3B",..: 1 52 89 18 35 70 60 87 64 2 ...
+#' $ sensillum       : Factor w/ 27 levels "","?","ab1","ab10",..: 2 3 3 3 3 4 4 4 5 5 ...
+#' $ OSN             : Factor w/ 53 levels "","?","ab10A",..: 2 5 6 7 8 3 4 4 9 10 ...
+#' $ glomerulus      : Factor w/ 57 levels "","?","D","DA1",..: 37 19 31 28 13 25 17 17 22 23 ...
+#' $ co.receptor     : Factor w/ 9 levels "","-","?","Ir25a",..: 3 8 8 1 8 8 8 8 8 8 ...
+#' $ coexpressing    : Factor w/ 27 levels "","Gr10a","Gr21a+Gr63a",..: 1 1 1 3 2 1 26 16 1 21 ...
+#' $ related1        : Factor w/ 29 levels "","ac1","ac1A",..: 1 1 1 1 9 1 28 21 1 25 ...
+#' $ related2        : Factor w/ 19 levels "","ab2B","ab3B",..: 1 1 1 1 1 1 1 1 1 13 ...
+#' $ related3        : Factor w/ 8 levels "","ab2B","ac1BC",..: 1 1 1 1 1 1 1 1 1 1 ...
+#' $ related4        : Factor w/ 5 levels "","ab5B","ac3A",..: 1 1 1 1 1 1 1 1 1 1 ...
+#' $ related5        : Factor w/ 3 levels "","Ir75a","Ir75d": 1 1 1 1 1 1 1 1 1 1 ...
+#' $ related6        : Factor w/ 3 levels "","Ir75d","Ir92a": 1 1 1 1 1 1 1 1 1 1 ...
+#' $ Ors             : Factor w/ 50 levels "","?","Gr21a+Gr63a",..: 2 24 48 3 14 35 30 30 32 44 ...
+#' $ sensillum.type  : Factor w/ 7 levels "","antennal basiconic",..: 1 2 2 2 2 2 2 2 2 2 ...
+#' $ adult           : logi  NA TRUE TRUE TRUE TRUE TRUE ...
+#' $ larva           : logi  NA TRUE NA TRUE NA NA ...
+#' $ dataset.existing: logi  FALSE TRUE TRUE TRUE TRUE TRUE ...
+#' $ comment         : Factor w/ 21 levels "","formerly VM6 (Grabe et al. 2014",..: 1 1 1 1 1 1 1 1 1 1 ...
+#' $ code            : Factor w/ 52 levels "D","DA1","DA2",..: 34 17 28 25 11 22 NA 15 20 21 ...
+#' $ code.OSN        : Factor w/ 54 levels "","ab10A","ab10B",..: NA 4 5 6 7 2 NA 3 8 9 ...
+#'
+NULL
+
+
+
+#' door_response_matrix
+#'
+#' The actual DoOR response matrix containing the consensus data as produced by
+#' create_door_database(). Data are globally normalized across responding units.
+#'
+#' @name door_response_matrix
+#' @docType data
+#' @keywords dataset DoOR responding_unit door_response_matrix
+#' @format 
+#''data.frame':	693 obs. of  78 variables:
+#' $ ac1A       : num  0.0627 0.0226 0.4768 0.061 NA ...
+#' $ ac1B       : num  0.0697 NA NA 0.1133 NA ...
+#' $ ac2A       : num  0.056 0.0868 0.0496 0.8839 NA ...
+#' $ ac2B       : num  0.0709 NA NA 0.0443 NA ...
+#' $ ac3A       : num  0.0686 0.2225 0.0719 0.1899 0.1655 ...
+#' $ ac3B       : num  0.0447 0.0612 0.3783 0.4122 0.0628 ...
+#' $ ac4        : num  0.0927 0.1048 0.151 0.0921 0.0867 ...
+#' $ Or1a       : num  0 0.0249 NA NA NA ...
+#' $ Or2a       : num  0.0485 NA 0.0566 0.0638 0.0519 ...
+#' $ Or7a       : num  0.0253 0.0944 0.0675 0.0504 0.0189 ...
+#' $ Or9a       : num  0.0643 0.0688 0.1084 0.0979 0.1399 ...
+#' $ Or10a      : num  0.0517 0.0567 0.0539 0.0567 0.0464 ...
+#' $ Or13a      : num  0.0798 0.1977 0.1234 0.1535 NA ...
+#' $ Or19a      : num  0.1001 NA 0.0972 0.0807 0.086 ...
+#' $ Or22a      : num  0.0845 0.368 0.185 0.1751 0.0899 ...
+#' $ Or22b      : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Or22c      : logi  NA NA NA NA NA NA ...
+#' $ Or23a      : num  0.01932 NA 0.01502 0.01502 0.00429 ...
+#' $ Or24a      : logi  NA NA NA NA NA NA ...
+#' $ Or30a      : num  0.0124 0.0435 NA NA NA ...
+#' $ Or33a      : num  0 0.0171 NA NA NA ...
+#' $ Or33b      : num  0.0628 NA 0.00813 0.02421 0.0142 ...
+#' $ Or33c      : num  0.0456 NA NA NA NA ...
+#' $ Or35a      : num  0.0816 NA 0.0732 0.0599 0.0997 ...
+#' $ Or42a      : num  0.082 0.123 0.031 0.175 NA ...
+#' $ Or42b      : num  0.0516 0.2246 0.1126 0.2586 NA ...
+#' $ Or43a      : num  0.0953 NA 0.0907 0.0322 0.0483 ...
+#' $ Or43b      : num  0.0149 0.0654 0.0196 0.0493 0.0532 ...
+#' $ Or45a      : num  0.00866 0.25516 NA NA NA ...
+#' $ Or45b      : num  0.0248 0.028 NA NA NA ...
+#' $ Or46a      : num  0.0981 NA NA NA NA ...
+#' $ Or47a      : num  0.0519 NA 0.0814 0.0221 0.0237 ...
+#' $ Or47b      : num  0.198 NA 0.178 0.133 0.158 ...
+#' $ Or49a      : num  0 0.012 NA NA NA ...
+#' $ Or49b      : num  0.048 0.0791 0.0561 0.0641 0.0552 ...
+#' $ Or59a      : num  0.00684 NA NA NA NA ...
+#' $ Or59b      : num  0.0237 0.0427 0.0115 0.0297 0.0276 ...
+#' $ Or59c      : num  0.0358 0.0369 0.0348 0.0644 NA ...
+#' $ Or65a      : num  0.0595 NA 0.0693 0.0527 0.0561 ...
+#' $ Or67a      : num  0.02455 NA 0.04155 0.00716 0.00239 ...
+#' $ Or67b      : num  0.0509 0.1162 NA NA NA ...
+#' $ Or67c      : num  0.0229 0.0258 0.0259 0.0421 0.0389 ...
+#' $ Or67d      : logi  NA NA NA NA NA NA ...
+#' $ Or71a      : num  0.0305 0.0212 0.0217 0.0362 NA ...
+#' $ Or74a      : num  0.0128 0.2488 NA NA NA ...
+#' $ Or82a      : num  0.0266 0.0618 0.0301 0.0471 0.0206 ...
+#' $ Or85a      : num  0.0457 NA 0.0332 0.021 0.0244 ...
+#' $ Or85b      : num  0.065 0.22 0.054 0.167 0.101 ...
+#' $ Or85c      : num  0.0293 0.101 NA NA NA ...
+#' $ Or85d      : num  0.0472 0.0935 0.0448 0.0815 NA ...
+#' $ Or85e      : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Or85f      : num  0.0339 NA 0.0866 0.061 0.0839 ...
+#' $ Or88a      : num  0.0563 NA 0.0563 0.0438 0.0563 ...
+#' $ Or92a      : num  0.0341 0.0244 0.0109 0.0172 NA ...
+#' $ Or94a      : num  0.0434 0.2 NA NA NA ...
+#' $ Or94b      : num  0.0036 0.0403 NA NA NA ...
+#' $ Or98a      : num  0.0152 0.148 0.0682 0.0727 0.0787 ...
+#' $ Gr21a.Gr63a: num  0.141 NA NA NA NA ...
+#' $ ab2B       : num  0.00697 0.00799 0.00608 0.00655 NA ...
+#' $ ab4B       : num  0.0649 NA NA 0.3068 0.0251 ...
+#' $ ab5B       : num  0.0248 0.0923 0.0214 0.1222 NA ...
+#' $ pb2A       : logi  NA NA NA NA NA NA ...
+#' $ Or69a      : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ ac1        : num  0.186 0.257 0.698 0.244 0.423 ...
+#' $ ac2        : num  0.171 0.267 0.176 0.913 0.687 ...
+#' $ ac3_noOr35a: num  0.0965 0.1568 0.2105 0.1258 0.0986 ...
+#' $ Ir31a      : num  0.11669 0.13877 0.00169 0.13945 0.07324 ...
+#' $ Ir41a      : num  0.163 0.329 0 0.491 0.414 ...
+#' $ Ir75a      : num  0.0844 0.3045 0.1213 0.2744 0.1962 ...
+#' $ Ir75d      : num  0.0269 0.0144 0.0324 0.0265 0.0288 ...
+#' $ Ir76a      : num  0.0448 0.0339 0.0579 0.0286 0.0345 ...
+#' $ Ir84a      : num  0.17465 0.20146 0.00433 0.16241 0.16627 ...
+#' $ Ir92a      : num  0.0756 0 0.0166 0.0308 0.0399 ...
+#' $ Ir64a.DC4  : num  0 0.855 0.0284 0.3262 0.2932 ...
+#' $ Ir64a.DP1m : num  0.016 0.181 0.0215 0.1477 0.1019 ...
+#' $ ac1BC      : num  0.0207 0.0252 0.023 0.0252 NA ...
+#' $ ac2BC      : num  0.0205 0.0227 0.0244 0.0307 NA ...
+#' $ Or83c      : num  0.0783 NA NA NA NA ...
+#'
+NULL
+
+
+
+#' door_response_matrix_non_normalized
+#'
+#' The actual DoOR response matrix containing the consensus data as produced by
+#' create_door_database(). Data are not normalized.
+#'
+#' @name door_response_matrix_non_normalized
+#' @docType data
+#' @keywords dataset DoOR responding_unit door_response_matrix_non_normalized
+#' @format 
+#''data.frame':	693 obs. of  78 variables:
+#' $ ac1A       : num  0.1144 0.0413 0.8698 0.1112 NA ...
+#' $ ac1B       : num  0.421 NA NA 0.684 NA ...
+#' $ ac2A       : num  0.0634 0.0982 0.0562 1 NA ...
+#' $ ac2B       : num  0.348 NA NA 0.217 NA ...
+#' $ ac3A       : num  0.143 0.462 0.149 0.394 0.344 ...
+#' $ ac3B       : num  0.0574 0.0786 0.486 0.5294 0.0807 ...
+#' $ ac4        : num  0.218 0.246 0.355 0.217 0.204 ...
+#' $ Or1a       : num  0 0.194 NA NA NA ...
+#' $ Or2a       : num  0.204 NA 0.238 0.269 0.219 ...
+#' $ Or7a       : num  0.0298 0.1111 0.0794 0.0593 0.0222 ...
+#' $ Or9a       : num  0.0988 0.1056 0.1664 0.1502 0.2147 ...
+#' $ Or10a      : num  0.0642 0.0705 0.067 0.0705 0.0576 ...
+#' $ Or13a      : num  0.0919 0.2275 0.142 0.1766 NA ...
+#' $ Or19a      : num  0.1143 NA 0.1111 0.0921 0.0982 ...
+#' $ Or22a      : num  0.0975 0.4247 0.2135 0.2021 0.1038 ...
+#' $ Or22b      : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Or22c      : logi  NA NA NA NA NA NA ...
+#' $ Or23a      : num  0.0723 NA 0.0562 0.0562 0.0161 ...
+#' $ Or24a      : logi  NA NA NA NA NA NA ...
+#' $ Or30a      : num  0.0171 0.0598 NA NA NA ...
+#' $ Or33a      : num  0 0.267 NA NA NA ...
+#' $ Or33b      : num  0.2526 NA 0.0327 0.0974 0.0571 ...
+#' $ Or33c      : num  0.101 NA NA NA NA ...
+#' $ Or35a      : num  0.1004 NA 0.0902 0.0738 0.1228 ...
+#' $ Or42a      : num  0.0914 0.137 0.0346 0.1947 NA ...
+#' $ Or42b      : num  0.0574 0.2498 0.1252 0.2877 NA ...
+#' $ Or43a      : num  0.1744 NA 0.166 0.0589 0.0884 ...
+#' $ Or43b      : num  0.02 0.0878 0.0264 0.0661 0.0714 ...
+#' $ Or45a      : num  0.01 0.294 NA NA NA ...
+#' $ Or45b      : num  0.0259 0.0293 NA NA NA ...
+#' $ Or46a      : num  0.163 NA NA NA NA ...
+#' $ Or47a      : num  0.0598 NA 0.0937 0.0254 0.0273 ...
+#' $ Or47b      : num  0.641 NA 0.575 0.431 0.51 ...
+#' $ Or49a      : num  0 0.0781 NA NA NA ...
+#' $ Or49b      : num  0.0668 0.1101 0.0781 0.0892 0.0768 ...
+#' $ Or59a      : num  0.014 NA NA NA NA ...
+#' $ Or59b      : num  0.0312 0.0562 0.0152 0.039 0.0363 ...
+#' $ Or59c      : num  0.1025 0.1055 0.0996 0.1844 NA ...
+#' $ Or65a      : num  0.26 NA 0.302 0.23 0.245 ...
+#' $ Or67a      : num  0.03305 NA 0.05594 0.00965 0.00322 ...
+#' $ Or67b      : num  0.0512 0.1169 NA NA NA ...
+#' $ Or67c      : num  0.0453 0.0511 0.0513 0.0835 0.0771 ...
+#' $ Or67d      : logi  NA NA NA NA NA NA ...
+#' $ Or71a      : num  0.0372 0.026 0.0265 0.0442 NA ...
+#' $ Or74a      : num  0.0246 0.4775 NA NA NA ...
+#' $ Or82a      : num  0.0363 0.0843 0.041 0.0643 0.0282 ...
+#' $ Or85a      : num  0.0668 NA 0.0485 0.0306 0.0357 ...
+#' $ Or85b      : num  0.077 0.2605 0.0641 0.1984 0.1201 ...
+#' $ Or85c      : num  0.0335 0.1154 NA NA NA ...
+#' $ Or85d      : num  0.0835 0.1657 0.0794 0.1444 NA ...
+#' $ Or85e      : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Or85f      : num  0.118 NA 0.301 0.212 0.292 ...
+#' $ Or88a      : num  0.263 NA 0.262 0.204 0.262 ...
+#' $ Or92a      : num  0.0472 0.0337 0.0151 0.0238 NA ...
+#' $ Or94a      : num  0.047 0.217 NA NA NA ...
+#' $ Or94b      : num  0.00785 0.08806 NA NA NA ...
+#' $ Or98a      : num  0.0191 0.1863 0.0858 0.0915 0.0991 ...
+#' $ Gr21a.Gr63a: num  0.141 NA NA NA NA ...
+#' $ ab2B       : num  0.0143 0.0165 0.0125 0.0135 NA ...
+#' $ ab4B       : num  0.1017 NA NA 0.4812 0.0394 ...
+#' $ ab5B       : num  0.0262 0.0972 0.0225 0.1286 NA ...
+#' $ pb2A       : logi  NA NA NA NA NA NA ...
+#' $ Or69a      : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ ac1        : num  0.266 0.368 1 0.349 0.605 ...
+#' $ ac2        : num  0.171 0.267 0.176 0.913 0.687 ...
+#' $ ac3_noOr35a: num  0.149 0.241 0.324 0.194 0.152 ...
+#' $ Ir31a      : num  0.5038 0.5991 0.0073 0.6021 0.3162 ...
+#' $ Ir41a      : num  0.331 0.67 0 1 0.843 ...
+#' $ Ir75a      : num  0.131 0.473 0.188 0.426 0.305 ...
+#' $ Ir75d      : num  0.0269 0.0144 0.0324 0.0265 0.0288 ...
+#' $ Ir76a      : num  0.774 0.585 1 0.494 0.596 ...
+#' $ Ir84a      : num  0.3837 0.4426 0.0095 0.3568 0.3653 ...
+#' $ Ir92a      : num  0.2147 0 0.0472 0.0874 0.1133 ...
+#' $ Ir64a.DC4  : num  0 0.855 0.0284 0.3262 0.2932 ...
+#' $ Ir64a.DP1m : num  0.0261 0.2957 0.0351 0.2414 0.1665 ...
+#' $ ac1BC      : num  0.364 0.443 0.403 0.443 NA ...
+#' $ ac2BC      : num  0.581 0.645 0.694 0.871 NA ...
+#' $ Or83c      : num  0.0783 NA NA NA NA ...
+#'
+NULL
+
+
+
+#' door_response_range
+#'
+#' The response ranges of the respective data sets.
+#'
+#' @name door_response_range
+#' @docType data
+#' @keywords dataset DoOR responding_unit door_response_range
+#' @format 
+#''data.frame':	42 obs. of  4 variables:
+#' $ study  : Factor w/ 41 levels "Bruyne.1999.WT",..: 2 3 4 5 6 7 8 9 10 11 ...
+#' $ min    : num  0 -1.2 -5.25 0 0 -10 -16 -20.4 -34 -0.15 ...
+#' $ max    : num  203 235 269 276 114 ...
+#' $ n_odors: int  50 13 13 19 12 474 43 12 101 22 ...
+#'
+NULL
+
+
+
+#' Gr21a.Gr63a
+#'
+#' DoOR response data for responding unit Gr21a.Gr63a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Gr21a.Gr63a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Gr21a.Gr63a
+#' @format 
+#''data.frame':	693 obs. of  10 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kwon.2007.EN    : num  2.3 NA NA NA NA 6.3 NA NA NA NA ...
+#' $ Kwon.2007.WT    : int  0 NA NA NA NA 2 NA NA NA NA ...
+#' $ Turner.2009.SC  : int  0 NA NA NA NA -4 NA NA NA NA ...
+#' $ Bruyne.2001.WT  : num  15 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: int  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Ir31a
+#'
+#' DoOR response data for responding unit Ir31a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir31a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir31a
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL: num  0 1.27 -6.6 1.31 -2.49 ...
+#'
+NULL
+
+
+
+#' Ir41a
+#'
+#' DoOR response data for responding unit Ir41a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir41a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir41a
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL: num  0 7.07 -6.93 13.98 10.69 ...
+#'
+NULL
+
+
+
+#' Ir64a.DC4
+#'
+#' DoOR response data for responding unit Ir64a.DC4. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir64a.DC4
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir64a.DC4
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class               : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name                : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey            : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID                 : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS                 : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL_8a: num  0 24.994 0.829 9.537 8.571 ...
+#'
+NULL
+
+
+
+#' Ir64a.DP1m
+#'
+#' DoOR response data for responding unit Ir64a.DP1m. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir64a.DP1m
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir64a.DP1m
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class               : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name                : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey            : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID                 : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS                 : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL_8a: num  0 4.952 0.164 3.954 2.579 ...
+#'
+NULL
+
+
+
+#' Ir75a
+#'
+#' DoOR response data for responding unit Ir75a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir75a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir75a
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class               : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name                : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey            : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID                 : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS                 : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL   : num  0 4.66 2.54 6.78 3.27 ...
+#' $ Silbering.2011.AL_8a: num  0 8.371 0.685 5.446 3.605 ...
+#'
+NULL
+
+
+
+#' Ir75d
+#'
+#' DoOR response data for responding unit Ir75d. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir75d
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir75d
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL: num  0 -0.367 0.16 -0.012 0.057 NA NA NA NA -0.124 ...
+#'
+NULL
+
+
+
+#' Ir76a
+#'
+#' DoOR response data for responding unit Ir76a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir76a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir76a
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL: num  0 -1.38 1.65 -2.05 -1.3 ...
+#'
+NULL
+
+
+
+#' Ir84a
+#'
+#' DoOR response data for responding unit Ir84a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir84a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir84a
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class               : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name                : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey            : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID                 : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS                 : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL   : num  0 1.051 -8.037 -0.783 -0.767 ...
+#' $ Silbering.2011.AL_8a: num  0 0.995 -5.597 -0.317 -0.119 ...
+#'
+NULL
+
+
+
+#' Ir92a
+#'
+#' DoOR response data for responding unit Ir92a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Ir92a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Ir92a
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Silbering.2011.AL: num  0 -2.74 -2.14 -1.63 -1.29 ...
+#'
+NULL
+
+
+
+#' odor
+#'
+#' A data.frame containig information like chemical identifiers and some chemical descriptors for
+#' all odorants in DoOR.
+#'
+#' @name odor
+#' @docType data
+#' @keywords dataset DoOR responding_unit odor
+#' @format 
+#''data.frame':	693 obs. of  22 variables:
+#' $ Class   : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name    : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey: Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID     : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS     : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ InChI   : Factor w/ 693 levels "1S/C10H12O2/c1-2-8-12-10(11)9-6-4-3-5-7-9/h3-7H,2,8H2,1H3",..: 692 687 690 331 382 689 294 526 380 292 ...
+#' $ SMILES  : Factor w/ 693 levels "[C@@]123[C@H](C(C)(C)[C@@H](C1)C(CC2)=C)CC[C@H]3C",..: 692 674 688 440 439 672 543 340 370 611 ...
+#' $ Code    : Factor w/ 168 levels "","2EBM","2EPM",..: 163 1 1 1 1 1 1 1 1 1 ...
+#' $ Formula : Factor w/ 328 levels "","C10H10O2",..: NA 323 327 155 176 326 130 245 174 129 ...
+#' $ MW      : num  NA 18 35 88.2 102.2 ...
+#' $ BP      : num  NA 100 NA 158 178 -33 170 154 95 7 ...
+#' $ MP      : num  NA 0 NA 25 14 -78 10 -18 -60 -93 ...
+#' $ HLC     : num  NA NA NA 1.82e-09 NA NA 3.25e-08 4.15e-05 NA 1.77e-05 ...
+#' $ EG      : num  NA -242 NA NA NA ...
+#' $ EC      : num  NA -286 NA NA NA ...
+#' $ HBD     : int  NA 1 2 2 2 1 2 1 1 1 ...
+#' $ HBA     : int  NA 1 1 2 2 1 2 1 1 1 ...
+#' $ RotB    : int  NA 0 0 3 4 0 1 5 2 0 ...
+#' $ TPSA    : num  NA 1 2 52 52 1 46.3 26 26 12 ...
+#' $ Volume  : num  NA 20.1 NA 98.6 116.5 ...
+#' $ VP.25   : num  NA 23.54 NA NA 4.12 ...
+#' $ pKa.25  : num  NA NA NA NA 10.8 ...
+#'
+NULL
+
+
+
+#' Or10a
+#'
+#' DoOR response data for responding unit Or10a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or10a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or10a
+#' @format 
+#''data.frame':	693 obs. of  15 variables:
+#' $ Class             : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name              : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey          : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID               : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS               : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN    : int  14 NA 24 -12 -3 NA NA NA NA NA ...
+#' $ Dobritsa.2003.EN  : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Stensmyr.2003.WT  : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Schmuker.2007.TR  : int  6 NA NA 5 NA 11 6 NA NA NA ...
+#' $ Gabler.2013.AL    : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT    : num  6 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT  : num  0 4 2.5 1.5 NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN    : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.WT    : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Muench.2016.AntGC1: num  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or13a
+#'
+#' DoOR response data for responding unit Or13a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or13a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or13a
+#' @format 
+#''data.frame':	693 obs. of  12 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Schmuker.2007.TR : int  14 NA NA 17 NA 4 8 NA NA NA ...
+#' $ Nissler.2007.EC50: num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Nissler.2007.nmr : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN   : int  5 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT   : num  14 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN : int  17 15 NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT : num  0 27.33 2.67 12 NA ...
+#'
+NULL
+
+
+
+#' Or19a
+#'
+#' DoOR response data for responding unit Or19a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or19a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or19a
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN: int  29 NA 30 20 24 NA NA NA NA NA ...
+#' $ Gabler.2013.AL: num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2013.WT : num  0 NA 1 0 -1 NA NA 3 NA NA ...
+#' $ Hallem.2004.EN: num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or1a
+#'
+#' DoOR response data for responding unit Or1a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or1a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or1a
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2008.EN: int  2 9 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or22a
+#'
+#' DoOR response data for responding unit Or22a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or22a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or22a
+#' @format 
+#''data.frame':	693 obs. of  19 variables:
+#' $ Class            : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name             : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey         : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID              : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS              : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN   : int  4 NA 17 16 17 NA NA NA NA NA ...
+#' $ Dobritsa.2003.EN : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Stensmyr.2003.WT : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Schmuker.2007.TR : int  4 NA NA 3 NA 3 8 NA NA NA ...
+#' $ Pelz.2006.ALEC50 : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Pelz.2006.AntEC50: num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Pelz.2005.ALnmr  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Pelz.2005.Antnmr : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Gabler.2013.AL   : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT   : num  4 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2010.WT   : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT : num  0 60.6 44.3 28 NA ...
+#' $ Hallem.2004.EN   : num  6.19 NA NA NA NA ...
+#' $ Hallem.2004.WT   : num  6.92 NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or22b
+#'
+#' DoOR response data for responding unit Or22b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or22b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or22b
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Dobritsa.2003.EN: int  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or22c
+#'
+#' DoOR response data for responding unit Or22c. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or22c
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or22c
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2008.EN  : int  12 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  9 72 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or23a
+#'
+#' DoOR response data for responding unit Or23a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or23a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or23a
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN: int  9 NA 7 7 2 NA NA NA NA NA ...
+#' $ Hallem.2004.EN: num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or24a
+#'
+#' DoOR response data for responding unit Or24a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or24a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or24a
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2008.EN  : int  16 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  6 29 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or2a
+#'
+#' DoOR response data for responding unit Or2a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or2a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or2a
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  8 NA 11 14 9 NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  17 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  8 7 NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or30a
+#'
+#' DoOR response data for responding unit Or30a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or30a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or30a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  9 20 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  6 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  5 3 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or33a
+#'
+#' DoOR response data for responding unit Or33a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or33a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or33a
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2008.EN: int  4 8 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or33b
+#'
+#' DoOR response data for responding unit Or33b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or33b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or33b
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  25 NA 16 21 18 NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  11 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  16 9 NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN  : num  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or33c
+#'
+#' DoOR response data for responding unit Or33c. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or33c
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or33c
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class          : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name           : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey       : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID            : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS            : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Goldman.2005.EN: int  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or35a
+#'
+#' DoOR response data for responding unit Or35a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or35a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or35a
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  17 NA 21 17 29 NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  12 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  4 41 NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or42a
+#'
+#' DoOR response data for responding unit Or42a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or42a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or42a
+#' @format 
+#''data.frame':	693 obs. of  11 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  16 46 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  13 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2010.WT  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  11 20 NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 7 1.5 8.67 NA ...
+#' $ Bruyne.1999.WT  : num  11 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or42b
+#'
+#' DoOR response data for responding unit Or42b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or42b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or42b
+#' @format 
+#''data.frame':	693 obs. of  14 variables:
+#' $ Class             : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name              : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey          : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID               : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS               : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Bruyne.2001.RR    : int  NA NA NA 79 NA 0 0 NA NA NA ...
+#' $ Dobritsa.2003.EN  : int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN    : int  7 NA NA NA NA NA NA NA NA NA ...
+#' $ Gabler.2013.AL    : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT    : num  9 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2010.WT    : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN  : int  2 0 NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT  : num  0 40 13.1 40 NA ...
+#' $ Muench.2016.AntGC1: num  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or43a
+#'
+#' DoOR response data for responding unit Or43a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or43a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or43a
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN: int  21 NA 20 4 11 NA NA NA NA NA ...
+#' $ Hallem.2004.EN: num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or43b
+#'
+#' DoOR response data for responding unit Or43b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or43b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or43b
+#' @format 
+#''data.frame':	693 obs. of  10 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  2 NA 5 3 14 NA NA NA NA NA ...
+#' $ Bruyne.2010.WT  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 20.7 5.5 18.4 NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.WT  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or45a
+#'
+#' DoOR response data for responding unit Or45a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or45a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or45a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  18 88 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  13 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  8 77 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or45b
+#'
+#' DoOR response data for responding unit Or45b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or45b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or45b
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  12 11 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  8 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  1 26 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or46a
+#'
+#' DoOR response data for responding unit Or46a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or46a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or46a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Goldman.2005.WT : int  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 40.7 18.3 7 NA ...
+#' $ Bruyne.1999.WT  : num  32 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or47a
+#'
+#' DoOR response data for responding unit Or47a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or47a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or47a
+#' @format 
+#''data.frame':	693 obs. of  11 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  1 NA 17 -8 -7 NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  1 NA NA NA NA NA NA NA NA NA ...
+#' $ Dobritsa.2003.EN: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Gabler.2013.AL  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  5 18 NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or47b
+#'
+#' DoOR response data for responding unit Or47b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or47b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or47b
+#' @format 
+#''data.frame':	693 obs. of  11 variables:
+#' $ Class             : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name              : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey          : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID               : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS               : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN    : int  47 NA 39 22 31 NA NA NA NA NA ...
+#' $ Pelz.2005.Or47bnmr: num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2015b.WT    : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN    : num  73.1 NA NA NA NA ...
+#' $ Hallem.2004.WT    : num  61.1 NA NA NA NA ...
+#' $ Muench.2016.AntGC1: num  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or49a
+#'
+#' DoOR response data for responding unit Or49a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or49a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or49a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  12 15 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  6 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  1 3 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or49b
+#'
+#' DoOR response data for responding unit Or49b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or49b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or49b
+#' @format 
+#''data.frame':	693 obs. of  11 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  8 NA 12 1 6 NA NA NA NA NA ...
+#' $ Bruyne.2001.RR  : int  NA NA NA 0 NA 0 0 NA NA NA ...
+#' $ Bruyne.2001.WT  : num  6 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 20.7 3.5 10.3 NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.WT  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or59a
+#'
+#' DoOR response data for responding unit Or59a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or59a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or59a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  13 NA NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  9 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  10 8 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or59b
+#'
+#' DoOR response data for responding unit Or59b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or59b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or59b
+#' @format 
+#''data.frame':	693 obs. of  15 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  2 NA 7 4 9 NA NA NA NA NA ...
+#' $ Dobritsa.2003.EN: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Stensmyr.2003.WT: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Schmuker.2007.TR: int  5 NA NA -6 NA -5 -4 NA NA NA ...
+#' $ Gabler.2013.AL  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT  : num  5 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2010.WT  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 12.57 5.21 17.67 NA ...
+#' $ Hallem.2004.EN  : num  7.01 NA NA NA NA ...
+#' $ Hallem.2004.WT  : num  11.1 NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or59c
+#'
+#' DoOR response data for responding unit Or59c. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or59c
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or59c
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Goldman.2005.WT : int  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2010.WT  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 2.67 2.33 7.33 NA ...
+#' $ Bruyne.1999.WT  : num  6 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or65a
+#'
+#' DoOR response data for responding unit Or65a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or65a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or65a
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class                          : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name                           : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey                       : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID                            : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS                            : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN                 : int  18 NA 21 16 17 NA NA NA NA NA ...
+#' $ Dweck.2015b.WT                 : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ van.der.Goes.van.Naters.2007.EN: num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN                 : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or67a
+#'
+#' DoOR response data for responding unit Or67a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or67a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or67a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN: int  11 NA 27 7 3 NA NA NA NA NA ...
+#' $ Gabler.2013.AL: num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN: num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or67b
+#'
+#' DoOR response data for responding unit Or67b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or67b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or67b
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  17 24 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  12 NA NA NA NA NA NA NA NA NA ...
+#' $ Galizia.2009.nmr: num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  3 10 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or67c
+#'
+#' DoOR response data for responding unit Or67c. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or67c
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or67c
+#' @format 
+#''data.frame':	693 obs. of  10 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  6 NA 16 12 20 NA NA NA NA NA ...
+#' $ Bruyne.2001.RR  : int  NA NA NA 0 NA 0 0 NA NA NA ...
+#' $ Bruyne.2001.WT  : num  3 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 0.667 0.333 1.6 NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or67d
+#'
+#' DoOR response data for responding unit Or67d. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or67d
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or67d
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class                          : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name                           : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey                       : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID                            : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS                            : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Dweck.2015b.WT                 : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ van.der.Goes.van.Naters.2007.EN: num  12 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or69a
+#'
+#' DoOR response data for responding unit Or69a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or69a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or69a
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class             : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name              : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey          : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID               : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS               : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Muench.2016.AntGC1: num  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or71a
+#'
+#' DoOR response data for responding unit Or71a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or71a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or71a
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Goldman.2005.WT : int  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2015.WT   : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 -0.667 -0.5 4 NA NA NA NA NA NA ...
+#' $ Bruyne.1999.WT  : num  6 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or74a
+#'
+#' DoOR response data for responding unit Or74a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or74a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or74a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  21 87 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  16 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  4 32 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or7a
+#'
+#' DoOR response data for responding unit Or7a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or7a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or7a
+#' @format 
+#''data.frame':	693 obs. of  16 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  17 NA -4 -19 -24 NA NA NA NA NA ...
+#' $ Bruyne.2001.RR  : int  NA NA NA 0 NA 0 0 NA NA NA ...
+#' $ Kreher.2008.EN  : int  12 NA NA NA NA NA NA NA NA NA ...
+#' $ Stensmyr.2012.WT: num  0 NA NA 0.8 -5.6 5.6 NA NA NA NA ...
+#' $ Gabler.2013.AL  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT  : num  14 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2010.WT  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  13 42 NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 27.4 27.6 -2 NA ...
+#' $ Hallem.2004.EN  : num  15.6 NA NA NA NA ...
+#' $ Hallem.2004.WT  : num  19.9 NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or82a
+#'
+#' DoOR response data for responding unit Or82a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or82a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or82a
+#' @format 
+#''data.frame':	693 obs. of  14 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  16 NA 18 12 14 NA NA NA NA NA ...
+#' $ Bruyne.2001.RR  : int  NA NA NA 0 NA 0 0 NA NA NA ...
+#' $ Kreher.2008.EN  : int  16 NA NA NA NA NA NA NA NA NA ...
+#' $ Gabler.2013.AL  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT  : num  9 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  8 21 NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 12.29 3.07 16.67 NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.WT  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or83c
+#'
+#' DoOR response data for responding unit Or83c. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or83c
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or83c
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Ronderos.2014.WT: int  0 NA NA NA NA 20 -17 NA NA NA ...
+#'
+NULL
+
+
+
+#' Or85a
+#'
+#' DoOR response data for responding unit Or85a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or85a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or85a
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN: int  14 NA 8 1 3 NA NA NA NA NA ...
+#' $ Hallem.2004.EN: num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or85b
+#'
+#' DoOR response data for responding unit Or85b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or85b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or85b
+#' @format 
+#''data.frame':	693 obs. of  13 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  13 NA 28 37 42 NA NA NA NA NA ...
+#' $ Dobritsa.2003.EN: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 25.1 NA 13.5 NA ...
+#' $ Stensmyr.2003.WT: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Schmuker.2007.TR: int  8 NA NA 27 NA 25 17 NA NA NA ...
+#' $ Bruyne.2001.WT  : num  8 NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA 79.5 NA NA NA NA NA NA ...
+#' $ Hallem.2004.WT  : num  NA NA NA 44.2 NA ...
+#'
+NULL
+
+
+
+#' Or85c
+#'
+#' DoOR response data for responding unit Or85c. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or85c
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or85c
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  16 51 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  9 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  5 47 NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or85d
+#'
+#' DoOR response data for responding unit Or85d. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or85d
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or85d
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Goldman.2005.WT : int  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 10 -0.833 7.333 NA ...
+#' $ Bruyne.1999.WT  : num  9 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or85e
+#'
+#' DoOR response data for responding unit Or85e. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or85e
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or85e
+#' @format 
+#''data.frame':	693 obs. of  6 variables:
+#' $ Class          : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name           : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey       : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID            : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS            : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Goldman.2005.EN: int  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or85f
+#'
+#' DoOR response data for responding unit Or85f. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or85f
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or85f
+#' @format 
+#''data.frame':	693 obs. of  7 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN: int  7 NA 24 15 23 NA NA NA NA NA ...
+#' $ Hallem.2004.EN: num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or88a
+#'
+#' DoOR response data for responding unit Or88a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or88a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or88a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class         : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name          : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey      : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID           : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS           : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN: int  26 NA 26 20 26 NA NA NA NA NA ...
+#' $ Dweck.2015b.WT: num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.EN: num  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or92a
+#'
+#' DoOR response data for responding unit Or92a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or92a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or92a
+#' @format 
+#''data.frame':	693 obs. of  11 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Bruyne.2001.RR  : int  NA NA NA 0 NA 0 0 NA NA NA ...
+#' $ Dobritsa.2003.EN: int  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Galizia.2009.nmr: num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Gabler.2013.AL  : num  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Bruyne.2001.WT  : num  3 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 24 4.93 10.57 NA ...
+#'
+NULL
+
+
+
+#' Or94a
+#'
+#' DoOR response data for responding unit Or94a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or94a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or94a
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  19 62 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  18 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  15 25 NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2015.EN   : num  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or94b
+#'
+#' DoOR response data for responding unit Or94b. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or94b
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or94b
+#' @format 
+#''data.frame':	693 obs. of  9 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Kreher.2005.EN  : int  13 24 NA NA NA NA NA NA NA NA ...
+#' $ Kreher.2008.EN  : int  8 NA NA NA NA NA NA NA NA NA ...
+#' $ Montague.2011.EN: int  2 3 NA NA NA NA NA NA NA NA ...
+#' $ Dweck.2015.EN   : num  0 NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or98a
+#'
+#' DoOR response data for responding unit Or98a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or98a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or98a
+#' @format 
+#''data.frame':	693 obs. of  11 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  12 NA 36 29 33 NA NA NA NA NA ...
+#' $ Bruyne.2001.RR  : int  NA NA NA 0 NA 0 0 NA NA NA ...
+#' $ Bruyne.2001.WT  : num  11 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 14.33 5.17 6.4 NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#' $ Hallem.2004.WT  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' Or9a
+#'
+#' DoOR response data for responding unit Or9a. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name Or9a
+#' @docType data
+#' @keywords dataset DoOR responding_unit Or9a
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Hallem.2006.EN  : int  3 NA 35 29 24 NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 1 2.33 1.6 NA ...
+#' $ Hallem.2004.EN  : num  NA NA NA NA NA NA NA NA NA NA ...
+#'
+NULL
+
+
+
+#' ORs
+#'
+#' A data frame containing the names of all the responding units of that data is existing in DoOR.
+#'
+#' @name ORs
+#' @docType data
+#' @keywords dataset DoOR responding_unit ORs
+#' @format 
+#''data.frame':	78 obs. of  1 variables:
+#' $ OR        : Factor w/ 78 levels "ab2B","ab4B",..: 5 6 9 10 12 13 15 29 35 63 ...
+#'
+NULL
+
+
+
+#' pb2A
+#'
+#' DoOR response data for responding unit pb2A. Please find detailed
+#' information on the respective sources of the data in door_dataset_info.
+#'
+#' @name pb2A
+#' @docType data
+#' @keywords dataset DoOR responding_unit pb2A
+#' @format 
+#''data.frame':	693 obs. of  8 variables:
+#' $ Class           : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+#' $ Name            : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+#' $ InChIKey        : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+#' $ CID             : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+#' $ CAS             : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+#' $ Goldman.2005.WT : int  0 NA NA NA NA NA NA NA NA NA ...
+#' $ Marshall.2010.WT: num  0 10.667 0.833 3.667 NA ...
+#' $ Bruyne.1999.WT  : num  7 NA NA NA NA NA NA NA NA NA ...
+#'
 NULL
 
 
