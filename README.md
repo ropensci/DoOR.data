@@ -16,8 +16,8 @@ Either download a packaged version or install _via_ `devtools`:
 install.packages("devtools")
 library(devtools)
 
-# install DoOR.data 2.0.0
-install_github("dahaniel/DoOR.data", ref="v2.0.0")
+# install DoOR.data 2.0.1
+install_github("dahaniel/DoOR.data", ref="v2.0.1")
 
 # or install the latest version available on Github
 install_github("dahaniel/DoOR.data")
