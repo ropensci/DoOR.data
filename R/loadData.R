@@ -7,9 +7,9 @@
 #' @aliases loadData load_door_data
 #' @author Daniel Münch <\email{daniel.muench@uni-konstanz.de}>
 #' @examples
-#' 
+#' \dontrun{
 #' load_door_data()
-#' 
+#' }
 #' @export load_door_data
 load_door_data <- function(){
   

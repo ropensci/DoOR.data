@@ -4,12 +4,13 @@
 \name{ORs}
 \alias{ORs}
 \title{ORs}
-\format{A data frame with 78 observations on 2 variables.}
+\format{'data.frame':	78 obs. of  1 variables:
+$ OR        : Factor w/ 78 levels "ab2B","ab4B",..: 5 6 9 10 12 13 15 29 35 63 ...}
 \description{
-list of responding units in DoOR
+A data frame containing the names of all the responding units of that data is existing in DoOR.
 }
-\details{
-including information on whether a unitresponding unit is expressed in adult (0), lava (1) or both (2)
-}
-\keyword{datasets}
+\keyword{DoOR}
+\keyword{ORs}
+\keyword{dataset}
+\keyword{responding_unit}
 

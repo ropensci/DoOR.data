@@ -14,9 +14,9 @@ attaches all DoOR data to the main workspace
 load all DoOR.data
 }
 \examples{
-
+\dontrun{
 load_door_data()
-
+}
 }
 \author{
 Daniel Münch <\email{daniel.muench@uni-konstanz.de}>

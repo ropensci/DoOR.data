@@ -4,9 +4,21 @@
 \name{ac3A}
 \alias{ac3A}
 \title{ac3A}
-\format{A data frame with 693 observations on 8 variables.}
+\format{'data.frame':	693 obs. of  8 variables:
+$ Class               : Factor w/ 17 levels "acid","acids",..: NA 13 5 5 5 5 5 5 5 5 ...
+$ Name                : Factor w/ 690 levels "11-cis vaccenyl acetate",..: 634 675 240 613 283 239 363 436 458 341 ...
+$ InChIKey            : Factor w/ 693 levels "ACCRBMDJCPPJDX-UHFFFAOYSA-N",..: 482 612 549 252 548 418 196 577 41 462 ...
+$ CID                 : Factor w/ 687 levels "1001","10050",..: 686 680 139 15 220 189 483 610 564 468 ...
+$ CAS                 : Factor w/ 677 levels "1001-45-2","10032-13-0",..: 676 591 212 100 379 586 231 114 62 200 ...
+$ Yao.2005.WT         : int  16 NA NA -3 NA 4 NA -6 -3 10 ...
+$ Silbering.2011.AL_8a: num  0 8.042 0.411 6.55 4.773 ...
+$ Marshall.2010.WT    : num  0 8 -4.17 -1 NA ...}
 \description{
-DoOR response data
+DoOR response data for responding unit ac3A. Please find detailed
+information on the respective sources of the data in door_dataset_info.
 }
-\keyword{datasets}
+\keyword{DoOR}
+\keyword{ac3A}
+\keyword{dataset}
+\keyword{responding_unit}
 
