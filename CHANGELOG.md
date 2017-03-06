@@ -1,11 +1,23 @@
 # Change Log
 
+## [2.0.1](https://github.com/Dahaniel/DoOR.data/tree/2.0.1) (2017-03-06)
+[Full Changelog](https://github.com/Dahaniel/DoOR.data/compare/v2.0.0...2.0.1)
+
+**Closed issues:**
+
+- replace '.' with '\_' in data names [\#19](https://github.com/Dahaniel/DoOR.data/issues/19)
+- moved all urls to url field in DESCRIPTION [\#18](https://github.com/Dahaniel/DoOR.data/issues/18)
+- add warning message that data is loaded into current workspace and force user feedback [\#17](https://github.com/Dahaniel/DoOR.data/issues/17)
+- rename `loadData` to `load\_door\_data\(\)` to be more descriptive [\#16](https://github.com/Dahaniel/DoOR.data/issues/16)
+- write documentation for data sets [\#15](https://github.com/Dahaniel/DoOR.data/issues/15)
+- revert to store data as text rather than binary [\#14](https://github.com/Dahaniel/DoOR.data/issues/14)
+
 ## [v2.0.0](https://github.com/Dahaniel/DoOR.data/tree/v2.0.0) (2016-02-25)
 [Full Changelog](https://github.com/Dahaniel/DoOR.data/compare/v1.0.2...v2.0.0)
 
 **Fixed bugs:**
 
-- rename ab3B \> Or85b in door_mappings [\#7](https://github.com/Dahaniel/DoOR.data/issues/7)
+- rename ab3B \> Or85b in DoOR.mappings [\#7](https://github.com/Dahaniel/DoOR.data/issues/7)
 
 **Closed issues:**
 
