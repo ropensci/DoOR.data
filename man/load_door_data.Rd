@@ -5,7 +5,11 @@
 \alias{load_door_data}
 \title{load_door_data}
 \usage{
-load_door_data()
+load_door_data(nointeraction = FALSE)
+}
+\arguments{
+\item{nointeraction}{if set to TRUE does not promt security message. Necessary e.g. for building
+vignettes during CHECK.}
 }
 \value{
 attaches all DoOR data to the main workspace
@@ -14,7 +18,6 @@ attaches all DoOR data to the main workspace
 load all DoOR.data
 }
 \examples{
-<<<<<<< HEAD
 # load all data to current workspace
 \dontrun{
 load_door_data()
@@ -22,11 +25,6 @@ load_door_data()
 
 # it is also possible to load individual data sets using data().
 data(Or22a)
-=======
-\dontrun{
-load_door_data()
-}
->>>>>>> c4f9f57a7c6f0c023719ea905952e319fb8d425f
 }
 \author{
 Daniel Münch <\email{daniel.muench@uni-konstanz.de}>
