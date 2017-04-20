@@ -21,7 +21,8 @@ Imports:
 Depends:
     R (>= 3.2.0)
 Suggests:
-    DoOR.functions (>= 2.0.1)
-Remotes: 
+    DoOR.functions (>= 2.0.1),
+    testthat
+Remotes:
     Dahaniel/DoOR.functions@v2.0.1
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
