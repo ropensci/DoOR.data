@@ -27,4 +27,3 @@ Detailed information on the sources of the data sets in used in DoOR.
 \keyword{dataset}
 \keyword{door_dataset_info}
 \keyword{responding_unit}
-

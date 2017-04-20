@@ -13,4 +13,3 @@ A data frame containing the names of all the responding units of that data is ex
 \keyword{ORs}
 \keyword{dataset}
 \keyword{responding_unit}
-

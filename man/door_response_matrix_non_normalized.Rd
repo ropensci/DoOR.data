@@ -91,4 +91,3 @@ create_door_database(). Data are not normalized.
 \keyword{dataset}
 \keyword{door_response_matrix_non_normalized}
 \keyword{responding_unit}
-

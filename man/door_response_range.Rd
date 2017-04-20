@@ -16,4 +16,3 @@ The response ranges of the respective data sets.
 \keyword{dataset}
 \keyword{door_response_range}
 \keyword{responding_unit}
-

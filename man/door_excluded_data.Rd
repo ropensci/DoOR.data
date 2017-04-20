@@ -15,4 +15,3 @@ low overlap with the remaining sets or bad fits.
 \keyword{dataset}
 \keyword{door_excluded_data}
 \keyword{responding_unit}
-

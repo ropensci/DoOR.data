@@ -25,4 +25,3 @@ information on the respective sources of the data in door_dataset_info.
 \keyword{ab2B}
 \keyword{dataset}
 \keyword{responding_unit}
-

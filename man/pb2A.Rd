@@ -21,4 +21,3 @@ information on the respective sources of the data in door_dataset_info.
 \keyword{dataset}
 \keyword{pb2A}
 \keyword{responding_unit}
-

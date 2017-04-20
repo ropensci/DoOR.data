@@ -63,4 +63,3 @@ Drosophila melanogaster. J Comp Neurol. 405:543–552.
 \keyword{dataset}
 \keyword{door_glo_dist}
 \keyword{responding_unit}
-

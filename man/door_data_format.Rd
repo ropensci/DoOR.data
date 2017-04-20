@@ -17,4 +17,3 @@ A dataframe containing the default headers for a DooR data set.
 \keyword{dataset}
 \keyword{door_data_format}
 \keyword{responding_unit}
-

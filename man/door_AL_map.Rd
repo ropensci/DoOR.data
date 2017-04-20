@@ -30,4 +30,3 @@ A list containing the antennal lobe map from Grabe et al. 2015 (DOI: 10.1002/cne
 to create AL plots with the dplot_al_map function
 }
 \keyword{door_AL_map}
-

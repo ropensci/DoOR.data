@@ -54,4 +54,3 @@ The weights used for the global normalization across responding units.
 \keyword{dataset}
 \keyword{door_global_normalization_weights}
 \keyword{responding_unit}
-

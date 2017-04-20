@@ -23,4 +23,3 @@ information on the respective sources of the data in door_dataset_info.
 \keyword{Gr21a.Gr63a}
 \keyword{dataset}
 \keyword{responding_unit}
-

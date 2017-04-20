@@ -91,4 +91,3 @@ create_door_database(). Data are globally normalized across responding units.
 \keyword{dataset}
 \keyword{door_response_matrix}
 \keyword{responding_unit}
-

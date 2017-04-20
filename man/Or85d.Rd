@@ -21,4 +21,3 @@ information on the respective sources of the data in door_dataset_info.
 \keyword{Or85d}
 \keyword{dataset}
 \keyword{responding_unit}
-

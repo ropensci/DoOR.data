@@ -20,4 +20,3 @@ information on the respective sources of the data in door_dataset_info.
 \keyword{Or23a}
 \keyword{dataset}
 \keyword{responding_unit}
-
