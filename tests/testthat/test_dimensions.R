@@ -8,9 +8,14 @@ all_data <- all_data[-which(all_data == "door_AL_map")]
 
 test_that("data is not empty", {
   for (i in all_data)
-    expect_true(dim(get(i))[1] > 0)
+    expect_that(dim(get(i))[1], is_more_than(0))
+})
+
+test_that("data is organized in data.frames", {
+  for (i in all_data)
+    expect_that(get(i), is_a("data.frame"))
 })
 
 test_that("door_AL_map is a list", {
-  expect_match(class(door_AL_map), "list")
+  expect_that(door_AL_map, is_a("list"))
 })
