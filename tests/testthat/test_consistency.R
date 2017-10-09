@@ -13,7 +13,7 @@ test_that("all odors are present in data objects", {
 
 test_that("data is numeric", {
   for(i in ORs[,1])
-    sapply(get(i)[,-c(1:5)], is.numeric)
+    vapply(get(i)[,-c(1:5)], is.numeric, logical(length = 1))
 })
 
 test_that("odors are not duplicated", {
