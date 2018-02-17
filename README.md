@@ -4,7 +4,7 @@ DoOR.data
 [![Travis-CI Build Status](https://travis-ci.org/ropensci/DoOR.data.svg?branch=master)](https://travis-ci.org/ropensci/DoOR.data)
 
 
-R package containing the data for the Database of Odor Responses. The corresponding functions package can be found at [https://github.com/ropensci/DoOR.functions](https://github.com/Dahaniel/DoOR.functions).
+R package containing the data for the Database of Odor Responses. The corresponding functions package can be found at [https://github.com/ropensci/DoOR.functions](https://github.com/ropensci/DoOR.functions).
 
 ## The DoOR Project
 Find more information, precompiled R-packages and a interactive web-version of the DoOR-Database at: **[http://neuro.uni.kn/DoOR](http://neuro.uni.kn/DoOR)**
