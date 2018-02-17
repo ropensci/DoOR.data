@@ -1,6 +1,7 @@
 DoOR.data
 =========
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.375618.svg)](http://dx.doi.org/10.5281/zenodo.375618)
+[![](https://badges.ropensci.org/35_status.svg)](https://github.com/ropensci/onboarding/issues/35)
 [![Travis-CI Build Status](https://travis-ci.org/ropensci/DoOR.data.svg?branch=master)](https://travis-ci.org/ropensci/DoOR.data)
 
 
