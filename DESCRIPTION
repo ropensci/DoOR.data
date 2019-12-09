@@ -9,7 +9,7 @@ Authors@R: c(
     person("Shouwen", "Ma", role = "aut"),
     person("Martin", "Strauch", role = "aut"),
     person("Anja", "Nissler", role = "aut"))
-URL: http://neuro.uni.kn/DoOR, http://dx.doi.org/10.1038/srep21841, http://dx.doi.org/10.1093/chemse/bjq042, https://github.com/ropensci/DoOR.data
+URL: https://docs.ropensci.org/DoOR.data, http://neuro.uni.kn/DoOR, http://dx.doi.org/10.1038/srep21841, http://dx.doi.org/10.1093/chemse/bjq042, https://github.com/ropensci/DoOR.data
 BugReports: https://github.com/ropensci/DoOR.data/issues
 Description: This is a data package providing Drosophila odorant response data for
     DoOR.functions. See URLs for the original and the DoOR 2.0 publications.
