@@ -36,5 +36,5 @@ load_door_data <- function(nointeraction = FALSE) {
   
   
   all.data <- utils::data(package = "DoOR.data")
-  utils::data(list = all.data$results[, 3])
+  utils::data(list = all.data$results[, 3], package = "DoOR.data")
 }
