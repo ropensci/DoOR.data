@@ -4,7 +4,8 @@
 \name{door_AL_map}
 \alias{door_AL_map}
 \title{door_AL_map}
-\format{List of 5
+\format{
+List of 5
 $ glomeruli       :'data.frame':	19834 obs. of  3 variables:
  ..$ glomerulus: Factor w/ 51 levels "D","DA1","DA2",..: 4 4 4 4 4 4 4 4 4 4 ...
  ..$ x         : num [1:19834] 33.1 33.1 33.1 33.1 33.1 ...
@@ -24,7 +25,8 @@ $ bg.cutout       :'data.frame':	2361 obs. of  3 variables:
 $ labels          :'data.frame':	54 obs. of  3 variables:
  ..$ glomerulus: Factor w/ 54 levels "D","DA1","DA2",..: 34 27 12 5 32 3 52 51 54 53 ...
  ..$ x         : num [1:54] 157 105 110 31 25 ...
- ..$ y         : num [1:54] 51.9 55 15 35 41 ...}
+ ..$ y         : num [1:54] 51.9 55 15 35 41 ...
+}
 \description{
 A list containing the antennal lobe map from Grabe et al. 2015 (DOI: 10.1002/cne.23697) used
 to create AL plots with the dplot_al_map function

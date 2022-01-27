@@ -8,8 +8,8 @@
 load_door_data(nointeraction = FALSE)
 }
 \arguments{
-\item{nointeraction}{if set to TRUE does not promt security message. Necessary e.g. for building
-vignettes during CHECK.}
+\item{nointeraction}{if set to TRUE does not promt security message.
+Necessary e.g. for building vignettes during CHECK.}
 }
 \value{
 attaches all DoOR data to the main workspace
